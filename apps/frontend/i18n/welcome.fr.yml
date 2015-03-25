@@ -1,0 +1,11 @@
+brief.projects:
+  title: "<strong>Gestion de</strong> Projets"
+  figcaption: Plannification et gestion de projets
+  detail: Consultants experts sur les outils de gestion et de portefeuilles projets EPM et PPM <a class="about" href="%about_planisware">Planisware OPX2</a>, nous vous accompagnons dans vos projets d'intégration et d'évolutions autour de ces outils.
+  
+brief.requirements:
+  title: "<strong>Gestion des</strong> Exigences"
+  figcaption: Ingénierie et gestion des exigences
+  detail: Intégrateur de différentes solutions logicielles, nous vous conseillons et vous assistons tout au long de vos projets d’ingénierie des exigences.
+
+brief.more: En savoir plus...

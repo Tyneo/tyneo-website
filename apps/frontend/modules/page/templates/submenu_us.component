@@ -1,0 +1,22 @@
+<?php if($component->get('aside', true) == true): ?><aside class="more submenu"><?php endif; ?>
+	<ul class="puce grey border">
+		<li><a href="<?php urlFor('about_us')?>"<?php if(current_route_is('about_us')) echo ' class="active"'?>>Qui sommes-nous ?</a></li>
+		<li><a href="<?php urlFor('newsletter_register')?>"<?php if(current_route_is('newsletter_register')) echo ' class="active"'?>>Newsletter</a></li>
+		<li><a href="<?php urlFor('publications')?>"<?php if(current_route_is('publications')) echo ' class="active"'?>>Nos publications</a></li>
+		<li><a href="<?php echo $configuration->get('link_blog', ''); ?>">Notre blog</a></li>
+		<li><a href="<?php echo $configuration->get('link_lab', ''); ?>">Lab'tech Tyneo</a></li>
+		<li><a href="<?php urlFor('contact')?>"<?php if(current_route_is('contact')) echo ' class="active"'?>>Nous contacter</a></li>
+	</ul>
+	<ul class="green">
+		<li>Tél: <?php  echo $configuration->get('tel_contact');?></li>
+		<li>Fax: <?php  echo $configuration->get('fax_number_contact');?></li>
+	</ul>
+	<ul class="blue">
+		<li class="mail"><a href="mailto:contact@tyneo.net">Mail: contact@tyneo.net</a></li>
+	</ul>
+	<ul class="red">
+		<li>Tyneo Consulting</li>
+		<li>12, rue des Bleuets</li>
+		<li>94600 Choisy Le Roi</li>
+	</ul>
+<?php if($component->get('aside', true) == true): ?></aside><?php endif; ?>

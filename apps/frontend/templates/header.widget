@@ -1,0 +1,33 @@
+<header id="header">
+
+	<nav>
+		<ul>
+		<li><a class="contact" href="<?php urlFor('contact')?>">Un projet, une idée ? <?php __('page.contact.title')?></a></li>
+		<li class="phone"><span class="grey"><?php  echo $configuration->get('tel_contact');?></span></li>
+		</ul>
+	</nav>
+	<h1 id="logo"><a href="<?php urlFor('welcome')?>"><img src="<?php  echo $configuration->get('base_url');?>/img/logo.png" alt="<?php __('page.home.goback')?>"/></a></h1>
+</header>
+
+<header id="menu">
+	<nav>
+		<ul>
+		<li><a href="<?php urlFor('welcome')?>" <?php if($response->getProperties()->get('univers') == 'welcome') echo ' class="active"'?>><?php __('page.home.title')?></a></li>
+		<li><a href="<?php urlFor('projects')?>"  <?php if($response->getProperties()->get('univers') == 'projects') echo ' class="active"'?>><?php __('page.projects.title')?></a></li>
+		<li><a href="<?php urlFor('requirements')?>"  <?php if($response->getProperties()->get('univers') == 'requirements') echo ' class="active"'?>><?php __('page.requirements.title')?></a></li>
+		<li><a href="<?php urlFor('trainings')?>"  <?php if($response->getProperties()->get('univers') == 'trainings') echo ' class="active"'?>>Formations</a></li>
+		<li><a href="<?php urlFor('about_us')?>"  <?php if($response->getProperties()->get('univers') == 'about_us') echo ' class="active"'?>>A propos</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="introduction">
+	<section id="intro">
+		<article <?php if($response->getProperties()->has('page_picture')): ?> style="background-image:url('<?php echo $response->getProperties()->get('page_picture'); ?>')"<?php endif; ?>>
+			<?php if($response->getProperties()->has('page_resume') && $response->getProperties()->get('page_resume') != false): ?>
+			<p>« <?php echo $response->getProperties()->get('page_resume')?> »</p>
+			<?php elseif(!$response->getProperties()->has('page_resume')): ?>
+			<p>« <?php __('me.description')?> »</p>
+			<?php endif; ?>
+		</article>
+	</section>
+</div>

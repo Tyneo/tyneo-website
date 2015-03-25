@@ -1,0 +1,10 @@
+<div id="translate">
+	<ul id="cultures">
+		<li>
+			<a class="langEN" title="English version" href="http://en.tyneo.dev">
+				<span>English</span>
+			</a>
+		</li>
+		<li class="current"><span>French</span></li>
+	</ul>
+</div>

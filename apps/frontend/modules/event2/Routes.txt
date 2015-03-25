@@ -1,0 +1,26 @@
+############################################################
+# Event routes
+############################################################
+#event_sitemap_xml:
+#  url: :base_culture/event/sitemap.xml
+#  param: { module: event, action: xmlSitemap, default_alt: xml, no_sitemap: true }
+#  requirements: { alt: xml, device_type: desktop }
+events:
+  url: :base_culture/event/
+  param: { module: event, default_template: Events, action: showEvents}
+  requirements: { alt: html, device_type: desktop }
+event_register:
+  url: :base_culture/event/new
+  param: { module: event, default_template: Register, action: registerEvent, no_sitemap: true }
+  requirements: { alt: html, device_type: desktop }
+  perm: mgr  
+event:
+  url: :base_culture/event/:id
+  param: { module: event, default_template: Event, action: showEvent, no_sitemap: true }
+  requirements: { alt: html, device_type: desktop }
+event_update:
+  url: :base_culture/event/:id/update
+  param: { module: event, default_template: Update, action: updateEvent, no_sitemap: true }
+  requirements: { alt: html, device_type: desktop } 
+  perm: mgr 
+############################################################

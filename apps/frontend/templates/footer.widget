@@ -1,0 +1,43 @@
+<footer id="footer">
+	<div id="ending">
+	<div class="container">
+		<div class="item" id="contactme">
+			<span class="title"><?php __('site.rub.contactme')?></span>
+			<div itemscope itemtype="http://schema.org/LocalBusiness">
+			<meta itemprop="name" content="Tyneo Consulting" />
+			<ul>
+				<li class="mobile"><span itemprop="telephone"><a href="tel:<?php  echo $configuration->get('tel_contact_dir');?>"><?php  echo $configuration->get('tel_contact');?></a></span></li>
+				<li class="fax"><span itemprop="fax_number_contact"><?php  echo $configuration->get('fax_number_contact');?></span></li>
+				<li class="mail"><a href="mailto:<?php  echo $configuration->get('mail_contact');?>"><?php  echo $configuration->get('mail_contact');?></a></li>
+			</ul>
+			</div>
+		</div>
+		<div class="item" id="followme">
+			<span class="title"><?php __('site.rub.followme')?></span>
+			<ul>
+				<li class="linkedin"><a href="<?php  echo $configuration->get('link_linkedin');?>"><?php __('site.rub.followme.linkedin')?></a></li>
+				<li class="viadeo"><a href="<?php  echo $configuration->get('link_viadeo');?>"><?php __('site.rub.followme.viadeo')?></a></li>
+				<li class="twitter"><a href="<?php  echo $configuration->get('link_twitter');?>"><?php __('site.rub.followme.twitter')?></a></li>
+				<li class="google_plus"><a href="<?php echo $configuration->get('link_googleplus')?>">Page Google+</a></li>
+			</ul>
+		</div>
+		<div class="item" id="siteplan">
+			<span class="title"><?php __('site.rub.siteplan')?></span>
+			<ul>
+				<li><a href="<?php urlFor('projects')?>"><?php __('page.projects.title')?></a></li>
+				<li><a href="<?php urlFor('requirements')?>"><?php __('page.requirements.title')?></a></li>
+				<li><a href="<?php urlFor('trainings')?>"><?php __('page.training.title')?></a></li>
+				<li><a href="<?php urlFor('about_us')?>">A propos de Tyneo Consulting</a></li>
+			</ul>
+		</div>
+		<div class="item" id="societe">
+			<span class="title"><?php __('site.rub.societe')?></span>
+			<p><?php __('site.rub.societe.desc')?></p>
+		</div>
+	</div>
+	</div>
+	<div id="copyright">
+		<?php $copy_years = $configuration->get('app_copyright_year', '1').($configuration->get('app_copyright_year', '1')<date('Y') ? ' - '.date('Y') : ''); ?>
+		<p><?php __('site.copyright', array('%copy_years' => $copy_years))?> <a href="<?php urlFor('mentions')?>"><?php __('page.mentions.title')?></a> - <a href="<?php urlFor('sitemap')?>"><?php __('page.sitemap.title')?></a> - <a href="#top"><?php __('site.top')?></a></p>
+	</div>
+</footer>

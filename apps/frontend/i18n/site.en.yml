@@ -1,0 +1,28 @@
+#Information à mon propos 
+me.title:  Consultant PMO Freelance
+me.name: Samuel Kauffmann
+me.expert: Planisware OPX2 / MicroFocus CaliberRM Expert 
+me.description: As French freelance, I offert my expertise on PMO subjects around projects management and requirements management
+me.description.long: As freelance, I offert my expertise on PMO subjects around projects management (Planisware OPX2) and requirements management (CaliberRM)
+
+#Le site en général
+site.keywords: PMO, CaliberRM, Planisware, OPX2, Requirements management, Projects management, Consultant, Freelance, Samuel Kauffmann, Tyneo, Java, .NET, PHP
+site.copyright: "&copy; 2012 Tyneo Consulting. All rights reserved."
+site.top: Top
+site.rub.contactme: Contact me
+site.rub.followme: Social networks
+site.rub.followme.viadeo: My Viadeo profil
+site.rub.followme.linkedin: My LinkedIn card
+site.rub.followme.twitter: Follow me on Twitter
+site.rub.siteplan: Sections
+site.rub.societe: Tyneo Consulting
+site.rub.societe.desc: 
+
+#Menu
+page.home.title: Home
+page.home.goback: go back Home
+page.projects.title: Projects management
+page.requirements.title: Requirements management
+page.contact.title: Contact me
+page.mentions.title: Legal
+page.sitemap.title: Site map

@@ -1,0 +1,6 @@
+<?php
+$trainings = $component->get('trainings');
+?>
+<?php foreach($trainings as $training): ?>
+	<li><a href="<?php urlFor('training', array('slug' => $training->getSlug())) ?>"><?php __('title', array('%name%' => $training->getName()), 'training') ?></a></li>
+<?php endforeach; ?>

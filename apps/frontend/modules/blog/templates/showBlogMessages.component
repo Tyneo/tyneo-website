@@ -1,0 +1,13 @@
+<?php
+$messages = $component->get('messages');
+?>
+<section id="blog">
+	<h3>En ce moment sur le <a href="<?php echo $configuration->get('link_blog', ''); ?>">blog Tyneo</a></h3>
+	<ul class="puce">
+		<?php foreach ($messages as $message):?>
+		<li><span class="title"><a href="/blog/<?php echo $message->getBlogPath() ?>"><?php 
+		if($message->getPostDate() != null)	echo $message->getPostDate().' - ';
+		echo html_entity_decode($message->getPostTitle(), ENT_COMPAT, 'UTF-8') ?></a></span></li>
+		<?php endforeach;?>
+	</ul>
+</section>

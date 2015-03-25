@@ -1,0 +1,12 @@
+<?php if($component->get('aside', true) == true): ?><aside class="more submenu"><?php endif; ?>
+	<ul class="puce grey border">
+		<li><a href="<?php urlFor('trainings')?>"<?php if(current_route_is('trainings')) echo ' class="active"'?>>Catalogue des formations</a></li>
+		<li><a href="<?php urlFor('training_contact')?>"<?php if(current_route_is('training_contact')) echo ' class="active"'?>>Demande de devis</a></li>
+	</ul>
+	
+	<div class="grey border">
+		<p class="base_text base_sp-b15">Besoin d'étudier nos formations au calme ?  d'imprimer notre catalogue ou de le partager ?</p>
+		<span class="center"><a href="<?php  echo $configuration->get('base_url');?>/files/Catalogue des formations 2013.pdf" class="base_btn blue">Télécharger le catalogue</a></span>
+	</div>
+	
+<?php if($component->get('aside', true) == true): ?></aside><?php endif; ?>

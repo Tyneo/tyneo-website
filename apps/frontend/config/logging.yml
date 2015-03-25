@@ -1,0 +1,8 @@
+all:
+  enabled:          false
+
+dev:
+  enabled:          true
+  level:            DEBUG
+  logger:           [file]
+  filename:         frontend.log

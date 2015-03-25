@@ -1,0 +1,61 @@
+all:
+  internal_modules:       [redirection, page]
+  external_modules:       [sitemap]
+  charset:                utf-8
+  base_url:               http://www.tyneo-consulting.fr
+  base_urls:
+    fr: http://www.tyneo-consulting.fr
+    en: http://www.tyneo-consulting.com
+  
+  i18n:                   true
+  base_culture:           fr
+  cultures:               [fr]
+  culture_setting:        domain
+  logger:                 FileLogger
+  script_callback:        callback
+  database:               true
+  onRouteNotFound:        error_404
+
+  session_storage:        php
+
+  max_per_page:               25
+  max_per_page_autocomplete:  10
+
+  app_name:               "Tyneo Consulting"
+  app_slogan:             "Conseil et expertise sur les outils PMO"
+  app_copyright_year:     2012
+  default_layout:         std_layout
+
+  mail_newsletter:        newsletter@tyneo-consulting.fr
+  mail_contact:           contact@tyneo.net
+  mail_owner_contact:     skauffmann@tyneo.net
+  mobile_contact:         +33 (0)6 63 07 43 39
+  mobile_contact_dir:     "+33663074339"
+  tel_contact:            +33 (0)9 72 32 28 28
+  tel_contact_dir:        "+33972322828"
+  fax_number_contact:     +33 (0)9 72 38 10 85
+  
+  link_googleplus:          "https://plus.google.com/104067051151135022303?rel=author"
+  link_viadeo:            "http://www.viadeo.com/fr/company/tyneo-consulting"
+  link_linkedin:          "http://www.linkedin.com/company/tyneo-consulting"
+  
+  link_twitter:           "http://twitter.com/#!/tyneoconsulting"
+  link_blog:              "http://www.tyneo-consulting.fr/blog"
+  link_lab:               "http://lab.tyneo.net"
+  
+  google_analytics:       UA-20940448-1
+  
+  wordpress.blog.prefix:  wp_
+dev:
+  base_url:               http://www.tyneo.dev
+  base_urls:
+    fr: http://www.tyneo.dev
+    en: http://en.tyneo.dev
+  google_analytics:       UA-XXXXX-X  
+#  default_layout:         simple_layout
+  wordpress:
+    blog.prefix:          "blg_"
+    
+beta:
+  base_url:               http://beta.tyneo.net
+  google_analytics:       UA-XXXXX-X  

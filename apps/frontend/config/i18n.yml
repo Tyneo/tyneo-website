@@ -1,0 +1,10 @@
+all:
+  base_culture:           fr
+  cultures:               [fr]
+  resources:
+    site: [fr, en]
+    welcome: [fr, en]
+    projects: [fr]
+    requirements: [fr]
+    contact: [fr, en]
+    training: [fr]

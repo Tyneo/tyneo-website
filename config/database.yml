@@ -1,0 +1,15 @@
+all:
+  driver:         mysql
+  
+  name:           tyneocon1
+  prefix:         ty_  
+  
+  server:         mysql51-44.pro
+  user:           tyneocon1
+  password:       n0Zcyr8D
+    
+dev:
+  name:           wp_kb
+  server:         localhost
+  user:           root
+  password:       

@@ -1,0 +1,20 @@
+some.examples: Quelques exemples de réalisations...
+
+title: Gestion des exigences
+detail: L’intégration des solutions de gestion des exigences de nos différents éditeurs partenaires, au sein de votre système d’information, se confronte à des problématiques tant techniques que fonctionnelles. En ce sens et en nous appuyant sur notre expérience dans ce domaine, notre cabinet de conseil vous aide à intégrer les produits <a class="about" href="%about_caliber">Borland Caliber</a>, <a class="about" href="%about_doors">IBM Doors</a>, <a class="about" href="%about_polarion">Polarion</a>, etc... 
+
+integration:
+  title: Intégration
+  detail: Lors de vos projets d'intégration des produits de gestion des exigences, nous intervenons à vos côtés pour vous conseiller ou réaliser la conception, le prototypage et l'intégration de ces progiciels afin de répondre au mieux à vos processus et méthodes de travail. 
+
+developpment:
+  title: Développement
+  detail: Les compétences des consultants de Tyneo Consulting sur les différents langages de programmation (.NET, JAVA, VBA et PHP) et des librairies de développement des éditeurs nous permettent de vous proposer des solutions pour étendre les fonctionnalités des produits. 
+  
+deployment:
+  title: Déploiement
+  detail: Tyneo Consulting peut vous assister dans vos phases de déploiement, sur les aspects fonctionnels en accompagnant vos utilisateurs au changement ou sur des aspects techniques pour déployer l’outil dans votre système d’information. 
+  
+formation:
+  title: Formation
+  detail: Nos formations sont orientées sur vos problématiques techniques ou liées à votre métier. Ainsi les sessions que nous proposons peuvent être orientées sur le métier de la gestion des exigences, sur l'utilisation des outils de nos éditeurs partenaires ou à destination des administrateurs techniques du progiciel.
