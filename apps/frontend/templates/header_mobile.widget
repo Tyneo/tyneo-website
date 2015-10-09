@@ -1,4 +1,0 @@
-<header id="header">
-	<h1 id="logo"><a href="<?php urlFor('welcome')?>" rel="<?php __('page.home.goback')?>"><img src="<?php  echo $configuration->get('base_url');?>/img/logo.png" alt="<?php __('page.home.goback')?>"/></a></h1>
-	<em><?php __('site.slogan')?></em>
-</header>
