@@ -13,8 +13,10 @@ timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://0.0.0.0:4000/
-root: /
+url: https://preview.c9.io/skauffmann/plwlog/tyneo-website/public/
+root: /skauffmann/plwlog/tyneo-website/public/
+#url: http://tyneo.net/v2/
+#root: /v2/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,8 +70,41 @@ theme: hexo-tyneo-theme
 
 exclude_generators:
   - index
+  - fr/projects.ejs
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: ftp.tyneo-consulting.com
+  user: tyneocon
+  root: /homez.635/tyneocon/sites/tyneo-consulting.fr/2.0.0/public/v2
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
+
+
+
+
+training:
+  planisware:
+    - name: Débuter avec Planisware
+      icon: fa-eye
+      link: fr/training/planisware_getting_started
+    
+    - name: Gérer son projet avec Planisware
+      icon: fa-user
+      link: fr/training/planisware_getting_started
+    
+    - name: Configurer et administrer Planisware,</li>
+      icon: fa-cog
+      link: fr/training/planisware_getting_started
+      
+		- name: Paramétrer Planisware
+		  icon: fa-cogs
+		  link: fr/training/planisware_getting_started
+		  
+		- name: Maîtriser le langage script Planisware
+		  icon: fa-code
+      link: fr/training/planisware_getting_started

@@ -1,5 +1,34 @@
 menu:
-  Gestion de projet: /fr/projects.html
-  Gestion des exigences: /fr/requirements.html
-  Formation: /fr/training
-  A propos: /fr/company.html
+  Gestion de projet: fr/projects.html
+  Gestion des exigences: fr/requirements.html
+  Formation: fr/training
+  A propos: fr/company.html
+
+
+link:
+  github: "http://jirachi.tyneo.net/explore/projects"
+  googleplus: "https://plus.google.com/104067051151135022303?rel=author"
+  twitter: "http://twitter.com/#!/tyneoconsulting"
+  linked: "http://www.linkedin.com/company/tyneo-consulting"
+  
+training:
+  planisware:
+    - name: Débuter avec Planisware
+      icon: fa-eye
+      link: fr/training/planisware_getting_started
+    
+    - name: Gérer son projet avec Planisware
+      icon: fa-user
+      link: fr/training/planisware_getting_started
+    
+    - name: Configurer et administrer Planisware,</li>
+      icon: fa-cog
+      link: fr/training/planisware_getting_started
+      
+		- name: Paramétrer Planisware
+		  icon: fa-cogs
+		  link: fr/training/planisware_getting_started
+		  
+		- name: Maîtriser le langage script Planisware
+		  icon: fa-code
+      link: fr/training/planisware_getting_started
