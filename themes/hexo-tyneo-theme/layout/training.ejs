@@ -1,0 +1,84 @@
+<div class="container">
+  <div class="row">
+    <h2 class="text-rosy">Formation : <%- training.name %></h2>
+
+    <div class="col-sm-8 col-md-9">
+        
+    	<ul class="easypiecharts list-unstyled">
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.duration %></span>
+        		<span class="stat-title">Durée</span>
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number">2 à 8</span>
+        		<span class="stat-title">Stagiaires</span>
+        	</li>
+        	<li class="clearfix">
+        	    <span class="stat-number"><%- training.practice %>%</span>
+        		<span class="stat-title">% pratique</span>
+        		<span class="easyPieChart" data-percent="<%- training.practice %>" data-easing="easeOutBounce" data-barcolor="#337ab7" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.strong %>%</span>
+        		<span class="stat-title">Difficulté</span>
+        		<span class="easyPieChart" data-percent="<%- training.strong %>" data-easing="easeOutBounce" data-barcolor="#74941F" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.ref %></span>
+        		<span class="stat-title">Référence</span>
+        	</li>
+        </ul>
+        
+      <section id="training_desc" class="training_desc">
+        <ul class="fa-ul">
+            <li><h3 class="text-green"><i class="fa-li fa fa-graduation-cap"></i> Vous apprendrez à</h3>
+            <p><%- training.learn %></p>
+            </li>
+            <li><h3 class="text-blue"><i class="fa-li fa fa-suitcase "></i> Pré-requis</h3>
+            <p><%- training.requirements %></p>
+            </li>
+            <li><h3 class="text-grey"><i class="fa-li fa fa-users"></i> À qui s'adresse cette formation?</h3>
+            <p><%- training.for_who %></p>
+            </li>
+        </ul>
+        
+<div class="table-list">
+<ol>
+<%
+ if(training.program) { for(var i=0; i<training.program.length; i++) {
+%>
+    <li><a class="detail"><%- training.program[i].name %></a>
+    <ul class="detail">
+    <%
+    if(training.program[i].detail) { for(var n=0; i<training.program[i].detail.length; n++) {
+    %>
+        <li>- <%- training.program[i].detail[n] %></li>
+    <% }} %>
+    </ul>
+    </li>
+<% }} %>
+</ol>
+</div>
+        
+        
+        <ul class="fa-ul">
+            <li><h3 class="text-blue"><i class="fa-li fa fa-comments"></i> A propos de nos formateurs</h3>
+            <p><%- training.about_trainers %></p>
+            </li>
+        </ul>
+      </section>
+   </div>
+
+    
+    <div class="col-sm-4 col-md-3 sidebar ">
+        <ul class="nav nav-sidebar buffer-top">
+            <li><a href="#">Catalogue des formations</a></li>
+            <li><a href="#">Demande de devis</a></li>
+        </ul>
+        <div class="block block-blue text-center">
+            <p>Besoin d'étudier nos formations au calme ? d'imprimer notre catalogue ou de le partager ?</p>
+            <a href="" class="btn btn-dark">Téléchargez le catalogue</a>
+        </div>
+    </div>
+  </div><!--/row-->
+</div>

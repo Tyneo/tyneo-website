@@ -1,7 +1,7 @@
 /*
 Fotolia serie : https://fr.fotolia.com/search?serie=55353178
 Wow : http://mynameismatthieu.com/WOW/
-inspiration : http://wrapbootstrap.com/preview/WB02DSN1B
+inspiration : http://theme.stepofweb.com/Smarty/v1.1.2/HTML/start.html
 */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
@@ -57,28 +57,38 @@ hr.small {
     color: #fff;
     background-color: rgba(188,0,110,0.4);    
 }
+.btn-rosy2:hover,
+.btn-rosy2:focus,
+.btn-rosy2:active {
+    background-color: rgba(188,0,110,1);    
+}
+.btn-rosy2 {
+    border-radius: 0;
+    color: #fff !important;
+    background-color: rgba(188,0,110,0.7);    
+}
 .btn-rosy:hover,
 .btn-rosy:focus,
 .btn-rosy:active {
-    color: #fff;
+    color: #fff !important;
     background-color: rgba(188,0,110,0.7);
 }
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: #fff !important;
     background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
+    color: #fff !important;
     background-color: rgba(0,0,0,0.7);
 }
 
 .btn-light {
     border-radius: 0;
-    color: #333;
+    color: #333 !important;
     background-color: rgb(255,255,255);
 }
 
@@ -89,6 +99,16 @@ hr.small {
     background-color: rgba(255,255,255,0.8);
 }
 
+.opacity-rosy {
+    background-color: rgba(188,0,110,0.7); 
+    color: #FFF;
+    padding: 20px;
+}
+.opacity-green {
+    background-color: rgba(116,148,31,0.7); 
+    color: #FFF;
+    padding: 20px;
+}
 
 #footer>.container {
     padding-top: 60px;
@@ -170,7 +190,7 @@ hr.small {
     -webkit-border-radius: 2px !important;
     -moz-border-radius: 2px !important;
     border-radius: 2px !important;
-    
+    visibility: hidden;
 }
 
 .cd-top:before {
@@ -192,11 +212,13 @@ hr.small {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
-.no-touch .cd-top:hover {
-  background-color: #e86256;
-  opacity: 1;
+.no-touch a.cd-top:hover {
+    background-color: #e86256;
+    color: #FFF !important;
+    text-decoration: none !important;
+    opacity: 1;
 }
-.cd-top:hover, .cd-top:click {
+a.cd-top:active, a.cd-top:hover, a.cd-top:focus {
 	background-color: rgba(0,0,0,0.7);
 	color: #FFF !important;
 	text-decoration: none !important;
@@ -236,7 +258,6 @@ a.navbar-brand:hover, a.navbar-brand {
 .smallcaps {
     font-variant: small-caps;
 }
-
 .block {
     background-color: rgba(0, 0, 0, 0.02);
     border-top: 1px solid #4b5354;
@@ -250,16 +271,27 @@ a.navbar-brand:hover, a.navbar-brand {
     border-color: #262F36;
 }
 .block-blue {
-    border-color: #337ab7; /*#2ba5e6;*/
+    /* http://www.patternify.com/ */
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAM0lEQVQYV2NUL9rwn4EIwAhSyMPBDlf6n52bgfHnVzAfmU2aQm5+IYKWk2Yi0W4c5FYDALQjPAEKKt0gAAAAAElFTkSuQmCC) repeat;
+    color: #fff;
+    border: none;
 }
 .block-green {
-    border-color: #74941F;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAM0lEQVQYV2PMbpf9z0AEYAQp5ORlgivl4PrP8OMbI5iPzCZNoaA4xAR8gDQTiXbjILcaAK1hOaJurzrgAAAAAElFTkSuQmCC) repeat;
+    color: #fff;
+    border: none;
 }
 .block-rosy {
     border-color: #BC006E;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMElEQVQYV2NcwZD6n4EIwAhSKMLACVbKJszH8OvtJ7g2ZD5pCqWExQlaTpqJw8WNAEkPP9YXojmKAAAAAElFTkSuQmCC) repeat;
+    color: #fff;
+    border: none;
+}
+.block-blue a, .block-rosy a, .block-green a {
+    color: #FFF;
 }
 .text-blue {
-    color: #337ab7; /*#2ba5e6;*/
+    color: #337ab7;
 }
 .text-rosy {
     color: #BC006E;
@@ -334,20 +366,24 @@ div.divider.divider-rosy i {
 div.divider.divider-rosy:after, div.divider.divider-rosy:before {
     border-color: #BC006E;
 }
-
+.service-item h4 {
+    min-height: 60px;
+}
 /* Header */
 .header {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 110%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-.header-project {
     background: none no-repeat center center scroll;
+}
+
+.header-welcome {
+    background-image: url('img/welcome.jpg') !important;
 }
 
 /* About */
@@ -369,7 +405,6 @@ div.divider.divider-rosy:after, div.divider.divider-rosy:before {
 .call-to-action .btn {
     margin: 10px;
 }
-
 
 .wide-img-showcase-row {
   position: relative;
@@ -447,7 +482,11 @@ body:not(.device-touch) .social-icon i {
 }
 
 
-
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 /* rounded social icons */
 a.social-icon.social-icon-round {
@@ -578,3 +617,177 @@ a.social-icon.social-icon-transparent:hover>i {
 @media screen and (max-width: 320px){
 	.rw-sentence { font-size: 9px; }
 }
+
+span.easyPieChart span {
+    display: none;
+}
+ul.easypiecharts {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-height:64px;
+}
+ul.easypiecharts li {
+	display: table-cell;
+	border-right: 1px solid #e4e5e6;
+	margin-right: -1px;
+	padding: 0 15px;
+	position: relative;
+}
+ul.easypiecharts li:last-child {
+	border-right:0;
+}
+ul.easypiecharts li span.stat-number {
+	font-size: 18px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+ul.easypiecharts li span.stat-title {
+	color: #cccccc;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	position: absolute;
+	top: 34px;
+	right: 15px;
+}
+
+@media only screen and (max-width: 1260px) {
+	ul.easypiecharts li {
+		text-align:center;
+	}
+	ul.easypiecharts li span.stat-number,
+	ul.easypiecharts li span.stat-title {
+		position:relative;
+		display:block;
+		top:0; right:auto;
+
+	}
+	ul.easypiecharts li span.stat-title {
+		font-size:10px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	ul.easypiecharts li {
+		text-align:center;
+		padding:0;
+	}
+	ul.easypiecharts li span.stat-number,
+	ul.easypiecharts li span.stat-title {
+		position:relative;
+		display:block;
+		top:0; right:auto;
+
+	}
+	ul.easypiecharts li span.stat-title {
+		font-size:10px;
+	}
+}
+
+.progress.progress-xxs {
+    height: 3px;
+}
+.progress.progress-xs {
+    height: 6px;
+}
+.label-blue {
+    background-color: #337ab7;
+}
+.label-rosy {
+    background-color: #BC006E;
+}
+.label-green {
+    background-color: #74941F;
+}
+.label-grey {
+    background-color: #848992;
+}
+.label-grey2 {
+    background-color: #F1F1F1;
+}
+.label-white {
+    background-color: #FFF;
+}
+.progress-bar-blue {
+    background-color: #337ab7;
+}
+.progress-bar-rosy {
+    background-color: #BC006E;
+}
+.progress-bar-green {
+    background-color: #74941F;
+}
+.progress-bar-grey {
+    background-color: #848992;
+}
+.progress-bar-grey2 {
+    background-color: #F1F1F1;
+}
+.progress-bar-white {
+    background-color: #FFF;
+}
+
+
+.table-list ul, ul.table-list {
+	margin: 0; padding: 0;
+}
+.table-list ul li, ul.table-list li {
+	list-style: none;
+	background:#F3F3F3;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.table-list li {
+	color: #000;
+}
+.table-list li a {
+	color: #1A1A1A;
+	text-decoration: none;
+	border-bottom:1px dotted;
+}
+
+.table-list ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-top: 0;
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+    margin-bottom: 20px;
+}
+.table-list ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px 0; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid #666;
+    background:#f6f6f6;
+}
+.table-list ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #666;
+    color:#fff;
+    background:#666;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+.table-list li ol,
+.table-list li ul {margin-top:6px;}
+.table-list ol ol li:last-child {margin-bottom:0;}

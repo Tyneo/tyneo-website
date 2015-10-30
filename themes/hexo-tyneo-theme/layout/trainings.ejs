@@ -1,0 +1,58 @@
+<%- page.content %>
+
+<div class="container">
+
+<div class="divider divider-center divider-green">
+	<i class="fa fa-chevron-down"></i>
+</div>
+
+	<ul class="easypiecharts list-unstyled">
+<%
+var statistics = site.data.training.statistics;
+for(var i=0; i<statistics.length; i++) {
+%>
+    	<li class="clearfix">
+    		<span class="stat-number"><%- statistics[i].percent %>%</span>
+    		<span class="stat-title"><%- statistics[i].name %></span>
+    		<span class="easyPieChart" data-percent="<%- statistics[i].percent %>" data-easing="easeOutBounce" data-barcolor="<%- statistics[i].color %>" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
+    	</li>
+<% } %>
+    </ul>
+
+    <div class="table-responsive">
+    	<table class="table table-bordered table-striped">
+    		<thead>
+    			<tr>
+    				<th><i class="fa fa-tags pull-right hidden-xs"></i> Catégorie</th>
+    				<th><i class="fa fa-tasks pull-right hidden-xs"></i> Formation</th>
+    				<th><i class="fa fa-clock-o pull-right hidden-xs"></i> Durée</th>
+    				<th><i class="fa fa-thumbs-up pull-right hidden-xs"></i> Difficulté</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    <%
+    var modules = site.data.training.modules;
+    for(var i=0; i<modules.length; i++) {
+        var tagColor = site.data.training.categories[modules[i].tag];
+        var progressColor = "green";
+        if(modules[i].strong > 80) {
+            progressColor = "rosy";
+        } else if(modules[i].strong > 50){
+            progressColor = "blue";
+        }
+    %>
+    			<tr>
+    				<td><a href="<%- url_for(modules[i].file) %>"><span class="label label-<%- tagColor %>"><%- modules[i].tag %></span></a></td>
+    				<td><a href="<%- url_for(modules[i].file) %>"><%- modules[i].name %></a></td>
+    				<td><a href="<%- url_for(modules[i].file) %>"><%- modules[i].duration %></a></td>
+    				<td>
+                      <div class="progress progress-xs margin-bottom-0">
+                        <div class="progress-bar progress-bar-<%- progressColor %>" role="progressbar" aria-valuenow="<%- modules[i].strong %>" aria-valuemin="0" aria-valuemax="100" style="width: <%- modules[i].strong %>%; min-width: 2em;"></div>
+                      </div>
+    				</td>
+    			</tr>
+    <% } %>
+    		</tbody>
+    	</table>
+    </div>
+</div>

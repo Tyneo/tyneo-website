@@ -1,0 +1,68 @@
+statistics:
+  - name: Satisfaction des participants
+    percent: 98
+    color: "#74941F"
+  - name: Satisfaction des participants
+    percent: 98
+    color: "#74941F"
+  - name: Recommandent nos formations
+    percent: 99
+    color: "#BC006E"
+  - name: Recommandent nos formations
+    percent: 99
+    color: "#BC006E"
+    
+categories:
+  Planisware: blue
+  Caliber: green
+
+modules:
+  - name: Débuter avec Planisware
+    ref: "#FRMPLW-001"
+    duration: 1 jour
+    practice: 45
+    strong: 10
+    tag: Planisware
+    file: fr/training/planisware_getting_started.html
+    learn: "Ce programme de formation a été spécialement élaboré afin de fournir une vue d'ensemble de Planisware. Si vous ne connaissez pas encore Planisware, ce module est idéal. Vous découvrirez le fonctionnement global de l'application, le b.a.-ba pour bien débuter avec Planisware et plus particulièrement les modules « Projets » et « Portefeuille » de Planisware, ainsi qu'une vue d'ensemble des différents modules."
+    requirements: "Ce module convient aux personnes ayant peu ou pas d'expérience sur Planisware. Une connaissance de l'environnement Windows et de la navigation Internet est requise."
+    for_who: "Tout utilisateur ou futur utilisateur de Planisware."
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
+    program:
+      - name: Introduction à Planisware
+        detail:
+          - Introduction à l'outil Planisware
+          - Définitions des fondamentaux
+      - name: Prise en main de Planisware 5
+        detail:
+          - Architecture de l'outil
+  - name: Gérer son projet avec Planisware
+    duration: 1 jour
+    strong: 20
+    tag: Planisware
+    file: fr/training/planisware_mod_pm.html
+  - name: Configurer et administrer Planisware
+    duration: 2 jours
+    strong: 50
+    tag: Planisware
+    file: fr/training/planisware_admin.html
+  - name: Paramétrer Planisware
+    duration: 2 jours
+    strong: 80
+    tag: Planisware
+    file: fr/training/planisware_integrator.html
+  - name: Maîtriser le langage script Planisware
+    duration: 1 jour
+    strong: 90
+    tag: Planisware
+    file: fr/training/planisware_learn_ojs.html
+  - name: Caliber et la gestion des exigences
+    duration: 3 jours
+    strong: 25
+    tag: Caliber
+    file: fr/training/caliber_requirement_management.html
+  - name: Administration de l'outil Caliber
+    duration: 1 jour
+    strong: 80
+    tag: Caliber
+    file: fr/training/caliber_administrator.html
