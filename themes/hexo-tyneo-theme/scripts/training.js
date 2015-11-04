@@ -9,7 +9,7 @@ hexo.extend.generator.register('training', function (locals) {
     if(data && data.training) {
         for(var i=0; i<data.training.modules.length; i++) {
             var module = data.training.modules[i];
-            var content = hexo.render.renderSync({path: 'themes/hexo-tyneo-theme/layout/training.ejs'}, {training: module});
+            var content = hexo.render.renderSync({path: 'themes/hexo-tyneo-theme/layout/training.ejs'}, {training: module, site: locals});
             routes.push({path:module.file, data:{content: content}, layout: 'simple'});
         }
     }

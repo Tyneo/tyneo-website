@@ -2,23 +2,6 @@
 
 <div class="container">
 
-<div class="divider divider-center divider-green">
-	<i class="fa fa-chevron-down"></i>
-</div>
-
-	<ul class="easypiecharts list-unstyled">
-<%
-var statistics = site.data.training.statistics;
-for(var i=0; i<statistics.length; i++) {
-%>
-    	<li class="clearfix">
-    		<span class="stat-number"><%- statistics[i].percent %>%</span>
-    		<span class="stat-title"><%- statistics[i].name %></span>
-    		<span class="easyPieChart" data-percent="<%- statistics[i].percent %>" data-easing="easeOutBounce" data-barcolor="<%- statistics[i].color %>" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
-    	</li>
-<% } %>
-    </ul>
-
     <div class="table-responsive">
     	<table class="table table-bordered table-striped">
     		<thead>

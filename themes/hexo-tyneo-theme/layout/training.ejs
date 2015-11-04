@@ -1,6 +1,9 @@
+<%
+var categoryColor = site.data.training.categories[training.tag];
+%>
 <div class="container">
   <div class="row">
-    <h2 class="text-rosy">Formation : <%- training.name %></h2>
+    <h2 class="text-<%- categoryColor %>">Formation : <%- training.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- training.tag %></span></h2>
 
     <div class="col-sm-8 col-md-9">
         
@@ -42,23 +45,27 @@
             </li>
         </ul>
         
-<div class="table-list">
-<ol>
-<%
- if(training.program) { for(var i=0; i<training.program.length; i++) {
-%>
-    <li><a class="detail"><%- training.program[i].name %></a>
-    <ul class="detail">
-    <%
-    if(training.program[i].detail) { for(var n=0; i<training.program[i].detail.length; n++) {
-    %>
-        <li>- <%- training.program[i].detail[n] %></li>
-    <% }} %>
-    </ul>
-    </li>
-<% }} %>
-</ol>
-</div>
+        <ul class="fa-ul">
+            <li><h3 class="text-rosy"><i class="fa-li fa fa-newspaper-o"></i> Programme de la formation</h3>
+                <div class="table-list">
+                <ol>
+                <%
+                 if(false && training.program) { for(var i=0; i<training.program.length; i++) {
+                %>
+                    <li><a class="detail"><%- training.program[i].name %></a>
+                    <ul class="detail">
+                    <%
+                    if(training.program[i].detail) { for(var n=0; i<training.program[i].detail.length; n++) {
+                    %>
+                        <li>- <%- training.program[i].detail[n] %></li>
+                    <% }} %>
+                    </ul>
+                    </li>
+                <% }} %>
+                </ol>
+                </div>
+            </li>
+        </ul>
         
         
         <ul class="fa-ul">

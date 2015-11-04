@@ -1,14 +1,14 @@
 statistics:
-  - name: Satisfaction des participants
+  - name: Globale
+    percent: 100
+    color: "#74941F"
+  - name: Progression du stage
     percent: 98
     color: "#74941F"
-  - name: Satisfaction des participants
-    percent: 98
-    color: "#74941F"
-  - name: Recommandent nos formations
+  - name: Méthodes pédagogiques
     percent: 99
     color: "#BC006E"
-  - name: Recommandent nos formations
+  - name: Supports & documentations
     percent: 99
     color: "#BC006E"
     
@@ -37,32 +37,92 @@ modules:
         detail:
           - Architecture de l'outil
   - name: Gérer son projet avec Planisware
+    ref: "#FRMPLW-002"
+    practice: 45
     duration: 1 jour
     strong: 20
     tag: Planisware
     file: fr/training/planisware_mod_pm.html
+    learn: "A la fin de ce module vous saurez créer et manipuler vos premiers projets dans Planisware. Le programme abordé vous permettra de vous remémorer des bases de la gestion de projet et leur application dans l’outil. Cette formation mélange habillement la théorie et la pratique de l’outil Planisware afin de permettre au stagiaire d’appréhender plus facilement les rudiments de l’outil."
+    requirements: "Ce module convient aux personnes ayant peu ou pas d'expérience sur Planisware. Une connaissance de l'environnement Windows et de la navigation Internet est requise."
+    for_who: "Tout utilisateur ou futur utilisateur de Planisware."
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
+
   - name: Configurer et administrer Planisware
+    ref: "#FRMPLW-003"
+    practice: 65
     duration: 2 jours
     strong: 50
     tag: Planisware
     file: fr/training/planisware_admin.html
+    learn: "Ce module a été conçu afin de permettre au stagiaire d’acquérir et de maitriser les opérations essentielles à la configuration et l’administration du logiciel d’entreprise Planisware."
+    requirements: "Avoir suivi la formation « Gérer son projet avec Planisware » ou connaitre les bases de la gestion de projet dans Planisware."
+    for_who: "Futur administrateur ou intégrateur Planisware. Cette formation peut aussi être un plus pour les utilisateurs référents."
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
   - name: Paramétrer Planisware
+    ref: "#FRMPLW-004"
+    practice: 65
     duration: 2 jours
     strong: 80
     tag: Planisware
     file: fr/training/planisware_integrator.html
+    learn: "Etape indispensable pour mettre en œuvre la solution Planisware au sein d’une organisation, ce module permet d’appréhender l’essentiel des possibilités de paramétrage et de personnalisation de l’application Planisware."
+    requirements: "Avoir suivi la formation « Configurer et administrer Planisware » ou maitriser les principes abordés."
+    for_who: "Responsable de l’application Planisware, administrateur avancé ou intégrateur Planisware."
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
   - name: Maîtriser le langage script Planisware
+    ref: "#FRMPLW-005"
+    practice: 75
     duration: 1 jour
     strong: 90
     tag: Planisware
     file: fr/training/planisware_learn_ojs.html
+    learn: "Planisware propose en plus des méthodes traditionnelles pour personnaliser son produit (formules, paramètres, etc...) un langage de programmation interprété et basé sur un moteur JavaScript. Cette formation proposée par Tyneo Consulting va vous permettre de maîtriser les différents concepts de ce langage afin de développer vos propres scripts."
+    requirements: "Maîtrise des conceptes généraux du paramétrage de l'outil Planisware."
+    for_who: "Cette formation s'adresse principalement aux intégrateurs Planisware et personnes souhaitant savoir lire, comprendre et créer des scripts OJS."
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
   - name: Caliber et la gestion des exigences
+    ref: "#FRMCAL-001"
+    practice: 55
     duration: 3 jours
     strong: 25
     tag: Caliber
     file: fr/training/caliber_requirement_management.html
+    learn: >
+      <div class="table-list"><ul>
+      <li>Créer et manipuler des exigences textuelles (Author) et visuelles (Visualize)</li>
+      <li>Gérer des périmètres d'exigences dans Caliber</li>
+      <li>Réaliser et exploiter la traçabilité entre les exigences ou avec les tests</li>
+      <li>Relire des exigences et émettre des remarques</li>
+      <li>Extraire les exigences sous forme de rapport ou dans un document Word</li>
+      <li>Exploiter les fonctionnalités de productivité de Caliber</li>
+      </ul></div>
+    requirements: "Aucun pré-requis n'est nécessaire pour participer à cette formation."
+    for_who: >
+      <div class="table-list"><ul>
+      <li>Rédacteurs d'exigences ou de spécifications</li>
+      <li>Relecteurs et validateurs</li>
+      <li>Administrateurs fonctionnelles de l'outil</li>
+      <li>Ingénieurs Qualité / Performance</li>
+      </ul></div>
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
   - name: Administration de l'outil Caliber
+    ref: "#FRMCAL-002"
+    practice: 65
     duration: 1 jour
     strong: 80
     tag: Caliber
     file: fr/training/caliber_administrator.html
+    learn: >
+      <div class="table-list"><ul>
+      <li>Connaitre l'architecture de Caliber</li>
+      <li>Administrer le référentiel Caliber</li>
+      <li>Paramétrer et personnaliser les projets et l'application</li>
+      </ul></div>
+    requirements: "Bien que ceci ne soit pas un pré-requis indispensable, il est préférable disposer d'un minimum de connaissances techniques en informatique."
+    for_who: >
+      <div class="table-list"><ul>
+      <li>Administrateurs de Caliber</li>
+      <li>Equipes de support outil</li>
+      </ul></div>
+    about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."

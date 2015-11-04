@@ -55,23 +55,30 @@ hr.small {
 .btn-rosy {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(188,0,110,0.4);    
+    background-color: rgba(188,0,110,0.4) !important;    
 }
 .btn-rosy2:hover,
 .btn-rosy2:focus,
 .btn-rosy2:active {
-    background-color: rgba(188,0,110,1);    
+    background-color: rgba(188,0,110,1) !important;
 }
 .btn-rosy2 {
     border-radius: 0;
     color: #fff !important;
-    background-color: rgba(188,0,110,0.7);    
+    background-color: rgba(188,0,110,0.7) !important;   
 }
 .btn-rosy:hover,
 .btn-rosy:focus,
 .btn-rosy:active {
     color: #fff !important;
     background-color: rgba(188,0,110,0.7);
+}
+.btn-rosy3,
+.btn-rosy3:hover,
+.btn-rosy3:focus,
+.btn-rosy3:active {
+    color: #fff !important;
+    background-color: rgba(188,0,110,1) !important;
 }
 .btn-dark {
     border-radius: 0;
@@ -260,13 +267,18 @@ a.navbar-brand:hover, a.navbar-brand {
 }
 .block {
     background-color: rgba(0, 0, 0, 0.02);
-    border-top: 1px solid #4b5354;
-    border-bottom: 1px solid #4b5354;
     padding: 20px 20px;
     position: relative;
     color: #676a6c;
     margin-bottom: 20px;
 }
+
+/*.block-grey {
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAI0lEQVQYV2Msq2n9z0AEYAQp5OPheU5ILXEKGRklRxXiDUoAN3ki2WfEzXAAAAAASUVORK5CYII=) repeat;
+    color: #fff;
+    border: none;
+}*/
+
 .block-black {
     border-color: #262F36;
 }
@@ -307,6 +319,9 @@ a.navbar-brand:hover, a.navbar-brand {
 }
 .text-white {
     color: #FFF;
+}
+.text-black {
+    color: #666;
 }
 
 /** 22. Dividers
@@ -508,30 +523,12 @@ a.social-icon.social-icon-border:hover {
 a.social-icon.social-icon-border:hover>i {
 	color:#fff !important;
 }
-	section.dark a.social-icon.social-icon-border {
-		color:#fff !important;
-	}
-	section.dark a.social-icon.social-icon-border:hover>i {
-		color:#111 !important;
-	}
-
-
-/* transparent social icons */
-a.social-icon.social-icon-transparent {
-	background-color:transparent;
-	text-shadow:none;
-	color:#666 !important;
+a.social-icon.social-icon-border.social-icon-dark{
+	color:#999 !important;
 }
-a.social-icon.social-icon-transparent:hover>i {
-	color:#fff !important;
+a.social-icon.social-icon-border.social-icon-dark:hover>i {
+	color:#111 !important;
 }
-	section.dark a.social-icon.social-icon-transparent {
-		color:#999 !important;
-	}
-	section.dark a.social-icon.social-icon-transparent:hover>i {
-		color:#fff !important;
-	}
-
 
 .rw-words{
 	display: inline;
@@ -693,6 +690,14 @@ ul.easypiecharts li span.stat-title {
 }
 .progress.progress-xs {
     height: 6px;
+}
+.label-small {
+    font-size:10px
+}
+.label-vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 .label-blue {
     background-color: #337ab7;
