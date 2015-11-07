@@ -1,0 +1,10 @@
+<%
+var categoryColor = site.data.tools.categories[tool.tag].color;
+%>
+<div class="container">
+  <div class="row">
+    <h2 class="text-<%- categoryColor %>">A propos de <%- tool.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- tool.tag %></span></h2>
+    <p><%- tool.description %></p>
+    
+  </div><!--/row-->
+</div>
