@@ -2,8 +2,8 @@ title: "Tyneo Consulting"
 logo: img/logo-tyneo.png
 
 menu:
-  Solutions EPM & PPM: fr/projects.html
-  Solutions RM: fr/requirements.html
+  Solutions EPM & PPM: fr/epm-ppm-solutions.html
+  Solutions RM: fr/rmt-solutions.html
   Formations: fr/trainings.html
   A propos: fr/company.html
 
@@ -13,25 +13,25 @@ link:
   googleplus: "https://plus.google.com/104067051151135022303?rel=author"
   twitter: "http://twitter.com/#!/tyneoconsulting"
   linked: "http://www.linkedin.com/company/tyneo-consulting"
-  
+
 training:
   planisware:
     - name: Débuter avec Planisware
       icon: fa-eye
       link: fr/training/planisware_getting_started
-    
+
     - name: Gérer son projet avec Planisware
       icon: fa-user
       link: fr/training/planisware_getting_started
-    
+
     - name: Configurer et administrer Planisware,</li>
       icon: fa-cog
       link: fr/training/planisware_getting_started
-      
+
 		- name: Paramétrer Planisware
 		  icon: fa-cogs
 		  link: fr/training/planisware_getting_started
-		  
+
 		- name: Maîtriser le langage script Planisware
 		  icon: fa-code
       link: fr/training/planisware_getting_started

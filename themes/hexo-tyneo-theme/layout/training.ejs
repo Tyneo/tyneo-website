@@ -6,7 +6,7 @@ var categoryColor = site.data.training.categories[training.tag];
     <h2 class="text-<%- categoryColor %>">Formation : <%- training.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- training.tag %></span></h2>
 
     <div class="col-sm-8 col-md-9">
-        
+
     	<ul class="easypiecharts list-unstyled">
         	<li class="clearfix">
         		<span class="stat-number"><%- training.duration %></span>
@@ -19,19 +19,19 @@ var categoryColor = site.data.training.categories[training.tag];
         	<li class="clearfix">
         	    <span class="stat-number"><%- training.practice %>%</span>
         		<span class="stat-title">% pratique</span>
-        		<span class="easyPieChart" data-percent="<%- training.practice %>" data-easing="easeOutBounce" data-barcolor="#337ab7" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
+        		<span class="easyPieChart" data-percent="<%- training.practice %>" data-easing="easeOutBounce" data-barcolor="#337ab7" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span>
         	</li>
         	<li class="clearfix">
         		<span class="stat-number"><%- training.strong %>%</span>
         		<span class="stat-title">Difficulté</span>
-        		<span class="easyPieChart" data-percent="<%- training.strong %>" data-easing="easeOutBounce" data-barcolor="#74941F" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span> 
+        		<span class="easyPieChart" data-percent="<%- training.strong %>" data-easing="easeOutBounce" data-barcolor="#74941F" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span>
         	</li>
         	<li class="clearfix">
         		<span class="stat-number"><%- training.ref %></span>
         		<span class="stat-title">Référence</span>
         	</li>
         </ul>
-        
+
       <section id="training_desc" class="training_desc">
         <ul class="fa-ul">
             <li><h3 class="text-green"><i class="fa-li fa fa-graduation-cap"></i> Vous apprendrez à</h3>
@@ -44,18 +44,18 @@ var categoryColor = site.data.training.categories[training.tag];
             <p><%- training.for_who %></p>
             </li>
         </ul>
-        
+
         <ul class="fa-ul">
             <li><h3 class="text-rosy"><i class="fa-li fa fa-newspaper-o"></i> Programme de la formation</h3>
                 <div class="table-list">
                 <ol>
                 <%
-                 if(false && training.program) { for(var i=0; i<training.program.length; i++) {
+                 if(training.program) { for(var i=0; i<training.program.length; i++) {
                 %>
                     <li><a class="detail"><%- training.program[i].name %></a>
                     <ul class="detail">
                     <%
-                    if(training.program[i].detail) { for(var n=0; i<training.program[i].detail.length; n++) {
+                    if(training.program[i].detail) { for(var n=0; n<training.program[i].detail.length; n++) {
                     %>
                         <li>- <%- training.program[i].detail[n] %></li>
                     <% }} %>
@@ -66,8 +66,8 @@ var categoryColor = site.data.training.categories[training.tag];
                 </div>
             </li>
         </ul>
-        
-        
+
+
         <ul class="fa-ul">
             <li><h3 class="text-blue"><i class="fa-li fa fa-comments"></i> A propos de nos formateurs</h3>
             <p><%- training.about_trainers %></p>
@@ -76,7 +76,7 @@ var categoryColor = site.data.training.categories[training.tag];
       </section>
    </div>
 
-    
+
     <div class="col-sm-4 col-md-3 sidebar ">
         <ul class="nav nav-sidebar buffer-top">
             <li><a href="#">Catalogue des formations</a></li>

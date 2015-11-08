@@ -11,7 +11,7 @@ statistics:
   - name: Supports & documentations
     percent: 99
     color: "#BC006E"
-    
+
 categories:
   Planisware: blue
   Caliber: green
@@ -36,7 +36,35 @@ modules:
       - name: Prise en main de Planisware 5
         detail:
           - Architecture de l'outil
-  - name: Gérer son projet avec Planisware
+          - Structure et organisation des données
+          - Gestion multiutilisateurs et partage d'informations
+      - name: Gérer un projet avec Planisware
+        detail:
+          - Démarrer un projet
+          - Saisir les activités du projet (WBS)
+          - Allouer des ressources et déclarer des dépenses
+          - Créer une référence budgétaire
+          - Mettre à jour son projet
+          - Communiquer sur son projet (rapports et présentations)
+          - Clôturer son projet
+      - name: Suivre un portefeuille de projets
+        detail:
+          - Constituer son portefeuille projets
+          - Roadmap des projets
+          - Prioriser ses projets (simulations)
+          - Réaliser des tableaux de bord avec Planisware Explorer
+          - Optimiser la gestion des ressources
+      - name: Autres modules de l'application
+        detail:
+          - Saisie des temps avec TimeCard
+          - Gestion des idées
+          - Gestion des opportunités
+          - Gestion des risques
+      - name: Intégrer Planisware dans l'entreprise
+        detail:
+          - L'import / export de données
+          - Les interfaces Planisware
+          - Les possibilités de paramétrage
     ref: "#FRMPLW-002"
     practice: 45
     duration: 1 jour
