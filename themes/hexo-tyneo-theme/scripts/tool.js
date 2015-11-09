@@ -2,7 +2,7 @@
 /**
  *  This script will generate all training page from training data
  */
- 
+
 hexo.extend.generator.register('tool', function (locals) {
     var routes = [];
     var data = hexo.locals.get('data');

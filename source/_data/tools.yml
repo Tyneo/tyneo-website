@@ -34,8 +34,9 @@ tools:
         		<li>Planisware Explorer</li>
         		<li>Présentations</li>
         	</ul></p>
-        <p><i>Notre démarche durable* : Nous nous engageons à vous proposer les meilleurs solutions respectant les bonnes pratiques misent en place par Planisware, 
+        <p><i class="text-green">Notre démarche durable* : Nous nous engageons à vous proposer les meilleurs solutions respectant les bonnes pratiques misent en place par Planisware, 
         	garantissant ainsi l'évolution de votre implémentation au fur et à mesure de nouvelles versions du produit.</i></p>
+        <img src="images/planisware.png"/>
     tag: PPM
     editor: Planisware
     release: Planisware v6
@@ -44,4 +45,4 @@ tools:
     links: 
       - site: "Site de Planisware"
         url: "http://www.planisware.com/"
-    file: fr/about/planisware.html
+    file: fr/tools/epm-ppm/planisware.html

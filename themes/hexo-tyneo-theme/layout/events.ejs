@@ -1,0 +1,26 @@
+<div class="container">
+    <%- page.content %>
+
+    <ul class="timeline">
+        <%
+        for(var i=0; i<site.data.events.length; i++) {
+            var event = site.data.events[i];
+        %>
+    
+        <li<% if(i%2) {%> class="timeline-inverted"<% } %>>
+          <div class="timeline-badge <%- event.color %>"><i class="fa <%- event.icon %>"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><%- event.name %></h4>
+              <em><%- event.date %>, <%- event.location %></em>
+            </div>
+            <div class="timeline-body">
+              <p><%- event.description %></p>
+              <a href="<%- event.link %>">En savoir plus...</a>
+            </div>
+          </div>
+        </li>
+    
+        <% } %>
+    </ul>
+</div>

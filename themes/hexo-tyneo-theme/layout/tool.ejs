@@ -5,6 +5,40 @@ var categoryColor = site.data.tools.categories[tool.tag].color;
   <div class="row">
     <h2 class="text-<%- categoryColor %>">A propos de <%- tool.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- tool.tag %></span></h2>
     <p><%- tool.description %></p>
-    
   </div><!--/row-->
+  
+<div class="divider divider-center divider-grey top-buffer bottom-buffer">
+	<i class="fa fa-chevron-down"></i>
+</div>
+
+<div class="table-responsive ">
+	<table class="table table-bordered nomargin">
+		<thead>
+			<tr>
+				<th>Editeur</th>
+				<th>Dernière version</th>
+				<th>Environnement</th>
+				<th>Licence</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><%- tool.editor %></td>
+				<td><%- tool.release %></td>
+				<td><%- tool.environment %></td>
+				<td><%- tool.lisense %></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="row">
+  <h3 class="text-grey">En savoir plus</h3>
+  <% if(tool.links){ %><ul>
+    <% for(var i=0; i<tool.links.length; i++) { %>
+    <li><a href="<%- tool.links[i].url %>"><%- tool.links[i].site %></a></li>
+    <% }%>
+  </ul><%} %>
+</div><!--/row-->
+
 </div>
