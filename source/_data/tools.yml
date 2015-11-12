@@ -14,12 +14,12 @@ tools:
         <p>Ce logiciel d’entreprise peut être implémenté au sein de grandes organisations de part sa capacité à manipuler un nombre très important de projets et d’utilisateurs (plusieurs dizaines de milliers d'utilisateurs).</p>
         <p>Les différents modules de l’application permettent de gérer au sein de Planisware une vision à court et long terme des différentes activités de l'entreprise :
         	<ul>
-        		<li><a href="http://fr.planisware.com/gestion-de-portefeuille-projets" alt="Description de la vision portefeuille sur le site Planisware">La vision portefeuille</a> permet ainsi de suivre de manière macroscopique les projets de l’entreprise, les éventuels problèmes d'adhérence et de prévoir et d’adapter la capacité à faire de chaque département.</li>
-        		<li><a href="http://fr.planisware.com/gestion-de-projets alt="Description de la vision projet sur le site Planisware"">La vision opérationnelle</a> proposée par Planisware permet d’accompagner les acteurs au quotidien tant sur les aspects projets (coûts, planning, ressources, workflow, etc...) que dans la gestion de l’entreprise (produit, facturation, collaborateurs, etc...).</li>
+        		<li><a href="http://fr.planisware.com/gestion-de-portefeuille-projets" alt="Description de la vision portefeuille sur le site Planisware"><i class="fa fa-external-link "></i> La vision portefeuille</a> permet ainsi de suivre de manière macroscopique les projets de l’entreprise, les éventuels problèmes d'adhérence et de prévoir et d’adapter la capacité à faire de chaque département.</li>
+        		<li><a href="http://fr.planisware.com/gestion-de-projets alt="Description de la vision projet sur le site Planisware"><i class="fa fa-external-link "></i> La vision opérationnelle</a> proposée par Planisware permet d’accompagner les acteurs au quotidien tant sur les aspects projets (coûts, planning, ressources, workflow, etc...) que dans la gestion de l’entreprise (produit, facturation, collaborateurs, etc...).</li>
         	</ul></p>
-        <p>Tyneo Consulting <a href="http://www.tyneo-consulting.fr/fr/projects.html" alt="Notre offre de service Planisware">accompagne ses clients</a> dans la mise en place et le maintient opérationnel de Planisware. 
+        <p>Tyneo Consulting <a href="../../epm-ppm-solutions.html" alt="Notre offre de service Planisware">accompagne ses clients</a> dans la mise en place et le maintient opérationnel de Planisware. 
         	Grâce aux incroyables possibilités de Planisware en terme de paramétrage et de développement, les consultants Tyneo adaptent l'outil à vos besoins dans une démarche durable*.</p>
-        <p>Liste non exhaustive des modules de l’application Planisware 5 :
+        <p>Liste non exhaustive des modules de l’application Planisware 6 :
         	<ul>
         		<li>Projets</li>
         		<li>Lots de travaux</li>
@@ -34,9 +34,10 @@ tools:
         		<li>Planisware Explorer</li>
         		<li>Présentations</li>
         	</ul></p>
-        <p><i class="text-green">Notre démarche durable* : Nous nous engageons à vous proposer les meilleurs solutions respectant les bonnes pratiques misent en place par Planisware, 
-        	garantissant ainsi l'évolution de votre implémentation au fur et à mesure de nouvelles versions du produit.</i></p>
-        <img src="images/planisware.png"/>
+          <aside class="block block-green">
+            <p class="wow fadeIn">Notre démarche durable* : Nous nous engageons à vous proposer les meilleurs solutions respectant les bonnes pratiques misent en place par Planisware, garantissant ainsi l'évolution de votre implémentation au fur et à mesure de nouvelles versions du produit.</p>
+          </aside>
+        <img class="img-responsive center-block" src="images/planisware.png"/>
     tag: PPM
     editor: Planisware
     release: Planisware v6

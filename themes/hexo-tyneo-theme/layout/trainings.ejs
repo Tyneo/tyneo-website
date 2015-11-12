@@ -1,4 +1,13 @@
-<%- page.content %>
+<section id="who_we_are" class="who_we_are">
+    <div class="container">
+        <div class="col-sm-8 col-md-9">
+             <%- page.content %>
+        </div>
+
+        <%- partial('_partial/sidemenu', {item: theme.submenu.training}) %>
+    </div><!-- /.container -->
+</section>
+
 
 <div class="container">
 
@@ -38,4 +47,11 @@
     		</tbody>
     	</table>
     </div>
+    
+    
+
+</div>
+    <div class="block block-blue text-center">
+    <p>Besoin d'étudier nos formations au calme ? d'imprimer notre catalogue ou de le partager ?</p>
+    <a href="" class="btn btn-dark">Téléchargez le catalogue</a>
 </div>

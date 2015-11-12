@@ -44,6 +44,13 @@ jQuery(document).ready(function($){
 
 });
 
+jQuery(document).ready(function($){
+	$('#logo').on('mouseover', function() {
+		$(this).removeClass().addClass('tada animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+	     $(this).removeClass();
+	    });
+	});
+});
 
 jQuery(".easyPieChart").each(
 	function(){

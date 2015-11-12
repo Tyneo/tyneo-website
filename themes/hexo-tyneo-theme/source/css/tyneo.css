@@ -116,6 +116,19 @@ hr.small {
     color: #FFF;
     padding: 20px;
 }
+@media only screen and (min-width: 768px) {
+    .nav-sidebar {
+        margin-top: 40px;
+    }
+}
+.nav-sidebar li.active, .nav-sidebar li.active a {
+    background-color: rgba(188,0,110,0.7); 
+    color: #FFF;
+}
+.nav-sidebar li:hover, .nav-sidebar li a:hover {
+    background-color: rgba(188,0,110,0.7); 
+    color: #FFF;
+}
 
 #footer>.container {
     padding-top: 60px;
@@ -272,13 +285,13 @@ a.navbar-brand:hover, a.navbar-brand {
     color: #676a6c;
     margin-bottom: 20px;
 }
-
-/*.block-grey {
-    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAI0lEQVQYV2Msq2n9z0AEYAQp5OPheU5ILXEKGRklRxXiDUoAN3ki2WfEzXAAAAAASUVORK5CYII=) repeat;
-    color: #fff;
-    border: none;
-}*/
-
+.block:hover {
+    background-size: 1%;
+}
+.block:hover a.hover-big {
+    zoom: 110%;
+    text-decoration: underline;
+}
 .block-black {
     border-color: #262F36;
 }

@@ -13,6 +13,9 @@ submenu:
     "Evenements et publications": fr/events.html
     "Notre blog": http://www.tyneo-consulting.fr/blog
     "Nous contacter": fr/contact.html
+  training:
+    "Catalogue des formations": fr/trainings.html
+    "Demande de devis": fr/training_contact.html
 
 link:
   github: "http://jirachi.tyneo.net/explore/projects"

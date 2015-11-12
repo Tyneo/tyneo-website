@@ -1,0 +1,7 @@
+<div class="col-sm-4 col-md-3 sidebar">
+    <ul class="nav nav-sidebar top-buffer">
+        <% for (var i in item){ %>
+          <li <% if (is_current(item[i])) { %>class="active"<% } %>><a href="<%- url_for(item[i]) %>"><%= i %></a></li>
+        <% } %>
+    </ul>
+</div>
