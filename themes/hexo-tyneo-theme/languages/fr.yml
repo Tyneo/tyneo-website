@@ -1,0 +1,36 @@
+menu:
+  ppm: "Solutions EPM & PPM"
+  rm: "Solutions RM"
+  training: Formations
+  about: A propos
+  blog: Blog
+
+submenu:
+  about:
+    company: "Qui sommes-nous ?"
+    events: "Evenements & publications"
+    blog: "Notre blog"
+    contact: "Nous contacter"
+
+layout:
+  footer:
+    smalldesc:  Conseil et expertise outils PMO
+    address: >
+      12, rue des Bleuets<br/>
+      94600 Choisy Le Roi<br/>
+      France
+    phone: "Téléphone : +33 (0)9 72 32 28 28"
+    mailto: contact@tyneo.net
+    
+    blog: "En ce moment sur le blog Tyneo"
+    
+    sections: Les rubriques
+    
+    newsletter:
+        title: Restons en contact
+        subtitle: Souscrivez à notre lettre d'information
+        mailfield: Renseigner votre email
+        submit: Valider
+        
+    mentions: Mentions légales
+    copyright: Tout droit réservé

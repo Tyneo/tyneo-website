@@ -5,36 +5,19 @@
 		<div class="row">
 			
 			<div class="col-md-3">
-				<!-- Footer Logo -->
 				<img class="footer-logo" src="<%- url_for('img/logo-bw.png') %>" alt="" />
-
-				<!-- Small Description -->
-				<p>Conseil et expertise outils PMO</p>
-
-				<!-- Contact Address -->
+				<p><%= __('layout.footer.smalldesc') %></p>
 				<address>
 					<ul class="list-unstyled">
-						<li class="footer-sprite address">
-							12, rue des Bleuets<br>
-							94600 Choisy Le Roi<br>
-							France
-						</li>
-						<li class="footer-sprite phone">
-							Phone: +33 (0)9 72 32 28 28
-						</li>
-						<li class="footer-sprite email">
-							<a href="mailto:contact@tyneo.net">contact@tyneo.net</a>
-						</li>
+						<li class="footer-sprite address"><%= __('layout.footer.address') %></li>
+						<li class="footer-sprite phone"><%= __('layout.footer.phone') %></li>
+						<li class="footer-sprite email"><%- mail_to(__('layout.footer.mailto')) %></li>
 					</ul>
 				</address>
-				<!-- /Contact Address -->
-
 			</div>
 
 			<div class="col-md-3">
-
-				<!-- Latest Blog Post -->
-				<h4 class="letter-spacing-1">En ce moment sur le blog Tyneo</h4>
+				<h4 class="letter-spacing-1"><%= __('layout.footer.blog') %></h4>
 				<ul class="footer-posts list-unstyled">
 					<li>
 						<a href="#">Ouvrir plusieurs projets en même temps dans Planisware</a>
@@ -49,41 +32,30 @@
 						- <small>29 June 2015</small>
 					</li>
 				</ul>
-				<!-- /Latest Blog Post -->
-
 			</div>
 
 			<div class="col-md-2">
-
-				<!-- Links -->
-				<h4 class="letter-spacing-1">Les rubriques</h4>
+				<h4 class="letter-spacing-1"><%= __('layout.footer.sections') %></h4>
 				<ul class="footer-links list-unstyled">
-        <% for (var i in theme.menu){ %>
-          <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
-        <% } %>
+		        <% for (var i in theme.menu){ if(__('menu.' + i) != ('menu.' + i)) { %>
+		          <li><a href="<%- url_for(theme.menu[i]) %>"><%= __('menu.' + i) %></a></li>
+		        <% } } %>
 				</ul>
-				<!-- /Links -->
-
 			</div>
 
 			<div class="col-md-4">
-
-				<!-- Newsletter Form -->
-				<h4 class="letter-spacing-1">Restons en contact</h4>
-				<p>Souscrivez à notre lettre d'information</p>
+				<h4 class="letter-spacing-1"><%= __('layout.footer.newsletter.title') %></h4>
+				<p><%= __('layout.footer.newsletter.subtitle') %></p>
 
 				<form class="validate" id="mailjet-widget-form-7341" action="https://fr.mailjet.com/account/tools/widget/subscribe/1Up" method="post" data-toastr-position="bottom-right">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-						<input type="email" id="mailjet-widget-email-field-7341" name="email" class="form-control required" placeholder="Renseigner votre email">
+						<input type="email" id="mailjet-widget-email-field-7341" name="email" class="form-control required" placeholder="<%= __('layout.footer.newsletter.mailfield') %>">
 						<span class="input-group-btn">
-							<button class="btn btn-success" type="submit">Valider</button>
+							<button class="btn btn-success" type="submit"><%= __('layout.footer.newsletter.submit') %></button>
 						</span>
 					</div>
 				</form>
-				<!-- /Newsletter Form -->
-
-				<!-- Social Icons -->
 				<div class="top-buffer">
 					<a href="<%- theme.link.googleplus %>" class="social-icon social-icon-border pull-left" data-toggle="tooltip" data-placement="top" title="Google+">
 
@@ -94,34 +66,28 @@
 						<i class="fa fa-twitter"></i>
 						<i class="fa fa-twitter"></i>
 					</a>
-
 					<a href="<%- theme.link.linkedin %>" class="social-icon social-icon-border pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
 						<i class="fa fa-linkedin"></i>
 						<i class="fa fa-linkedin"></i>
 					</a>
-
 					<a href="<%- theme.link.github %>" class="social-icon social-icon-border pull-left" data-toggle="tooltip" data-placement="top" title="Github">
 						<i class="fa fa-github"></i>
 						<i class="fa fa-github"></i>
 					</a>
 		
 				</div>
-				<!-- /Social Icons -->
-
 			</div>
-
 		</div>
-
 	</div>
 
 	<div class="copyright">
 		<div class="container">
 			<ul class="pull-right nomargin list-inline mobile-block">
-				<li><a href="<%- url_for('fr/mentions.html') %>">Mentions légales</a></li>
+				<li><a href="<%- url_for('fr/mentions.html') %>"><%= __('layout.footer.mentions') %></a></li>
 				<li>&bull;</li>
 				<li><a href="#">Plan du site</a></li>
 			</ul>
-			&copy;2012 - <%= new Date().getFullYear() %> <%= config.title %>. Tout droit réservé.
+			&copy;2012 - <%= new Date().getFullYear() %> <%= config.title %>. <%= __('layout.footer.copyright') %>.
 		</div>
 	</div>
 </footer>

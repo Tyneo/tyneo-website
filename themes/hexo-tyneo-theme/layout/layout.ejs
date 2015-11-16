@@ -4,10 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="<%- url_for('/favicon.ico') %>">
+
+    <meta name="author" content="<%- config.author %>">
+    <link rel="author" href="<%- theme.googleplus %>"/>
+  	<meta name="description" content="<%- config.description %>">
+  	<meta name="keywords"  content="<%- theme.keywords %>">
+  	<meta name="geo.placename" content="<%- theme.geoplacename %>">
+  	<meta name="msvalidate.01" content="147101578981994AF7677857DBA78D49" />
+  	<meta name="google-site-verification" content="<%- theme.googlesiteverification %>" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	
+  	<meta property="og:title" content="<%- config.author %>">
+  	<meta property="og:description" content="<%- config.description %>">
+  	<meta property='og:site_name' content='<%- theme.title %>'/>
+  	<meta property='og:type' content='website'/>
+  	
+    <link rel="icon" href="<%- url_for(theme.favicon) %>">
 
     <%
       var title = [];
@@ -23,17 +35,13 @@
     %>
     <title><%= title.join(' | ') %></title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
-
-
-    <!-- Bootstrap core CSS -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
     <%- css('css/bootstrap.min.css') %>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
-
-    <!-- Custom styles for this template -->
     <%- css(['css/tyneo.css', 'css/animate.css']) %>
-
-
+    <% for(var i=0; theme.stylesheets && i<theme.stylesheets.length; i++) { %>
+      <%- css(theme.stylesheets[i]) %>
+    <% } %>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,5 +72,8 @@ $(function() {
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <%- js('js/ie10-viewport-bug-workaround.js') %>
     <%- js('js/tyneo.js') %>
+    <% for(var i=0; theme.javascripts && i<theme.javascripts.length; i++) { %>
+      <%- js(theme.javascripts[i]) %>
+    <% } %>
   </body>
 </html>

@@ -14,10 +14,9 @@ if(typeof page.scope == 'undefined') page.scope = false;
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <!-- <li class="active"><a href="#">Home</a></li> -->
-        <% for (var i in theme.menu){ %>
-          <li <% if (is_current(theme.menu[i]) || page.scope == i) { %>class="active"<% } %>><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
-        <% } %>
+        <% for (var i in theme.menu){if(__('menu.' + i) != ('menu.' + i)) { %>
+          <li <% if (is_current(theme.menu[i]) || page.scope == i) { %>class="active"<% } %>><a href="<%- i18n_url(theme.menu[i]) %>"><%= __('menu.' + i) %></a></li>
+        <% } } %>
       </ul>
     </div><!-- /.nav-collapse -->
   </div><!-- /.container -->

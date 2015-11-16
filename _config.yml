@@ -7,7 +7,9 @@ title: Tyneo Consulting
 subtitle: Conseil et expertise sur les outils PMO
 description: Conseil et expertise sur les outils PMO
 author: Samuel Kauffmann
-language: fr-FR
+language:
+  - fr
+  - en
 timezone: Europe/Paris
 
 
@@ -83,28 +85,3 @@ deploy:
   delete: true
   verbose: true
   ignore_errors: false
-
-
-
-
-training:
-  planisware:
-    - name: Débuter avec Planisware
-      icon: fa-eye
-      link: fr/training/planisware_getting_started
-    
-    - name: Gérer son projet avec Planisware
-      icon: fa-user
-      link: fr/training/planisware_getting_started
-    
-    - name: Configurer et administrer Planisware,</li>
-      icon: fa-cog
-      link: fr/training/planisware_getting_started
-      
-		- name: Paramétrer Planisware
-		  icon: fa-cogs
-		  link: fr/training/planisware_getting_started
-		  
-		- name: Maîtriser le langage script Planisware
-		  icon: fa-code
-      link: fr/training/planisware_getting_started

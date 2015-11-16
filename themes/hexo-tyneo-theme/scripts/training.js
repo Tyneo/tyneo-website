@@ -4,6 +4,8 @@
  */
  
 hexo.extend.generator.register('training', function (locals) {
+    if(!hexo.theme.config.modules.training) return [];
+    
     var routes = [];
     var data = hexo.locals.get('data');
     if(data && data.training) {
@@ -14,4 +16,5 @@ hexo.extend.generator.register('training', function (locals) {
         }
     }
     return routes;
+    
 });

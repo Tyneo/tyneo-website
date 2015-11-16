@@ -1,27 +1,57 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
 title: "Tyneo Consulting"
 logo: img/logo-tyneo.png
-
-menu:
-  Solutions EPM & PPM: fr/epm-ppm-solutions.html
-  Solutions RM: fr/rmt-solutions.html
-  Formations: fr/trainings.html
-  A propos: fr/company.html
-
-submenu:
-  company:
-    "Qui sommes-nous?": fr/company.html
-    "Evenements et publications": fr/events.html
-    "Notre blog": http://www.tyneo-consulting.fr/blog
-    "Nous contacter": fr/contact.html
-  training:
-    "Catalogue des formations": fr/trainings.html
-    "Demande de devis": fr/training_contact.html
+favicon: /favicon.ico
+googleplus: "https://plus.google.com/104067051151135022303?rel=author"
+keywords: "planisware, opx2, caliber, microfocus, borland, exigence, projet, gestion, intégrateur, ppm, epm, formation"
+geoplacename: "Choisy Le Roi, Îles de France, France"
+googlesiteverification: "8j13eOhe2MnjVOeo-gUX24yVE8kJGeQ5FjAXDimlYIo"
 
 link:
   github: "http://jirachi.tyneo.net/explore/projects"
   googleplus: "https://plus.google.com/104067051151135022303?rel=author"
   twitter: "http://twitter.com/#!/tyneoconsulting"
   linked: "http://www.linkedin.com/company/tyneo-consulting"
+
+# ---------------------------------------------------------------
+# Menu and submenu settings
+# ---------------------------------------------------------------
+menu:
+  ppm: "[lang]/epm-ppm-solutions.html"
+  rm: "[lang]/rmt-solutions.html"
+  training: "[lang]/trainings.html"
+  about: "[lang]/company.html"
+  blog: "http://tyneo-consulting.com/blog"
+
+submenu:
+  about:
+    company: "[lang]/company.html"
+    events: events.html
+    blog: http://www.tyneo-consulting.fr/blog
+    contact: "[lang]/contact.html"
+  training:
+    "Catalogue des formations": fr/trainings.html
+    "Demande de devis": fr/training_contact.html
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+#Add additional stylesheet file
+stylesheets: 
+  #- css/mystyle1.css
+  #- css/mystyle2.css
+  
+#Add additional javascript file
+javascripts: 
+  #- js/myscript1.js
+  #- js/myscript2.js
+  
+#This section allow you to enable or disable theme feature
+modules:
+  tools: true     #Tool pages generation
+  training: true  #Training pages generation
 
 training:
   planisware:

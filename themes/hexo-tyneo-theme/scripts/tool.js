@@ -4,6 +4,8 @@
  */
 
 hexo.extend.generator.register('tool', function (locals) {
+    if(!hexo.theme.config.modules.tools) return [];
+    
     var routes = [];
     var data = hexo.locals.get('data');
     if(data && data.tools) {

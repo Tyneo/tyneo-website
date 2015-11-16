@@ -10,7 +10,7 @@ To generate the Tyneo's website, please install nodejs and hexojs first.
 ``` bash
 npm install hexo-cli -g
 ```
-3. Install dependencies:
+3. Clone repository and install dependencies:
 ``` bash
 $ git clone git@jirachi.tyneo.net:tyneo/tyneo-website.git
 $ cd tyneo-website
