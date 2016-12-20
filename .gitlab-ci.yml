@@ -1,0 +1,14 @@
+# Image from https://hub.docker.com/_/php/
+image: node:latest
+
+cache:
+  paths:
+  - node_modules/
+
+before_script:
+  - npm install hexo-cli -g
+  - npm install
+
+test:base:
+  script:
+    - hexo generate
