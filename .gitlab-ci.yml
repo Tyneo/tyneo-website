@@ -7,7 +7,7 @@ cache:
 
 before_script:
   - npm install hexo-cli -g
-  - npm install hexo-deployer-rsync --save
+  - npm install hexo-deployer-git --save
   - npm install
 
 test:base:
