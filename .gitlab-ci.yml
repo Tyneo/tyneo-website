@@ -9,6 +9,8 @@ before_script:
   - npm install hexo-cli -g
   - npm install hexo-deployer-git --save
   - npm install
+  - git config --global user.email "hexo-generator@tyneo.net"
+  - git config --global user.name "Hexo generator"
 
 test:base:
   script:
