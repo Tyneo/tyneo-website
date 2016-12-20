@@ -77,11 +77,6 @@ exclude_generators:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: ftp.tyneo-consulting.com
-  user: tyneocon
-  root: /homez.635/tyneocon/sites/tyneo-consulting.fr/2.0.0/public/v2
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
+  type: git
+  repo: git@jirachi.tyneo.net:tyneo/tyneo.net.git
+  branch: tyneo-v2
