@@ -7,10 +7,9 @@ cache:
 
 before_script:
   - npm install hexo-cli -g
-  - npm install hexo-deployer-git --save
+  - npm install hexo-deployer-ftpsync --save
   - npm install
-  - git config --global user.email "hexo-generator@tyneo.net"
-  - git config --global user.name "Hexo generator"
+  - sed -i ‘s/SECRET_KEY/'"$FTP_SECRET_KEY"'/g’ _config.yml
 
 test:base:
   script:
