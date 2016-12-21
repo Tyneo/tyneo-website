@@ -79,4 +79,4 @@ deploy:
   user: tyneocon
   pass: SECRET_KEY
   remote: /sites/tyneo-consulting.fr/2.0.0/public/v2
-  verbose: true
+  verbose: false
