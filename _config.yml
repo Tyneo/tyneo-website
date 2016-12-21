@@ -73,13 +73,3 @@ theme: hexo-tyneo-theme
 exclude_generators:
   - index
   - fr/projects.ejs
-
-# Deployment
-## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: ftpsync
-  host: ftp.cluster006.ovh.net
-  user: tyneocon
-  pass: SECRET_KEY
-  remote: /homez.635/tyneocon/sites/tyneo-consulting.fr/2.0.0/public/v2
-  verbose: true
