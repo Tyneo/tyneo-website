@@ -14,11 +14,8 @@ timezone: Europe/Paris
 
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://preview.c9.io/skauffmann/plwlog/tyneo-website/public/
-root: /skauffmann/plwlog/tyneo-website/public/
-#url: http://tyneo.net/v2/
-#root: /v2/
+url: http://tyneo.net/v2/
+root: /v2/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
