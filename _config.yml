@@ -77,6 +77,9 @@ exclude_generators:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@jirachi.tyneo.net:tyneo/tyneo.net.git
-  branch: tyneo-v2
+  type: ftpsync
+  host: ftp.cluster006.ovh.net
+  user: tyneocon
+  pass: SECRET_KEY
+  remote: /homez.635/tyneocon/sites/tyneo-consulting.fr/2.0.0/public/v2
+  verbose: true
