@@ -81,5 +81,5 @@ deploy:
   host: ftp.cluster006.ovh.net
   user: tyneocon
   pass: SECRET_KEY
-  remote: /homez.635/tyneocon/sites/tyneo-consulting.fr/2.0.0/public/v2
+  remote: /sites/tyneo-consulting.fr/2.0.0/public/v2
   verbose: true
