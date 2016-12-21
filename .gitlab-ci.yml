@@ -6,10 +6,10 @@ cache:
   - node_modules/
 
 before_script:
+  - sed 's/SECRET_KEY/'$FTP_SECRET_KEY'/g' beta.config.yml.dist > _config.yml
   - npm install hexo-cli -g
   - npm install hexo-deployer-ftpsync --save
   - npm install
-  - sed -i ‘s/SECRET_KEY/'"$FTP_SECRET_KEY"'/g’ _config.yml
 
 test:base:
   script:
