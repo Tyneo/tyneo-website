@@ -78,7 +78,7 @@ html_minifier:
   removeCDATASectionsFromCDATA: true
   collapseWhitespace: true
   conservativeCollapse: true
-  preserveLineBreaks: true
+  preserveLineBreaks: false
   collapseBooleanAttributes: true
   removeAttributeQuotes: false
   removeRedundantAttributes: true
