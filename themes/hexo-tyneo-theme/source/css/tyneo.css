@@ -967,3 +967,8 @@ ul.easypiecharts li span.stat-title {
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+.references img {
+    max-width: 200px;
+    max-height: 75px;
+}
