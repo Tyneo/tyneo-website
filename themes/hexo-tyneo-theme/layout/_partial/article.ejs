@@ -1,0 +1,90 @@
+<%
+	var og_image = theme.og_image;
+	if (page.og_image) og_image = post.og_image;
+	
+	//Keywords
+	var keywords = theme.keywords;
+	if (page.keywords) keywords = page.keywords;
+%>
+<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <div class="article-meta">
+  </div>
+  <div class="article-inner">
+    <% if (post.link || post.title){ %>
+      <header class="article-header">
+        <%- partial('post/title', {class_name: 'article-title'}) %>
+      </header>
+	  <% if (config.author) { %>
+		<!-- Author -->
+        <span class="author info">par <%- config.author %> et </span>
+       <% } %>
+	   publié le <span class="date"><%- date(post.date) %></span>
+    <% } %>
+    <div class="article-entry" itemprop="articleBody">
+      <% if (post.excerpt && index){ %>
+        <%- post.excerpt %>
+        <% if (theme.excerpt_link){ %>
+          <p class="article-more-link">
+            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+          </p>
+        <% } %>
+      <% } else { %>
+        <%- post.content %>
+      <% } %>
+    </div>
+    <footer class="article-footer">
+      <% if (post.comments && config.disqus_shortname){ %>
+        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
+      <% } %>
+    </footer>
+  </div>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": "TechArticle",
+	"name": "<%- post.title %>",
+	"headline": "<%- truncate(post.description, {length: 140, separator: ' ', omission: '...'}) %>",	
+	"description": "<%- post.description %>",	
+	"datePublished": "<%= date(post.date, "YYYY-MM-DDTHH:mm:00+00:00") %>",
+	"dateModified": "<%= date(post.updated, "YYYY-MM-DDTHH:mm:00+00:00") %>",
+	"keywords": "<%- keywords %>",
+	"license": "https://creativecommons.org/licenses/by-nd/4.0/",			
+	"url": "<%= config.url %><%= url_for(post.path) %>",
+	"image": {
+		"@type": "ImageObject",
+		"url": "<%= config.url %><%= url_for(og_image) %>"
+	},
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "<%= config.url %><%= url_for(post.path) %>"
+	},	
+	"publisher": "Tyneo Consulting",
+	"author": {
+		"@type": "Person",
+		"name": "<%- config.author %>"
+	}	
+}
+</script>
+
+</article>
+
+<div class="top-padding-s">
+<% post.tags.each(function(tag){ %>
+  <i class="fa fa-tag" aria-hidden="true"></i> <a href="<%- tag.permalink %>" rel="bookmark" title="Autres articles à propos de '<%- tag.name %>"><%- tag.name %></a> &nbsp;&nbsp;
+<% }); %>
+</div>
+
+<%if (!index && post.main_tag) { %>
+<div class="top-padding-s"> </div>
+<div class="divider divider-center divider-green">
+	<i class="fa fa-chevron-down"></i>
+</div>
+
+<h4>Vous avez aimé cet article ? Découvrez d'autres sujet qui pourraient vous intéresser :</h4><ul class="simple-list">
+<%site.tags.findOne({name: post.main_tag}).posts.sort('date', -1).limit(5).each(function(post) {%>
+	<li><i class="fa fa-link"></i> <a href="<%= config.url %><%= url_for(post.path) %>" rel="bookmark" title="<%- post.title %>"><%- post.title %> </a> : <small><%- post.description %></small></li>
+<% })%>
+</ul>
+
+<% } %>
+

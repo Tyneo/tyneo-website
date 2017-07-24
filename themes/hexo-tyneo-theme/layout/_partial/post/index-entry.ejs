@@ -1,0 +1,4 @@
+<li>
+	<a href="<%- url_for(post.path) %>" class="post-title"><%= post.title || __('untitled_post') %></a>
+	- <small><%= date(post.date) %></small>
+</li>

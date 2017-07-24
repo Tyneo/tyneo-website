@@ -1,0 +1,69 @@
+<%
+var _tools = undefined;
+
+if(typeof data_tools !== 'undefined' && data_tools) {
+	_tools = data_tools;
+} else {
+	_tools = site.data.tools;
+}
+var tools = _tools.tools;
+%>
+<div class="container">
+    <div class="row">
+    <h2 class="text-green">
+<% if(typeof category !== 'undefined' && category) { %>
+	<%- i18n.__(lang)('tools.menu.'+category) %>
+<% } else { %>
+	Liste des logiciels
+<% } %>
+	</h2>
+
+<ol class="breadcrumb">
+  <% if(typeof category !== 'undefined' && category) { %>
+	<li><a href="<%- helper["url_for"].call(globalContext, lang+"/tools") %>"><%- i18n.__(lang)('tools.menu.tools') %></a></li>
+	<li class="active"><%- category %></li>
+  <% } else { %>
+  <li class="active"><%- i18n.__(lang)('tools.menu.tools') %></li>
+<% } %>
+
+</ol>
+
+	</div>
+</div>
+<div class="container">
+
+    <div class="table-responsive">
+    	<table class="table table-bordered table-striped">
+    		<thead>
+    			<tr>
+    				<th><i class="fa fa-tags pull-right hidden-xs"></i> <%- i18n.__(lang)('tools.tag') %></th>
+    				<th><i class="fa fa-id-card pull-right hidden-xs"></i> <%- i18n.__(lang)('tools.name') %></th>
+    				<th><i class="fa fa-building-o  pull-right hidden-xs"></i> <%- i18n.__(lang)('tools.editor') %></th>
+    				<th><i class="fa fa-clock-o pull-right hidden-xs"></i> <%- i18n.__(lang)('tools.last_release') %></th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    <%
+    for(var i=0; i<tools.length; i++) {
+			var tool_lang = tools[i].lang || 'fr';
+			if(tool_lang != lang) continue;
+      var tagColor = _tools.categories[tools[i].tag].color;
+			var url = "";
+			if(typeof helper !== 'undefined' && helper) {
+				url = helper["url_for"].call(globalContext, tools[i].file);
+			} else {
+				url = url_for(tools[i].file);
+			}
+			if(typeof category !== 'undefined' && category && tools[i].tag != category) continue;
+    %>
+    			<tr>
+    				<td><a href="<%- url %>"><span class="label label-<%- tagColor %>"><%- tools[i].tag %></span></a></td>
+    				<td><a href="<%- url %>"><%- tools[i].name %></a></td>
+    				<td><a href="<%- url %>"><%- tools[i].editor %></a></td>
+    				<td><a href="<%- url %>"><%- tools[i].release %></a></td>
+    			</tr>
+    <% } %>
+    		</tbody>
+    	</table>
+    </div>
+</div>

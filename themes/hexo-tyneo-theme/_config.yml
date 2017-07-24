@@ -1,0 +1,91 @@
+    # ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+title: "Tyneo Consulting"
+logo: img/logo-tyneo.png
+favicon: /favicon.ico
+googleplus: "https://plus.google.com/104067051151135022303?rel=author"
+keywords: planisware, opx2, caliber, ireb, borland, exigence, projet, gestion, intégrateur, ppm, epm, formation
+geoplacename: "Choisy Le Roi, Îles de France, France"
+googlesiteverification: "8j13eOhe2MnjVOeo-gUX24yVE8kJGeQ5FjAXDimlYIo"
+twitter: "@tyneoconsulting"
+og_image: img/logo-tyneo.png
+training_pdf: fr/Tyneo_catalogue_des_formations.pdf
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+excerpt_link: "En lire plus..."
+
+link:
+  github: "http://jirachi.tyneo.net/explore/projects"
+  googleplus: "https://plus.google.com/104067051151135022303?rel=author"
+  twitter: "http://twitter.com/#!/tyneoconsulting"
+  linkedin: "http://www.linkedin.com/company/tyneo-consulting"
+
+# ---------------------------------------------------------------
+# Menu and submenu settings
+# ---------------------------------------------------------------
+menu:
+  ppm: "[lang]/epm-ppm-solutions.html"
+  rm: "[lang]/rmt-solutions.html"
+  planisware: "[lang]/tools/epm-ppm/planisware.html"
+  training: "fr/training/"
+  about: "[lang]/about/"
+  blog: "blog"
+
+submenu:
+  about:
+    company: "[lang]/about/"
+    events: "[lang]/about/events.html"
+    contact: "[lang]/about/contact.html"
+  training:
+    program: fr/training/
+    infos: fr/training/infos-pratiques.html
+    #intra: fr/training/formations-intra.html
+    contact: fr/training/contact.html
+    #Tyneo_catalogue_des_formations.pdf
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+#Add additional stylesheet file
+stylesheets:
+  #- css/mystyle1.css
+  #- css/mystyle2.css
+
+#Add additional javascript file
+javascripts:
+  #- js/myscript1.js
+  #- js/myscript2.js
+
+#This section allow you to enable or disable theme feature
+modules:
+  tools: true     #Tool pages generation
+  training: true  #Training pages generation
+  quiz: true      #Quiz pages generation
+
+quiz:
+  - quiz_plw_getting_started
+
+training:
+  planisware:
+    - name: Débuter avec Planisware
+      icon: fa-eye
+      link: fr/training/planisware_getting_started
+
+    - name: Gérer son projet avec Planisware
+      icon: fa-user
+      link: fr/training/planisware_getting_started
+
+    - name: Configurer et administrer Planisware,</li>
+      icon: fa-cog
+      link: fr/training/planisware_getting_started
+
+    - name: Paramétrer Planisware
+      icon: fa-cogs
+      link: fr/training/planisware_getting_started
+
+    - name: Maîtriser le langage script Planisware
+      icon: fa-code
+      link: fr/training/planisware_getting_started

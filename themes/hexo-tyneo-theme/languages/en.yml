@@ -1,0 +1,70 @@
+lang: English
+lang_code: en
+locale: en_US
+
+menu:
+  ppm: "EPM & PPM solutions"
+  rm: ""
+  training: ""
+  planisware: "About Planisware"
+  about: "Our company"
+  blog: ""
+  tools: ""
+
+submenu:
+  about:
+    company: "Who Are We?"
+    events: "Events and publications"
+    blog: "Our blog"
+    contact: "Contact Us"
+  training:
+    program: "Training catalog"
+    quote: "Contact us"
+
+tools:
+  menu:
+    tools: "Tools"
+    EPM-PPM: Project and Portfolio Management software
+    RMT: Requirement Management software
+  editor: Editor
+  name: Name
+  tag: Type
+  last_release: Last release
+  environment: Environment
+  license: License
+  more: Learn more..
+  about: About
+
+layout:
+  post:
+    categories: Categories
+    category:
+      planisware: Planisware
+      tips: Tips
+      caliber: Borland Caliber
+      press: Press
+      requirement: Requirement engineering
+      project: Project management
+    posted_on: Posted on
+    excerpt: Read more...
+  footer:
+    smalldesc:  Consulting and PMO Tools Expertise
+    address: >
+      12, rue des Bleuets<br/>
+      94600 Choisy Le Roi<br/>
+      France
+    phone: "Phone: +33 (0)9 72 32 28 28"
+    mailto: contact@tyneo.net
+
+    blog: "Blog (in french)"
+
+    sections: Sections
+
+    newsletter:
+        title: Keep in touch
+        subtitle: Subscribe to our newsletter
+        mailfield: Fill your mail
+        submit: Submit
+
+    mentions: Mentions
+    copyright: Copyrights

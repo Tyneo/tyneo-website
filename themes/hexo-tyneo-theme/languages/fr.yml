@@ -1,0 +1,82 @@
+lang: "Français"
+lang_code: "fr"
+locale: "fr_FR"
+
+archive_a: Archives
+archive_b: Archives
+
+menu:
+  ppm: "Solutions EPM & PPM"
+  rm: "Solutions RM"
+  planisware: ""
+  training: Formations
+  about: A propos
+  blog: Blog
+  tools: Logiciels
+
+
+prev: Précédent
+next: Suivant
+
+submenu:
+  about:
+    company: "Qui sommes-nous ?"
+    events: "Evenements & publications"
+    blog: "Notre blog"
+    contact: "Nous contacter"
+  training:
+    program: "Catalogue des formations"
+    contact: "Contactez nous"
+    infos: "Informations pratiques"
+    intra: "Intra-entreprises"
+
+tools:
+  menu:
+    tools: "Logiciels"
+    EPM-PPM: Logiciel de gestion de portefeuilles projets et de gestion de projets
+    RMT: Logiciel de gestion des exigences
+  editor: Editeur
+  name: Nom
+  tag: Type
+  last_release: Dernière version
+  environment: Environnement
+  license: Licence
+  more: En savoir plus...
+  about: A propos de
+
+layout:
+  post:
+    banner:
+      title: Blog Tyneo
+      text: Nous aimons partager nos expériences, nos problématiques, notre étonnement et nos succès.
+    categories: Les catégories
+    category:
+      planisware: Planisware
+      tips: Astuces
+      caliber: Borland Caliber
+      press: Communiqué de presse
+      requirement: Ingénierie des exigences
+      project: Gestion de projet
+    posted_on: Publié le
+    excerpt: En lire plus...
+  footer:
+    smalldesc:  Conseil et expertise outils PMO
+    address: >
+      12, rue des Bleuets<br/>
+      94600 Choisy Le Roi<br/>
+      France
+    phone: "Téléphone : +33 (0)9 72 32 28 28"
+    mailto: contact@tyneo.net
+
+    blog: "En ce moment sur le blog Tyneo"
+
+    sections: Les rubriques
+
+    newsletter:
+        title: Restons en contact
+        subtitle: Souscrivez à notre lettre d'information
+        mailfield: Renseigner votre email
+        submit: Valider
+
+    mentions: Mentions légales
+    copyright: Tout droit réservé

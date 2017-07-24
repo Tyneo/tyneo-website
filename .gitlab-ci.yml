@@ -1,0 +1,17 @@
+image: node:4.2.2
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  script:
+  - \cp -fR _config.yml.prod _config.yml
+  - npm install hexo-cli -g
+  - npm install
+  - hexo deploy
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

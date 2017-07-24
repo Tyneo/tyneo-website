@@ -1,0 +1,101 @@
+<%
+var categoryColor = site.data.training.categories[training.tag];
+%>
+<div class="container">
+  <div class="row">
+    <h2 class="text-<%- categoryColor %>">Formation : <%- training.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- training.tag %></span></h2>
+<ol class="breadcrumb">
+  <li><a href="<%- helper["url_for"].call(globalContext, "fr/training") %>">Formations</a></li>
+  <li class="active"><%- training.ref %></li>
+</ol>
+
+    <div class="col-sm-8 col-md-9">
+
+    	<ul class="easypiecharts list-unstyled">
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.duration %></span>
+        		<span class="stat-title">Durée</span>
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number">2 à 8</span>
+        		<span class="stat-title">Stagiaires</span>
+        	</li>
+        	<li class="clearfix">
+        	    <span class="stat-number"><%- training.practice %>%</span>
+        		<span class="stat-title">% pratique</span>
+        		<span class="easyPieChart" data-percent="<%- training.practice %>" data-easing="easeOutBounce" data-barcolor="#337ab7" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span>
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.strong %>%</span>
+        		<span class="stat-title">Difficulté</span>
+        		<span class="easyPieChart" data-percent="<%- training.strong %>" data-easing="easeOutBounce" data-barcolor="#74941F" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span>
+        	</li>
+        	<li class="clearfix">
+        		<span class="stat-number"><%- training.ref %></span>
+        		<span class="stat-title">Référence</span>
+        	</li>
+        </ul>
+
+      <section id="training_desc" class="training_desc">
+
+		<h3 class="text-green"><i class="fa fa-graduation-cap"></i> Vous apprendrez à</h3>
+		<p><%- training.learn %></p>
+		<h3 class="text-blue"><i class="fa fa-suitcase "></i> Pré-requis</h3>
+		<p><%- training.requirements %></p>
+		<h3 class="text-grey"><i class="fa fa-users"></i> À qui s'adresse cette formation?</h3>
+		<p><%- training.for_who %></p>
+
+		<h3 class="text-rosy"><i class="fa fa-newspaper-o"></i> Programme de la formation</h3>
+
+		<div class="table-list">
+		<ol>
+		<%
+		 if(training.program) { for(var i=0; i<training.program.length; i++) {
+		%>
+			<li><a class="detail"><%- training.program[i].name %></a>
+			<ul class="detail">
+			<%
+			if(training.program[i].detail) { for(var n=0; n<training.program[i].detail.length; n++) {
+			%>
+				<li>- <%- training.program[i].detail[n] %></li>
+			<% }} %>
+			</ul>
+			</li>
+		<% }} %>
+		</ol>
+		</div>
+
+		<h3 class="text-blue"><i class="fa fa-comments"></i> A propos de nos formateurs</h3>
+		<p><%- training.about_trainers %></p>
+
+
+      </section>
+   </div>
+
+   <div class="col-sm-4 col-md-3 sidebar">
+       <ul class="nav nav-sidebar top-buffer">
+             <%
+             var item = theme.submenu.training;
+
+             for (var i in item){
+
+                var url = "";
+                var label = "";
+                if(typeof helper !== 'undefined' && helper) {
+                  var i18n_url = helper["i18n_get_url"].call(globalContext, item[i]);
+                  url = helper["url_for"].call(globalContext, item[i]);
+                  label = i18n.__()('submenu.training.' + i);
+                } else {
+                  url = i18n_url(item[i]);
+                }
+             %>
+           <li><a href="<%- url %>"><%- label %></a></li>
+           <% } %>
+       </ul>
+       <div class="block block-blue text-center">
+           <p>Besoin d'étudier nos formations au calme ? d'imprimer notre catalogue ou de le partager ?</p>
+           <a href="/<%- theme.training_pdf %>" class="btn btn-dark">Téléchargez le catalogue</a>
+       </div>
+   </div>
+  </div><!--/row-->
+</div>

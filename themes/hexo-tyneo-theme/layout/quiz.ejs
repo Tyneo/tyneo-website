@@ -1,0 +1,279 @@
+<%
+var categoryColor = site.data.training.categories[quiz.tag];
+%>
+
+<div class="container">
+  <div class="row">
+
+    <h2 class="text-<%- categoryColor %>">Quiz : <%- quiz.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- quiz.tag %></span></h2>
+	<ol class="breadcrumb">
+	  <li><a href="<%- helper["url_for"].call(globalContext, "fr/quiz") %>">Quiz</a></li>
+	  <li class="active"><%- quiz.name %></li>
+	</ol>
+
+
+	<ul class="easypiecharts list-unstyled bottom-buffer">
+		<li class="clearfix">
+			<span class="stat-number"><%- quiz.duration %></span>
+			<span class="stat-title">Durée</span>
+		</li>
+		<li class="clearfix">
+			<span class="stat-number"><%- quiz.strong %>%</span>
+			<span class="stat-title">Difficulté</span>
+			<span class="easyPieChart" data-percent="<%- quiz.strong %>" data-easing="easeOutBounce" data-barcolor="#74941F" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4"></span>
+		</li>
+		<li class="clearfix">
+			<span class="stat-number"><%- quiz.questions.length %></span>
+			<span class="stat-title">Questions</span>
+		</li>
+	</ul>
+
+
+	<p class="top-buffer bottom-buffer"><%- quiz.description %></p>
+
+	<script>
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
+    };
+
+    /** Simple JavaScript Quiz
+     * version 0.1.0
+     * http://journalism.berkeley.edu
+     * created by: Jeremy Rue @jrue
+     *
+     * Copyright (c) 2013 The Regents of the University of California
+     * Released under the GPL Version 2 license
+     * http://www.opensource.org/licenses/gpl-2.0.php
+     * This program is distributed in the hope that it will be useful, but
+     * WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     */
+
+
+    /**
+    * Set the information about your questions here. The correct answer string needs to match
+    * the correct choice exactly, as it does string matching. (case sensitive)
+    *
+    */
+    var quiz = [
+		<% for(var i=0; i<quiz.questions.length; i++) { %>
+        {
+            "question"      :   "<%- quiz.questions[i].question %>",
+            "image"         :   "<%- quiz.questions[i].image %>",
+            "choices"       :   [
+									<% for(var n=0; n<quiz.questions[i].choices.length; n++) { %>
+                                    "<%- quiz.questions[i].choices[n] %>",
+                                    <% }%>
+                                ],
+            "correct"       :   "<%- quiz.questions[i].correct %>",
+            "explanation"   :   "<%- quiz.questions[i].explanation %>",
+        },
+		<% }%>
+    ];
+
+
+    /******* No need to edit below this line *********/
+    var currentquestion = 0, score = 0, submt=true, picked;
+
+    jQuery(document).ready(function($){
+
+        /**
+         * HTML Encoding function for alt tags and attributes to prevent messy
+         * data appearing inside tag attributes.
+         */
+        function htmlEncode(value){
+          return $(document.createElement('div')).text(value).html();
+        }
+
+        /**
+         * This will add the individual choices for each question to the ul#choice-block
+         *
+         * @param {choices} array The choices from each question
+         */
+        function addChoices(choices){
+            if(typeof choices !== "undefined" && $.type(choices) == "array"){
+                $('#choice-block').empty();
+                for(var i=0;i<choices.length; i++){
+                    $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
+                }
+            }
+        }
+
+        /**
+         * Resets all of the fields to prepare for next question
+         */
+        function nextQuestion(){
+            submt = true;
+            $('#explanation').empty();
+            $('#question').text(quiz[currentquestion]['question']);
+            $('#pager').text('Question ' + Number(currentquestion + 1) + '/' + quiz.length);
+            if(quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != ""){
+                if($('#question-image').length == 0){
+                    $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question'])).insertAfter('#question');
+                } else {
+                    $('#question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question']));
+                }
+            } else {
+                $('#question-image').remove();
+            }
+            addChoices(quiz[currentquestion]['choices']);
+            setupButtons();
+        }
+
+        /**
+         * After a selection is submitted, checks if its the right answer
+         *
+         * @param {choice} number The li zero-based index of the choice picked
+         */
+        function processQuestion(choice){
+            if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
+                $('.choice').eq(choice).css({'background-color':'#50D943'});
+                $('#explanation').html('<strong>Bravo!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                score++;
+            } else {
+                $('.choice').eq(choice).css({'background-color':'#D92623'});
+                $('#explanation').html('<strong>Oups...</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+            }
+			$('#explanation').show();
+            currentquestion++;
+            $('#submitbutton').html('Question suivante &raquo;').on('click', function(){
+                if(currentquestion == quiz.length){
+                    endQuiz();
+                } else {
+                    $(this).text('Vérifier la réponse').css({'color':'#222'}).off('click');
+                    nextQuestion();
+                }
+            })
+        }
+
+        /**
+         * Sets up the event listeners for each button.
+         */
+        function setupButtons(){
+            $('.choice').on('mouseover', function(){
+                $(this).css({'background-color':'#337ab7', 'color': '#fff'});
+            });
+            $('.choice').on('mouseout', function(){
+                $(this).css({'background-color':'#fff', 'color': '#000'});
+            })
+            $('.choice').on('click', function(){
+                picked = $(this).attr('data-index');
+                $('.choice').removeAttr('style').off('mouseout mouseover');
+                $(this).css({'border-color':'#222','font-weight':700,'background-color':'#337ab7','color':'#fff'});
+                if(submt){
+                    submt=false;
+                    $('#submitbutton').css({'color':'#000'}).on('click', function(){
+                        $('.choice').off('click');
+                        $(this).off('click');
+                        processQuestion(picked);
+                    });
+                }
+            })
+        }
+
+        /**
+         * Quiz ends, display a message.
+         */
+        function endQuiz(){
+            $('#explanation').empty().hide();
+			$('#pager').empty();
+            $('#question').empty();
+			$("#question-image").hide();
+            $('#choice-block').empty();
+            $('#submitbutton').remove();
+            $('#question').text("Vous avez obtenu un score de " + score + "/" + quiz.length + " !");
+            $(document.createElement('h2')).css({'text-align':'center', 'font-size':'4em'}).text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');
+        }
+
+
+        /**
+         * Runs the first time and creates all of the elements for the quiz
+         */
+        function init(){
+            //add pager and questions
+            if(typeof quiz !== "undefined" && $.type(quiz) === "array"){
+                $(document.createElement('p')).addClass('explanation').attr('id','explanation').html('&nbsp;').appendTo('#frame');
+				$('#explanation').hide();
+
+                //questions holder
+                $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
+
+                //add choices
+                addChoices(quiz[0]['choices']);
+
+                //add submit button
+                $(document.createElement('div')).attr('id', 'submitbutton').addClass("btn btn-rosy2").text('Vérifier la réponse').appendTo('#frame');
+
+                setupButtons();
+            }
+        }
+
+        var current_ts = Math.round(new Date().getTime() / 1000);
+        window.console.log('ts: '+ current_ts);
+        var ts = getUrlParameter('ts');
+        if((current_ts-ts) < 60) {
+          init();
+          $('#frame').show();
+        } else {
+          $('#mailing').show();
+        }
+
+    });
+    function validateEmail(email) {
+      var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
+
+    function chk() {
+        if (!validateEmail(document.forms['WebToLeads310400436234']['Email'].value)) {
+          alert("Vous devez renseigner un email valide pour pouvoir continuer...");
+          return false;
+        } else {
+          document.charset='UTF-8';
+          var current_ts = Math.round(new Date().getTime() / 1000);
+          document.forms['WebToLeads310400436234']['ts'].value=current_ts;
+          return true;
+        }
+      return false;
+	  }
+    </script>
+    <style type="text/css" media="all">
+        /*css reset */
+        p.pager{margin:5px 0 5px;}
+        img.question-image{align:center;margin:10px auto;border:1px solid #ccc;width:100%;height:auto;}
+        #choice-block{display:block;list-style:none;margin:0;padding:0;color: #000 !important}
+        #explanation{margin:0 auto;padding:20px;width:75%;}
+        .choice-box{display:block;text-align:center;margin:8px auto;padding:10px 0;border:1px solid #666;cursor:pointer;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+    </style>
+
+  <div id="mailing" style="display:none;" class="bottom-buffer">
+    <p>Pour commencer le quiz, veuillez renseigner votre mail : </p>
+    <form action='https://tyneo.net/bin/quiz.php' name=WebToLeads310400436234 method='POST' onSubmit="return chk()" accept-charset='UTF-8'>
+      <input type='text' style='width:250px;'  maxlength='100' name='Email' placeholder="moi@masociete.com"/>
+      <input type="hidden" name="ts" value=""/>
+      <input type="hidden" name="ref" value="<%- quiz.ref %>"/>
+      <input class="btn btn-rosy2" type='submit' value='Commencer le quiz !' />
+    </form>
+
+  </div>
+	<div id="frame" class="bottom-buffer" role="content" style="display:none;">
+		<p id="pager">Question 1/<%- quiz.questions.length %></p>
+		<blockquote class="block block-blue">
+			<center class="bottom-buffer"><img id="question-image" src="<%- quiz.questions[0].image %>" alt=""/></center>
+			<p id="question"><%- quiz.questions[0].question %></p>
+		</blockquote>
+	</div>
+
+</div><!--/row-->
+</div>
