@@ -17,10 +17,8 @@ timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://beta.tyneo.net/
+url: http://beta.tyneo.net/
 root: /
-url: https://tyneo.net/
-#root: /v2/
 permalink: /blog/:year/:month/:day/:title/
 permalink_defaults:
 
