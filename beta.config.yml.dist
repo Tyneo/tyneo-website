@@ -4,30 +4,27 @@
 
 # Site
 title: Tyneo Consulting
-alternateName: Tyneo - Conseil et expertise outils PMO
 subtitle: Conseil et expertise sur les outils PMO
 description: Conseil et expertise sur les outils PMO
 author: Samuel Kauffmann
 language:
   - fr
   - en
-  - pl
 timezone: Europe/Paris
 
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://beta.tyneo.net/
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: blog/tags
-archive_dir: blog
-category_dir: blog/categories
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -78,31 +75,27 @@ exclude_generators:
 
 #Hexo-all-minifier
 html_minifier:
-  enable: false
+  enable: true
   exclude:
     - 'fr/contact.ejs'
     - 'fr/about/contact.html'
     - 'fr/about/contact.ejs'
     - '*contact*'
     - 'fr/about/contact.*'
-    - 'en/about/contact.*'
-    - 'pl/about/contact.*'
 css_minifier:
-  enable: false
+  enable: true
   exclude:
     - '*.min.css'
 js_minifier:
-  enable: false
+  enable: true
   mangle: true
   output:
   compress:
   exclude:
     - '*.min.js'
     - fr/contact.ejs
-    - en/contact.ejs
-    - pl/contact.ejs
 image_minifier:
-  enable: false
+  enable: true
   interlaced: false
   multipass: false
   optimizationLevel: 2
@@ -136,3 +129,13 @@ alias:
 
   /bin/index.html: /
   /: /fr/
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: ftpsync
+  host: ftp.cluster006.ovh.net
+  user: tyneocon
+  pass: SECRET_KEY
+  remote: /sites/tyneo-consulting.fr/beta/
+  verbose: false
