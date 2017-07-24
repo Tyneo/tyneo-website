@@ -1,0 +1,473 @@
+categories:
+  EPM-PPM:
+    color: blue
+    label: Logiciel de gestion de portefeuilles projets et de gestion de projets
+  RMT:
+    color: green
+    label: Logiciel de gestion des exigences
+
+tools:
+  - name: Planisware
+    lang: fr
+    logo: "/images/planisware.png"
+    description: >
+        <p>Planisware, anciennement OPX2, est une solution de gestion de projets (EPM) et de portefeuille de projets (PPM)</p>
+        <p>Ce logiciel d’entreprise peut être implémenté au sein de grandes organisations de part sa capacité à manipuler un nombre très important de projets et d’utilisateurs (plusieurs dizaines de milliers d'utilisateurs).</p>
+        <p>Les différents modules de l’application permettent de gérer au sein de Planisware une vision à court et long terme des différentes activités de l'entreprise :
+        	<ul>
+        		<li><a href="http://fr.planisware.com/gestion-de-portefeuille-projets" alt="Description de la vision portefeuille sur le site Planisware"><i class="fa fa-external-link "></i> La vision portefeuille</a> permet ainsi de suivre de manière macroscopique les projets de l’entreprise, les éventuels problèmes d'adhérence et de prévoir et d’adapter la capacité à faire de chaque département.</li>
+        		<li><a href="http://fr.planisware.com/gestion-de-projets" alt="Description de la vision projet sur le site Planisware"><i class="fa fa-external-link "></i> La vision opérationnelle</a> proposée par Planisware permet d’accompagner les acteurs au quotidien tant sur les aspects projets (coûts, planning, ressources, workflow, etc...) que dans la gestion de l’entreprise (produit, facturation, collaborateurs, etc...).</li>
+        	</ul></p>
+        <p>Tyneo Consulting <a href="../../epm-ppm-solutions.html" alt="Notre offre de service Planisware">accompagne ses clients</a> dans la mise en place et le maintient opérationnel de Planisware.
+        	Grâce aux incroyables possibilités de Planisware en terme de paramétrage et de développement, les consultants Tyneo adaptent l'outil à vos besoins dans une démarche durable*.</p>
+        <p>Liste non exhaustive des modules de l’application Planisware 6 :
+        	<ul>
+        		<li>Projets</li>
+        		<li>Lots de travaux</li>
+        		<li>Ressources</li>
+        		<li>Produits</li>
+        		<li>Idées</li>
+        		<li>Opportunités</li>
+        		<li>Portefeuille</li>
+        		<li>Simulations</li>
+        		<li>Collaborateurs</li>
+        		<li>Facturation</li>
+        		<li>Planisware Explorer</li>
+        		<li>Présentations</li>
+        	</ul></p>
+          <aside class="block block-green">
+            <p class="wow fadeIn">Notre démarche durable* : Nous nous engageons à vous proposer les meilleurs solutions respectant les bonnes pratiques misent en place par Planisware, garantissant ainsi l'évolution de votre implémentation au fur et à mesure de nouvelles versions du produit.</p>
+          </aside>
+    tag: EPM-PPM
+    editor: Planisware
+    release: Planisware v6
+    environment: "Microsoft Windows, Linux 64 bits, Mac OSX"
+    license: Propriétaire
+    links:
+      - site: "Site de Planisware"
+        url: "http://www.planisware.com/"
+      - site: "Portail client des utilisateurs Planisware"
+        url: "https://myportal.planisware.com/"
+      - site: "OPX2 Technical Database (OTD)"
+        url: "https://otd.planisware.com/portal/OPX2/localhost:20400/otd.html?ajax"
+      - site: "Planisware e-Learning database"
+        url: "https://noovem-thuban.planisware.com/sat0/OPX2/localhost:8100/ELEARNING?ajax"
+      - site: "Best practices database 6.2"
+        url: "https://best-practices-62.planisware.com/sat0"
+    file: fr/tools/epm-ppm/planisware.html
+  - name: Planisware
+    lang: pl
+    logo: "/images/planisware.png"
+    description: >
+        <p>Planisware to zintegrowany system zarządzania projektem oraz zarządzania portfolio, który zajmuje się całościowo i integralnie całym cyklem tworzenia projektu – począwszy od zarządzania pomysłami, poprzez wymagania, aż do wypuszczenia produktu.</p>
+        <p>Na poziomie wykonawczym zarządzania projektem, Planisware obejmuje jego przebieg w stosunku do kosztów, czasu trwania oraz zasobów , przy jednoczesnym ulepszaniu praktyki zarządzania projektem – zgodnie z logiką postępu kontynuowanego.</p>
+        <p>Na poziomie pilotażowania portfolio, rozwiązania Planisware pomagają zdefiniować i zarządzać strategią działania projektu w sposób długofalowy. Dają także wiedzę o zależnościach między możliwościami organizacyjnymi, przewidywanymi wymaganiami, a także pomagają przygotować i pilotować wymagania budżetowe.</p>
+        <br/>
+        <p>Oprogramowanie Planisware odnajdujemy u wielu klientów sektora przemysłowego, samochodowego, lotniczego, obrony, farmaceutycznego, informatycznego, energetycznego, telefonicznego oraz usługowego. Można tutaj wymienić : Michelin, Air France, Alsthom, Renault, Volvo Parts, Biomerieux, Bayer, Bosch engineering, Airbus, Arianespace, EADS, CEA, Eurocopter, Areva, EDF, etc</p>
+        <p>Począwszy od stworzenia w 1996 roku, firma Planisware osiąga od 15 do 20 %. Planisware jest także zakorzeniowny poza rynkiem francuskim. Tylko w 2012 roku, około 60 procent jego dochodu zostało osiągnięte  między innymi w : Stanach Zjednoczonych, Niemczech, Belgii, Szwajcarii, Włoszech, Hiszpanii, Wielkiej Brytanii, Izraelu, Japonii, Korei.</p>
+        <p>Zyski te mają związek z solidnością programu, jego kompletnością, ogromnymi możliwościami konfiguracyjnymi, jak również oferowaną możliwością pracy w środowisku wielojęzycznym.</p>
+        <p>Planisware otrzymał jako jedyny pozycję zwycięzcy w badaniach przeprowadzonych przez Info-Tech w latach 2011 i 2012.</p>
+          <aside class="block block-green">
+            <p class="wow fadeIn">Jeśli Państwa firma pragnie dowiedzieć się więcej o Planisware, albo jeśli jest zainteresowana  prezentacją narzędzia, zachęcamy do skontaktowania się z nami poprzez <a href="/pl/about/contact.html"><b>następujący formularz</b></a>.</p>
+          </aside>
+    tag: EPM-PPM
+    editor: Planisware
+    release: Planisware v6
+    environment: "Microsoft Windows, Linux 64 bits, Mac OSX"
+    license: Propriétaire
+    links:
+      - site: "Strona internetowa planisware"
+        url: "http://www.planisware.com/"
+    file: pl/tools/epm-ppm/planisware.html
+  - name: Planisware
+    lang: en
+    logo: "/images/planisware.png"
+    description: >
+        <p>Planisware, formerly OPX2, is a Project Management (EPM) and Project Portfolio Management (PPM) solution.</p>
+        <p>This enterprise software can be implemented within large organizations because of its ability to handle a large number of projects and users at once (several tens of thousands of users).</p>
+        	<ul>
+        		<li><a href="http://fr.planisware.com/gestion-de-portefeuille-projets" alt="Description de la vision portefeuille sur le site Planisware"><i class="fa fa-external-link "></i> The portfolio vision</a> allows the in-depth follow-up of the company’s projects, the identification of potential adhesion problems and to plan and adapt the executional capacity of each department.</li>
+        		<li><a href="http://fr.planisware.com/gestion-de-projets" alt="Description de la vision projet sur le site Planisware"><i class="fa fa-external-link "></i> The operational vision</a> proposed by Planisware allows the day-to-day support of actors in various aspects of a project (costs, planning, resources, workflow, etc.) and in the management of the company (product, invoicing...).</li>
+        	</ul></p>
+        <p>Tyneo Consulting assists its clients in <a href="../../epm-ppm-solutions.html" alt="Notre offre de service Planisware">the implementation and operational maintenance of Planisware</a>. Thanks to Planisware’s immense array of possibilities in terms of configuration and development, Tyneo consultants adapt the tool to your own requirements with a sustainable approach*.</p>
+        <p>Non-exhaustive list of modules for the Planisware 6 application:
+        	<ul>
+        		<li>Projects</li>
+        		<li>Work packages</li>
+        		<li>Resources</li>
+        		<li>Products</li>
+        		<li>Ideas</li>
+        		<li>Opportunities</li>
+        		<li>Portfolio</li>
+        		<li>Simulations</li>
+        		<li>Collaborators</li>
+        		<li>Invoicing</li>
+        		<li>Planisware Explorer</li>
+        		<li>Presentations</li>
+        	</ul></p>
+          <aside class="block block-green">
+            <p class="wow fadeIn">Our sustainable approach*: We are committed to offering you the best solutions that respect the best practices put in place by Planisware, guaranteeing the development of your implementation process when new versions of the product come out. </p>
+          </aside>
+    tag: EPM-PPM
+    editor: Planisware
+    release: Planisware v6
+    environment: "Microsoft Windows, Linux 64 bits, Mac OSX"
+    license: Owner
+    links:
+      - site: "Planisware website"
+        url: "http://www.planisware.com/"
+      - site: "Customer portal"
+        url: "https://myportal.planisware.com/"
+      - site: "OPX2 Technical Database (OTD)"
+        url: "https://otd.planisware.com/portal/OPX2/localhost:20400/otd.html?ajax"
+      - site: "Planisware e-Learning database"
+        url: "https://noovem-thuban.planisware.com/sat0/OPX2/localhost:8100/ELEARNING?ajax"
+      - site: "Best practices database 6.2"
+        url: "https://best-practices-62.planisware.com/sat0"
+    file: en/tools/epm-ppm/planisware.html
+  - name: "Cradle"
+    logo: ""
+    description: "Cradle est un système de gestion des exigences et d'ingénierie système entièrement personnalisable et extensible, vous aidant à optimiser le contrôle, l'efficience, la traçabilité, l'utilisabilité, et la durabilité de vos projet afin de les livrer avec succès en respectant le budget et les délais.\r\n<!--\r\nCradle is a comprehensive, user-extensible, multi-user, and multi-project systems engineering environment \r\nwhich provides a robust, proven database structure for concurrent development of large and complex systems. \r\nFrom concept to creation, Cradle has been deployed successfully in a broad range of aerospace, defense, \r\nmanufacturing, process control, telecommunications and transportation projects worldwide.\r\n\r\nCradle combines two sets of capabilities. The first is a Project Data Module (PDM) that provides an extensible \r\nframework and database for the control and management of information. The second is a set of specifically-targeted \r\nmodules designed to meet your systems engineering needs, addressing Requirements Management, System Modeling, \r\nPerformance Modeling, Software Engineering, Web Access, Web Printing and Document Generation.\r\n\r\nCradle provides an assortment of project infrastructure capabilities including access control, user roles and \r\nprivileges, project organization and database schema, cross referencing, impact analyses and configuration management.\r\n\r\nWith its wide range of interoperability features and open architecture, Cradle integrates seamlessly into existing \r\nIT infrastructures with desktop publishing tools. This Cradle architecture provides a systems engineering environment \r\nwith proven industrial strength and scalability.\r\n-->"
+    tag: "RMT"
+    editor: "3SL"
+    release: 6.8
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de 3SL"
+        url: "http://www.threesl.com/"
+    file: "fr/tools/rmt/cradle.html"
+  - name: "Accept Requirements 360"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Accept Software"
+    release: "n/c"
+    environment: "Windows"
+    license: "Propriétaire"
+    links:
+      - site: "Site de Accept Software"
+        url: "http://www.accept360.com"
+    file: "fr/tools/rmt/accept.html"
+  - name: "Aligned Elements"
+    logo: ""
+    description: "Aligned Elements est une solution de gestion des fichiers initialement développée pour le domaine    de l'industrie des dispositifs médicaux. L'outil vous permet de gérer un référentiel cohérent, complet et contrôlé tout au long du développement d'un produit et jusqu'à sa fin de vie.<br/>\r\nAligned Elements est indépendant de tout processus de travail et s'adapte à vos propres processus ainsi qu'à la terminologie et au vocabulaire que vous employé. L'idée de base d'Aligned Elements consiste à: \r\n<ol>\r\n<li>permettre de gérer des fichiers historisé et structuré très simplement.</li>\r\n<li>contrôler rigoureusement toutes les modifications apportées à ces données historisé.</li>\r\n<li>établir une traçabilité spécifique et modélisable.</li>\r\n<li>gérer des sur les données ou la traçabilité</li>\r\n<li>permettre d'exporter les données de Aligned Elements dans des documents Word respectant les modèles de documents internes à l'entreprise.</li>\r\n</ol>\r\nAligned Elements est une solution client-serveur permettant l'utilisation simultanée et la collaboration entre plusieurs clients sur l'ensemble du réseau ou à distance via VPN."
+    tag: "RMT"
+    editor: "Aligned"
+    release: 2.0
+    environment: "Windows"
+    license: "Propriétaire"
+    links:
+      - site: "Site de Aligned"
+        url: "http://www.aligned.ch/"
+    file: "fr/tools/rmt/aligned_elements.html"
+  - name: "CASE Spec"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Analyst Tool"
+    release: "n/c"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Analyst Tool"
+        url: "http://www.analysttool.com/"
+    file: "fr/tools/rmt/case_spec.html"
+  - name: "Avenqo PEP"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Avenqo"
+    release: 1.8
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Avenqo"
+        url: "http://www.avenqo.com/"
+    file: "fr/tools/rmt/avenqo_pep.html"
+  - name: "Acclaro DFSS"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Axiomatic Design"
+    release: "n/c"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Axiomatic Design"
+        url: "http://www.axiomaticdesign.com/"
+    file: "fr/tools/rmt/acclaro_dfss.html"
+  - name: "Blueprint"
+    logo: "/images/blueprint.jpg"
+    description: "Blueprint est un système complet basé sur une solution Â« cloud Â» pour la définition des besoins, la collaboration et la gestion des exigences. L'outil est accessible depuis les navigateurs Web les plus populaires, et est relativement facile à maintenir et hautement évolutif."
+    tag: "RMT"
+    editor: "Blueprint SYS"
+    release: "5.1.2"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Blueprint SYS"
+        url: "http://www.blueprintsys.com/"
+    file: "fr/tools/rmt/blueprint.html"
+  - name: "Cognition Cockpit"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Cognition"
+    release: 7.1
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Cognition"
+        url: "http://cognition.us/"
+    file: "fr/tools/rmt/congnition.html"
+  - name: "inteGREAT"
+    logo: ""
+    description: "inteGREAT est une plate-forme moderne de gestion du cycle de vie des exigences permettant aux utilisateurs d'obtenir, d'analyser, de valider, de documenter, d'examiner et de gérer les exigences de manière efficace. inteGREAT fournit une compression communes des exigences comprendre pour toutes les parties prenantes du projet, tout en générant automatiquement les documents, les diagrammes, les simulations et les scénarios de test tels qu'ils sont requis pour le votre projet."
+    tag: "RMT"
+    editor: "eDevTech"
+    release: 8.5
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de eDevTech"
+        url: "http://www.edevtech.com/"
+    file: "fr/tools/rmt/integreat.html"
+  - name: "Envision VIP"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Future Tech Systems, inc"
+    release: 10
+    environment: "Microsoft® Windows 7, Windows Vista, Windows XP, or Windows Server 2003, 2008 (with the latest service packs)"
+    license: "Propriétaire"
+    links:
+      - site: "Site de Future Tech Systems, inc"
+        url: "http://www.future-tech.com/"
+    file: "fr/tools/rmt/envision_vip.html"
+  - name: "Quality Center"
+    logo: ""
+    description: "HP Quality Center (QC) est un outil de gestion des tests développé par la division logicielle de Hewlett-Packard et acheté lors de l'acquisition de Mercury Interactive Corporation par HP."
+    tag: "RMT"
+    editor: "HP"
+    release: 11
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de HP"
+        url: "http://www.hp.com/"
+    file: "fr/tools/rmt/quality_center.html"
+  - name: "Rational RequisitePro"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "IBM"
+    release: "7.1.2"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de IBM"
+        url: "http://www.ibm.com/"
+    file: "fr/tools/rmt/requisitepro.html"
+  - name: "Rational DOORS"
+    logo: "/images/ibm_doors.png"
+    description: "Rational DOORS est sans doute l'outil de gestion des exigences le plus connu. IBM a acquis DOORS suite au rachat de Telelogic en 2008 et en a fait la référence.<br/>\r\nCe logiciel couvre l'ensemble des aspects attendus en termes de définition et de gestion des exigences sur l'ensemble du cycle de vie des logiciels et des systèmes.<br/>\r\nRational DOORS offre de très nombreuses interfaces avec des outils tiers et est hautement personnalisable à travers le langage de script DXL (Doors Extension Language), propose de personnaliser et d'étendre les fonctionnalités de l'outil."
+    tag: "RMT"
+    editor: "IBM"
+    release: "9.5.1"
+    environment: "Microsoft Windows, Linux ou UNIX"
+    license: "Propriétaire"
+    links:
+      - site: "Site de IBM"
+        url: "http://www.ibm.com/"
+    file: "fr/tools/rmt/doors.html"
+  - name: "Contour"
+    logo: ""
+    description: "Jama Contour est une application Web et collaborative permettant la planification des besoins, la gestion de périmètre, la planification des versions, le contrôle des changements, la traçabilité, la couverture des tests, la spécification des exigences ainsi que la génération de rapports.<br/>\r\nContour est flexible et s'adapte à votre processus de développement spécifique et supporte les méthodes Agile, Cascade ou hybride.<br/>\r\nDisponible aussi en mode Saas (hébergé)."
+    tag: "RMT"
+    editor: "Jama Software"
+    release: 2013
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Jama Software"
+        url: "http://www.jamasoftware.com/"
+    file: "fr/tools/rmt/contour.html"
+  - name: "Kovair ALM Studio"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Kovair"
+    release: 7
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Kovair"
+        url: "http://www.kovair.com/"
+    file: "fr/tools/rmt/kovair.html"
+  - name: "Borland Caliber"
+    logo: "/images/borland.png"
+    description: >
+        Caliber est un outil de gestion et de définition des exigences qui garantit une analyse des exigences de grande qualité, pour orienter le développement et le test des applications conformément aux besoins fluctuants des utilisateurs.<br/>
+        Grâce à une étroite collaboration entre le visuel et le texte, les équipes de développement peuvent mettre au point des logiciels qui répondent aux exigences métier en temps et en heure, avec une fiabilité et une qualité bien supérieures.
+
+        <aside class="block block-blue">
+            <p class="wow fadeIn">Nous avons noué depuis 2012 un véritable partenariat avec MicroFocus, l'éditeur de Caliber : nous travaillons en étroite collaboration pour améliorer l'expérience des utilisateurs Caliber au travers de nos formations à l'ingéniérie des exigences avec Caliber et le développement de plugins ou d'outils tiers pour répondre aux besoins spécifiques au besoin des organisations.</p>
+        </aside>
+    tag: "RMT"
+    editor: "MicroFocus"
+    release: 11.4
+    environment: "Microsoft Windows 64 bits"
+    license: "Propriétaire"
+    links:
+      - site: "Site de MicroFocus"
+        url: "http://www.microfocus.com/"
+      - site: "Communauté des utilisateurs Caliber"
+        url: "https://community.microfocus.com/borland/define/caliber_-_requirements_management/"
+      - site: "Support utilisateur (Supportline)"
+        url: "http://supportline.microfocus.com/mf_incident_add.aspx"
+    file: "fr/tools/rmt/caliber.html"
+  - name: "Cameo Requirements+"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "No Magic"
+    release: 4.1
+    environment: "Windows NT/2000/XP/Vista/7, Linux, Mac OS X"
+    license: "Propriétaire"
+    links:
+      - site: "Site de No Magic"
+        url: "http://www.nomagic.com/"
+    file: "fr/tools/rmt/cameo.html"
+  - name: "Polarion Requirements"
+    logo: "/images/polarion.jpg"
+    description: "Polarion, édité par la société Polarion Software depuis 2003 propose un outil de gestion des exigences orienté web, au design épuré et moderne.<br/>\r\nCette solution de gestion des exigences reprend l'ensemble des fonctionnalités attendues telles que les aspects collaboratifs, la traçabilité, la gestion de périmètres et revendique pouvoir supporter tout type de processus ou de méthodologie. <br/>\r\nL'outil dispose d'un grand catalogue d'extensions pour étendre ses fonctionnalités allant de l'import/export de document, l'intégration avec des outils tiers, jusqu'à l'implémentation des méthodes. <br/>\r\nSes fonctionnalités natives paramétrables ainsi que ses API vous permettent d'adapter ce logiciel aux besoins spécifiques de votre organisation."
+    tag: "RMT"
+    editor: "Polation Software"
+    release: "2015 SR1"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Polation Software"
+        url: "http://www.polarion.com/"
+    file: "fr/tools/rmt/polarion.html"
+  - name: "MKS Integrity"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "PTC"
+    release: "nc"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de PTC"
+        url: "http://www.ptc.com"
+    file: "fr/tools/rmt/mks.html"
+  - name: "Enterprise Architect"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Sparx Systems"
+    release: 10
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Sparx Systems"
+        url: "http://www.sparxsystems.com.au/"
+    file: "fr/tools/rmt/entreprise_architect.html"
+  - name: "Visure Requirements"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Visure Solutions"
+    release: 4.5
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Visure Solutions"
+        url: "http://www.visuresolutions.com/"
+    file: "fr/tools/rmt/irqa.html"
+  - name: "TraceCloud"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "TraceClould"
+    release: "nc"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de TraceClould"
+        url: "http://www.tracecloud.com/"
+    file: "fr/tools/rmt/trace_cloud.html"
+  - name: "Requirements Manager ReMa"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Accord"
+    release: "nc"
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Accord"
+        url: "http://www.accord-soft.com/"
+    file: "fr/tools/rmt/rema.html"
+  - name: "Reqtify"
+    logo: "/images/reqtify.jpg"
+    description: "Reqtify est connu pour être un excellent outil de gestion de traçabilité des exigences et d'analyse d'impact.<br/>\r\nCet outil, aujourd'hui édité par Dassault Systèmes permet de lier des parties de documents hétérogènes entre elles et d'en assurer la maintenabilité et leur exploitation.<br/>\r\nLa grande force de Reqtify réside dans le nombre impressionnant de formats pris en charge allant du fichier Word ou Excel classique jusqu'au document de type PDF en passant par les exigences contenues dans les outils tiers (Doors, Caliber...)"
+    tag: "RMT"
+    editor: "Dassault Systèmes"
+    release: 2011
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Dassault Systèmes"
+        url: "http://www.3ds.com"
+    file: "fr/tools/rmt/reqtify.html"
+  - name: "ReqMan"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "ReqMan"
+    release: 0.1
+    environment: ""
+    license: "Open Source"
+    links:
+      - site: "Site de ReqMan"
+        url: "http://reqman.sourceforge.net/"
+    file: "fr/tools/rmt/reqman.html"
+  - name: "RaQuest"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Sparx Systems"
+    release: 4
+    environment: ""
+    license: "Propriétaire"
+    links:
+      - site: "Site de Sparx Systems"
+        url: "http://www.sparxsystems.com.au/"
+    file: "fr/tools/rmt/raquest.html"
+  - name: "Serena Requirements Manager"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Serena Software"
+    release: ""
+    environment: ""
+    license: ""
+    links:
+      - site: "Site de Serena Software"
+        url: "http://www.serena.com/"
+    file: "fr/tools/rmt/serena_rm.html"
+  - name: "Dimensions RM"
+    logo: ""
+    description: ""
+    tag: "RMT"
+    editor: "Serena Software"
+    release: ""
+    environment: ""
+    license: ""
+    links:
+      - site: "Site de Serena Software"
+        url: "http://www.serena.com/"
+    file: "fr/tools/rmt/dimensions_rm.html"

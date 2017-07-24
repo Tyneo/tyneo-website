@@ -1,0 +1,71 @@
+lang: Polski
+lang_code: pl
+locale: pl
+
+menu:
+  ppm: "Nasze usługi"
+  planisware: "O Planisware"
+  rm: ""
+  training: ""
+  about: "O nas"
+  blog: ""
+  tools: ""
+
+submenu:
+  about:
+    company: "Kim jesteśmy ?"
+    events: ""
+    contact: "Skontaktuj się z nami"
+  training:
+    program: ""
+    quote: ""
+
+tools:
+  menu:
+    tools: "Oprogramowanie"
+    EPM-PPM: EPM-PPM
+    RMT: RMT
+  editor: Firma
+  name: Nazwa
+  tag: Typ
+  last_release: Ostatnie wydanie
+  environment: Środowisko
+  license: Licencja
+  more: Czytaj więcej...
+  about: O
+
+layout:
+  post:
+    categories: Categories
+    category:
+      planisware: Planisware
+      tips: Astuces
+      caliber: Borland Caliber
+      press: Communiqué de presse
+      requirement: Ingénierie des exigences
+      project: Gestion de projet
+    posted_on: Posted on
+    excerpt: Read more...
+  footer:
+    smalldesc:  Consulting and PMO Tools Expertise
+    address: >
+      12, rue des Bleuets<br/>
+      94600 Choisy Le Roi<br/>
+      France
+    phone: >
+      Kontakty w Polsce (Gdansk) : <br/>
+      (58) 731 0390
+    mailto: contact@tyneo.net
+
+    blog: "Blog (po francusku)"
+
+    sections: Streszczenie
+
+    newsletter:
+        title: Skontakuj się z nami
+        subtitle: Zapisz się do newslettera
+        mailfield: Wpisz swój email 
+        submit: Wyślij
+
+    mentions: Mentions
+    copyright: Copyrights

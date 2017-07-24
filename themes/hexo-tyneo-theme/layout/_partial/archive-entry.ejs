@@ -1,0 +1,11 @@
+<div class="archive-item">
+  <a href="<%- url_for(post.path) %>" class="post-title">
+	<h3 class="text-blue wow fadeIn"><%= post.title || __('untitled_post') %></h3>
+  </a>
+  <div class="date text-muted"><%= __('layout.post.posted_on') %> <%= full_date(post.date) %></div>
+  <div class="article-entry"><%- post.excerpt %></div>
+  <a href="<%- url_for(post.path) %>" class="post-title"><%= __('layout.post.excerpt') %></a>
+</div>
+<div class="divider divider-center divider-rosy">
+	<i class="fa fa-chevron-down"></i>
+</div>

@@ -1,0 +1,13 @@
+<%- partial('_partial/blogbanner') %>
+<section id="category">
+<div class="container">
+	<div class="col-sm-8 col-md-9 post">
+		<div class="row">
+			<%- partial('_partial/archive', {pagination: config.category, index: true}) %>
+		</div><!-- /.row -->
+	</div><!-- /.post -->
+	<div class="col-sm-4 col-md-3 sidebar">
+		<%- partial('_partial/sidebar') %>
+	</div><!-- /.sidebar -->
+</div><!-- /.container -->
+</section>

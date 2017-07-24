@@ -1,0 +1,13 @@
+
+    <div class="container">
+        <div class="col-sm-8 col-md-9">
+             <%- page.content %>
+        </div>
+
+        <%- partial('_partial/sidemenu', {scope: 'training', item: theme.submenu.training}) %>
+    </div><!-- /.container -->
+
+<div class="block block-blue text-center top-buffer">
+    <p>Besoin d'étudier nos formations au calme ? d'imprimer notre catalogue ou de le partager ?</p>
+    <a href="<%- url_for(theme.training_pdf) %>" class="btn btn-dark">Téléchargez le catalogue</a>
+</div>

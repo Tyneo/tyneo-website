@@ -1,0 +1,49 @@
+<%
+var categoryColor = site.data.tools.categories[tool.tag].color;
+%>
+<div class="container">
+  <div class="row">
+    <h2 class="text-green"><%- i18n.__(lang)('tools.about') %> <%- tool.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- tool.tag %></span></h2>
+
+<ol class="breadcrumb">
+  <li><a href="<%- helper["url_for"].call(globalContext, lang+"/tools") %>"><%- i18n.__(lang)('tools.menu.tools') %></a></li>
+  <li><a href="<%- helper["url_for"].call(globalContext, lang+"/tools/"+tool.tag.toLowerCase()) %>"><%- tool.tag %></a></li>
+  <li class="active"><%- tool.name %></li>
+</ol>
+
+    <p><%- tool.description %>
+	<% if(tool.logo){ %><img class="img-responsive center-block" alt="<%- tool.name %> par <%- tool.editor %>" src="<%- tool.logo %>"/><% }%>
+	</p>
+  </div><!--/row-->
+<div class="divider divider-center divider-grey top-buffer bottom-buffer">
+	<i class="fa fa-chevron-down"></i>
+</div>
+<div class="table-responsive ">
+	<table class="table table-bordered nomargin">
+		<tbody>
+			<tr>
+				<th><%- i18n.__(lang)('tools.editor') %></th>
+				<td><%- tool.editor %></td>
+			</tr><tr>
+				<th><%- i18n.__(lang)('tools.last_release') %></th>
+				<td><%- tool.release %></td>
+			</tr><tr>
+				<th><%- i18n.__(lang)('tools.environment') %></th>
+				<td><%- tool.environment %></td>
+			</tr><tr>
+				<th><%- i18n.__(lang)('tools.license') %></th>
+				<td><%- tool.license %></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="row">
+  <h3 class="text-grey"><%- i18n.__(lang)('tools.more') %></h3>
+  <% if(tool.links){ %><ul class="fa-ul">
+    <% for(var i=0; i<tool.links.length; i++) { %>
+    <li><i class="fa-li fa fa-link"></i><a href="<%- tool.links[i].url %>"><%- tool.links[i].site %></a></li>
+    <% }%>
+  </ul><%} %>
+</div><!--/row-->
+</div>

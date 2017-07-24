@@ -1,0 +1,104 @@
+layout: simple
+title: Conseils et Intégration des solutions Planisware
+description: Tyneo vous accompagne dans votre projet d'intégration et d'évolution de la solution Planisware. Nous aimons comprendre pleinnement vos problématiques pour concevoir avec vous la solution la plus adaptée et dans le respect des bonnes pratiques de l'éditeur.
+keywords: planisware, opx2, ppm, epm, formation, ojs
+og_type: website
+---
+<!-- Header -->
+<header id="top" class="header header-project">
+    <div class="text-vertical-center">
+        <h1 class="text-white">Zarządzanie projektami</h1>
+        <h3 class="text-white">Consulting and Solutions Integration <strong>#Planisware</strong></h3>
+        <br>
+        <a href="#about" class="btn btn-rosy btn-lg wow slideInUp">Nasza oferta usługowa...</a>
+    </div>
+</header>
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="lead wow fadeIn">
+        Tyneo Consultin towarzyszyć będzie Państwu w projektach integracji oraz ewolucji rozwiązań <a class="about" href="tools/epm-ppm/planisware.html">Planisware</a>. Nasza znajomość produktów (programów) pozwoli Państwu na korzystanie z najlepszej ekspertyzy. Możemy także zaadaptować funkcje narzędzi Planisware
+ zgodnie z Państwa potrzebami.
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<div class="divider divider-center divider-green">
+	<i class="fa fa-chevron-down"></i>
+</div>
+
+<!-- Accompagnement -->
+<section id="integration" class="accompagnement">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-blue"></i>
+                        <i class="fa fa-flask fa-stack-1x text-white"></i>
+                    </span>
+                	<h1 class="smallcaps text-blue wow fadeIn">Programowanie w kręgu Planisware</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                    	<p class="wow fadeIn">
+            Rozwiązania Planisware są kompleksowe i pełne. Pozostaje jednak potrzeba ich dostosowania w taki sposób, aby pozwalały na doskonałe zintegrowanie się z Państwa systemami informacyjnymi, odpowiadały Państwa działaniom i potrzebom. W tym zakresie, nasze kompetencje i nasze doświadczenie w konfiguracji oraz rozwijaniu Planisware, pozwolą Państwu na odpowiednie podejście do wspomnianej kwestii.
+                    </div>
+
+                    <div class="col-md-6">
+                    	<p class="wow fadeIn">Dzięki znajomości różnych języków programowania (Java, .NET, VBA, PHP.....) przez konsultantów Tyneo, pozwalamy sobie zaproponować Państwu optymalne rozwiązania idące o wiele dalej, aniżeli te proponowane przez Planisware..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<aside class="block block-green">
+	<h3 class="title wow fadeIn"><strong>Zaangażowanie</strong> długofalowe</h3>
+<p class="wow fadeIn">Nasi konsultanci czynią wysiłki, aby proponować rozwiązania najbardziej standardowe. W ten sposób pragną zapewnić funkcjonalnośc ewolucyjną aplikacji Planisware, jak również standaryzację metod pracy. W tym celu,  opierają się na oficjalnych rekomdendacjach  twórcy opublikowanych w jego białej książce zatytułowanej « Best Practices for Planisware 5 « , a także dobrej praktyce wewnętrzej opierającej się na nabytych przez naszych konsultantów licznych doświadczeniach.W przypadku, gdyby któraś z naszych propozycji musiała oddalić się od standardu twórcy programu, będziemy potrafili pokazać jej zasadność oraz udowodnić, że przetestowaliśmy cały szereg rozwiązań zbliżonych najbardziej do standardu Planisware.</p>
+</aside>
+
+
+
+<!-- Call to Action -->
+<aside class="block block-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>Projekt, pomysł ? Skontaktuj się z nami!</h3>
+                <a href="#" class="btn btn-lg btn-light">+33 (0)9 72 32 28 28</a>
+                <a href="about/contact.html" class="btn btn-lg btn-dark">contact@tyneo-consulting.fr</a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    for(var i=1; i<=4; i++) {
+        var img = new Image();
+		img.src = 'images/project-'+i+'.jpg';
+    }
+    var image_index = 0;
+    function changeProjectPageBackgound() {
+        var image = ++image_index > 4 ? (image_index=1) : image_index;
+        var el =  $('.header-project');
+         el.fadeOut(500, function () {
+             el.css('background-image', 'url("/images/project-' + image +'.jpg")');
+             el.fadeIn(500);
+        });
+    }
+    changeProjectPageBackgound();
+    setInterval(changeProjectPageBackgound, 8000);
+});
+</script>

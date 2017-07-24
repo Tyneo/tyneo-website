@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="row">
+    <h2 class="text-green">Quiz Tyneo</h2>
+
+	<ol class="breadcrumb">
+		<li class="active">Quiz</li>
+	</ol>
+	
+	</div>
+</div>
+
+<div class="container">
+
+    <div class="table-responsive">
+    	<table class="table table-bordered table-striped">
+    		<thead>
+    			<tr>
+    				<th><i class="fa fa-tags pull-right hidden-xs"></i> Catégorie</th>
+    				<th><i class="fa fa-tasks pull-right hidden-xs"></i> Nom</th>
+    				<th><i class="fa fa-clock-o pull-right hidden-xs"></i> Durée</th>
+    				<th><i class="fa fa-thumbs-up pull-right hidden-xs"></i> Difficulté</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    <%
+    for(var i=0; i<quizzes.length; i++) {
+		var quiz = quizzes[i];
+        var tagColor = 'rosy'; 
+        var progressColor = "green";
+        if(quiz.strong > 80) {
+            progressColor = "rosy";
+        } else if(quiz.strong > 50){
+            progressColor = "blue";
+        }
+
+		var url = "";
+		if(typeof helper !== 'undefined' && helper) {
+			url = helper["url_for"].call(globalContext, quiz.file);
+		} else {
+			url = url_for(quiz.file);
+		}
+    %>
+    			<tr>
+    				<td><a href="<%- url %>"><span class="label label-<%- tagColor %>"><%- quiz.tag %></span></a></td>
+    				<td><a href="<%- url %>"><%- quiz.name %></a></td>
+    				<td><a href="<%- url %>"><%- quiz.duration %></a></td>
+    				<td>
+                      <div class="progress progress-xs margin-bottom-0">
+                        <div class="progress-bar progress-bar-<%- progressColor %>" role="progressbar" aria-valuenow="<%- quiz.strong %>" aria-valuemin="0" aria-valuemax="100" style="width: <%- quiz.strong %>%; min-width: 2em;"></div>
+                      </div>
+    				</td>
+    			</tr>
+    <% } %>
+    		</tbody>
+    	</table>
+    </div>
+    
+    
+
+</div>

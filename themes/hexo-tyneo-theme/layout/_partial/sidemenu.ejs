@@ -1,0 +1,7 @@
+<div class="col-sm-4 col-md-3 sidebar">
+    <ul class="nav nav-sidebar top-buffer">
+        <% for (var i in item){ if(__('submenu.' + scope + '.' + i) != ('submenu.' + scope + '.' + i)) { %>
+        <li <% if (i18n_is_current(item[i], true)) { %>class="active"<% } %>><a href="<%- i18n_url(item[i]) %>"><%= __('submenu.' + scope + '.' + i ) %></a></li>
+        <% }} %>
+    </ul>
+</div>

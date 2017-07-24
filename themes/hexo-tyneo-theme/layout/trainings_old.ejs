@@ -1,0 +1,57 @@
+
+    <div class="container">
+        <div class="col-sm-8 col-md-9">
+             <%- page.content %>
+        </div>
+
+        <%- partial('_partial/sidemenu', {scope: 'training', item: theme.submenu.training}) %>
+    </div><!-- /.container -->
+
+
+
+<div class="container">
+
+    <div class="table-responsive">
+    	<table class="table table-bordered table-striped">
+    		<thead>
+    			<tr>
+    				<th><i class="fa fa-tags pull-right hidden-xs"></i> Catégorie</th>
+    				<th><i class="fa fa-tasks pull-right hidden-xs"></i> Formation</th>
+    				<th><i class="fa fa-clock-o pull-right hidden-xs"></i> Durée</th>
+    				<th><i class="fa fa-thumbs-up pull-right hidden-xs"></i> Difficulté</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    <%
+    var modules = site.data.training.modules;
+    for(var i=0; i<modules.length; i++) {
+        var tagColor = site.data.training.categories[modules[i].tag];
+        var progressColor = "green";
+        if(modules[i].strong > 80) {
+            progressColor = "rosy";
+        } else if(modules[i].strong > 50){
+            progressColor = "blue";
+        }
+    %>
+    			<tr>
+    				<td><a href="<%- url_for(modules[i].file) %>"><span class="label label-<%- tagColor %>"><%- modules[i].tag %></span></a></td>
+    				<td><a href="<%- url_for(modules[i].file) %>"><%- modules[i].name %></a></td>
+    				<td><a href="<%- url_for(modules[i].file) %>"><%- modules[i].duration %></a></td>
+    				<td>
+                      <div class="progress progress-xs margin-bottom-0">
+                        <div class="progress-bar progress-bar-<%- progressColor %>" role="progressbar" aria-valuenow="<%- modules[i].strong %>" aria-valuemin="0" aria-valuemax="100" style="width: <%- modules[i].strong %>%; min-width: 2em;"></div>
+                      </div>
+    				</td>
+    			</tr>
+    <% } %>
+    		</tbody>
+    	</table>
+    </div>
+
+
+
+</div>
+<div class="block block-blue text-center">
+    <p>Besoin d'étudier nos formations au calme ? d'imprimer notre catalogue ou de le partager ?</p>
+    <a href="<%- url_for(theme.training_pdf) %>" class="btn btn-dark">Téléchargez le catalogue</a>
+</div>

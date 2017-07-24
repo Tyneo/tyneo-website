@@ -1,0 +1,113 @@
+name: "Débuter avec Planisware"
+strong: 10
+duration: 10'
+tag: Planisware
+ref: planisware_getting_started
+file: fr/quiz/planisware_getting_started.html
+description: >
+  La formation "Débuter avec Planisware" aborde de nombreux sujets (l'ergonomie et la navigation dans Planisware,
+  la gestion des projets et portefeuilles de projets ainsi que certains modules tels que TimeCard, les feuilles de routes,
+  Planisware explorer, etc...).<br/>
+  Ce quiz reprend quelques uns des sujets qui seront traités durant le stage.
+
+questions:
+  - question: "Parmi les qualificatifs suivants, lesquels ne peuvent pas s’appliquer à la définition d’un projet ?"
+    image: "/images/quiz/planisware_getting_started/project.png"
+    choices:
+      - Récurrent
+      - Singulier
+      - Complexe
+      - Autonome
+      - Novateur
+    correct: Récurrent
+    explanation: Un projet est une aventure temporaire regroupant un ensemble d’actions réalisées à l’aide de ressources humaines et/ou matérielles, dans le but de répondre à un besoin spécifié dans un délai et budget impartis.
+
+
+  - question: "A quoi correspond le WBS ?"
+    image: "/images/quiz/planisware_getting_started/wbs.png"
+    choices:
+      - L'arborescence des activités
+      - L'organisation matricielle des projets
+      - L'arborescence des ressources
+      - La liste des responsables
+    correct: L'arborescence des activités
+    explanation: "Le WBS (Work Breakdown Structure) représente l'arborescence des activités du projet. C'est une décomposition hiérarchique des travaux nécessaires pour réaliser les objectifs du projet."
+
+  - question: "Qu’est-ce qu’une activité dans Planisware ?"
+    image: "/images/quiz/planisware_getting_started/wbs.png"
+    choices:
+      - Une tâche
+      - Une tâche ou un sous-projet
+      - Une tâche, un jalon ou un sous-projet
+      - Une tâche ou un jalon
+    correct: Une tâche, un jalon ou un sous-projet
+    explanation: "Une activité dans Planisware peut-être une tâche, un jalon ou un sous-projet."
+
+  - question: "Qu’est-ce qu’un jalon dans Planisware ?"
+    image: "/images/quiz/planisware_getting_started/wbs.png"
+    choices:
+      - Une tâche d'une durée de 0 (zéro) jour
+      - Une tâche fictive
+      - Un lien entre deux tâches
+      - Une tâche avec une date de contrainte
+    correct: Une tâche d'une durée de 0 (zéro) jour
+    explanation: "Un jalon représente un événement important durant le projet comme la signature d'un contrat, une mise en production (etc.). On matérialise un jalon dans Planisware par une tâche sans renseigner sa durée (donc 0 jour)."
+
+  - question: "A quoi servent les liens entre les activités ? "
+    image: "/images/quiz/planisware_getting_started/wbs.png"
+    choices:
+      - Ils ne servent à rien. L'utilisation d'une contrainte de début est préférable
+      - Ils permettent de définir l’enchaînement des activités
+      - Ils permettent uniquement de définir le chemin critique
+      - Ils permettent définir la charge consommée sur une activité typée
+    correct: Ils permettent de définir l’enchaînement des activités
+    explanation: "Les liens entre les activités permettent de définir leur enchaînement. Si l'une des activités décale, cela peut impacter l'ensemble du planning."
+
+  - question: "Qu'est ce que la méthode Stage-Gate ?"
+    image: "/images/quiz/planisware_getting_started/stage-gate.png"
+    choices:
+      - Une méthode créée par Planisware pour gérer ses projets
+      - Une méthode pour limiter les risques et les investissements sur les projets
+      - Une méthode de rétro-planification des phases (stage) en fonction des jalons (gate) définis au préalable
+    correct: Une méthode pour limiter les risques et les investissements sur les projets
+    explanation: "La méthode Stage-Gate de Robert G. Cooper permet de limiter les risques et les investissements sur les projets. Le projet est découpé en phases et en sortie desquelles le management decide de poursuivre ou non le projet."
+
+  - question: "Le module de gestion des lots de travaux sert à :"
+    image: "/images/quiz/planisware_getting_started/wbs.png"
+    choices:
+      - Gérer les travaux de maintenance
+      - Définir les lots d’un planning à l’aide d’une matrice
+      - Plannifier les programmes et définir les projets embarqués
+      - Déléguer une partie d’un projet
+    correct: Déléguer une partie d’un projet
+    explanation: "Le module des lots de travaux permet de déléguer une partie d'un projet."
+
+  - question: "Lors de la planification initiale, quel champ peut-on remplir pour spécifier une date butoire sur une tâche ?"
+    image: "/images/quiz/planisware_getting_started/activity.png"
+    choices:
+      - La contrainte de début
+      - La date de fin effectuée
+      - La date de début effectuée
+      - La contrainte de fin
+    correct: La contrainte de fin
+    explanation: "La contrainte de fin permet de spécifier une date butoire sur une activité."
+
+  - question: "Quelle date doit-on mettre à jour avant de faire de l'avancement ?"
+    image: "/images/quiz/planisware_getting_started/time_now.png"
+    choices:
+      - Date courante
+      - Date d'avancement
+      - Date de mise à jour
+      - Date de suivi
+    correct: Date courante
+    explanation: "C'est la date courante qui doit être mise à jour avant de faire son avancement."
+
+  - question: "Qu’est ce que la prévision pour solde sur une activité ?"
+    image: "/images/quiz/planisware_getting_started/etc.png"
+    choices:
+      - "L’estimation des coûts restants"
+      - L’estimation du nombre de jours qui reste à faire
+      - Le coût budgété
+      - "Le coût encouru - le coût prévisionnel "
+    correct: "L’estimation des coûts restants"
+    explanation: "La prévision pour solde représente l’estimation des coûts restants. Elle est composée des coûts restants sur les affectations et les dépenses."

@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-lg-12">
+		<% if (post.link){ %>
+		<h1 class="text-rosy wow fadeIn <%= class_name %>"><a href="<%- url_for(post.link) %>" target="_blank" itemprop="url"><%= post.title %></a></h1>
+		<% } else if (post.title){ %>
+			<% if (index){ %>
+				<h1 itemprop="name" class="text-rosy wow fadeIn <%= class_name %>"><a href="<%- url_for(post.path) %>" target="_blank"><%= post.title %></a></h1>
+			<% } else { %>
+				<h1 itemprop="name" class="text-rosy wow fadeIn <%= class_name %>"><%= post.title %></h1>
+			<% } %>
+		<% } %>
+	</div>
+</div>

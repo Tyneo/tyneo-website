@@ -1,0 +1,17 @@
+<%- partial('_partial/blogbanner') %>
+<section id="blog_post">
+<div class="container">
+	<div class="col-sm-8 col-md-9 post">
+		<div class="row">
+			<article><%- partial('_partial/article', {post: page, index: false}) %></article>
+		</div><!-- /.row -->
+	</div><!-- /.post -->
+	<div class="col-sm-4 col-md-3 sidebar">
+		<%- partial('_partial/sidebar') %>
+		
+		       <div class="block block-blue">
+            <%- toc(page.content) %>
+        </div>
+	</div><!-- /.sidebar -->
+</div><!-- /.container -->
+</section>
