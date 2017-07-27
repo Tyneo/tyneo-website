@@ -41,7 +41,7 @@ questions:
       - Une tâche ou un jalon
     correct: Une tâche, un jalon ou un sous-projet
     explanation: "Une activité dans Planisware peut-être une tâche, un jalon ou un sous-projet."
-    
+
   - question: "Qu’est-ce qu’un jalon dans Planisware ?"
     image: "/images/quiz/planisware_getting_started/wbs.png"
     choices:
@@ -69,7 +69,7 @@ questions:
       - Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
       - Ils permettent définir la charge consommée sur une activité typée
     correct: Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
-    explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"    
+    explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
 
   - question: "Qu'est ce que la méthode Stage-Gate ?"
     image: "/images/quiz/planisware_getting_started/stage-gate.png"
@@ -108,8 +108,8 @@ questions:
       - Le coût budgété
       - "Le coût encouru - le coût prévisionnel "
     correct: "L’estimation des coûts restants"
-    explanation: "La prévision pour solde représente l’estimation des coûts restants. Elle est composée des coûts restants sur les affectations et les dépenses."  
-    
+    explanation: "La prévision pour solde représente l’estimation des coûts restants. Elle est composée des coûts restants sur les affectations et les dépenses."
+
   - question: "Qu'est-ce qu'une unité d'oeuvre ?"
     choices:
       - "L'unité dans laquelle les coûts sont exprimées"
@@ -118,7 +118,7 @@ questions:
       - "La durée d'une affectation en fonction du calendrier de la ressource"
     correct: "L'unité dans laquelle les coûts des projets sont exprimées"
     explanation: "L'unité d'oeuvre représente l'unité dans laquelle les coûts des projets sont exprimées. Par exemple une unité d'oeuvre peut-être l'Euro (€) ou encore le coût d'utilisation d'une ressource (coût de revient en Euros d'un Ingénieur par exemple)."
-    
+
   - question: "Qu'est-ce qu'une affectation d'une ressource dans Planisware ?"
     choices:
       - "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné"
@@ -136,7 +136,7 @@ questions:
       - "Cette notion n'existe pas dans Planisware"
     correct: "L'identification d'un coût ne faisant pas intervenir un ressource sur une activité"
     explanation: "Un dépense est l'identification d'un coût ne faisant pas intervenir un ressource sur une activité. Une dépense est obligatoirement exprimée dans une Unité d'oeuvre (par exemple en €)."
-    
+
   - question: "Qu'est-ce que permet Timecard ?"
     choices:
       - "Timecard permet de gérer vue Kanban permettant de suivre l'évolution des tâches en Scrum"
@@ -145,7 +145,7 @@ questions:
       - "Timecard permet de faire des notes de frais"
     correct: "Timecard permet de déclarer et d'imputer les temps d'une ressource sur les activités des projets"
     explanation: "Timecard permet de déclarer et d'imputer les temps d'une ressource sur les activités des projets."
-    
+
   - question: "A propos de Timecard..."
     choices:
       - "La saisie se fait obligatoirement en 10ème de jour"
@@ -154,7 +154,7 @@ questions:
       - "Il peut être possible de saisir le reste à faire sur les activités"
     correct: "Il peut être possible de saisir le reste à faire sur les activités"
     explanation: "En fonction du paramétrage du profil Timecard défini par l'administrateur, il peut être possible de saisir le reste à faire sur les activités."
-    
+
   - question: "A quoi sert le module de gestion des idées dans Planisware ?"
     choices:
       - "Collecter, noter et classifier les idées au sein d’une organisation"
@@ -171,8 +171,8 @@ questions:
       - "Connaitre le nombre de vote par catégorie d'idée"
       - "Définir la meilleure méthode de déploiement d'une idée"
     correct: "Noter de façon objectives les idées afin de les classer"
-    explanation: "Planisware propose de scorer les idées afin de les classer, organiser et prioriser de façon objective."*
-    
+    explanation: "Planisware propose de scorer les idées afin de les classer, organiser et prioriser de façon objective."
+
   - question: "A quoi sert la publication d'un livrable ?"
     choices:
       - "Permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable"
@@ -181,7 +181,7 @@ questions:
       - "Permet de communiquer sur la date à laquelle un livrable sera disponible"
     correct: "Permet de communiquer sur la date à laquelle un livrable sera disponible"
     explanation: "Publier un livrable permet de communiquer sur la date à laquelle un livrable sera disponible."
-    
+
   - question: "A quoi sert la synchronisation d'un livrable ?"
     choices:
       - "Matérialise la production d’une activité"
@@ -190,8 +190,8 @@ questions:
       - "Identifier la consommation d’un livrable par une activité ou un projet"
     correct: "Permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable"
     explanation: "Synchroniser un livrable permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable."
-    
-    
+
+
   - question: "Quel type d'export n'est pas géré par Planisware en standard ?"
     choices:
       - "Export RSS"
