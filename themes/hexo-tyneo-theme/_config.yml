@@ -67,6 +67,7 @@ modules:
 
 quiz:
   - quiz_plw_getting_started
+  - quiz_plw_admin
 
 training:
   planisware:
