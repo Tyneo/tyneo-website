@@ -1,0 +1,38 @@
+name: "Configurer et administrer Planisware"
+strong: 10
+duration: 10'
+tag: Planisware
+ref: planisware_admin
+file: fr/quiz/planisware_admin.html
+description: >
+  Ce quiz reprend quelques uns des sujets traités durant la formation « Configurer et administrer Planisware ».
+
+questions:
+  - question: "Parmi les affirmations suivantes, laquelle est vraie ?"
+    choices:
+      - Planisware Pro Web s’utilise depuis un navigateur Internet en « mode » Ajax ou Java
+      - Planisware Pro Web nécessite d’être installé sur chaque poste utilisateur Administrateur
+      - Planisware Pro Web permet de créer ou modifier des rapports
+      - Planisware Pro Web ne peut pas gérer le référentiel commun Planisware
+    correct: Planisware Pro Web permet de créer ou modifier des rapports
+    explanation: Planisware Pro Web permet de créer ou modifier des rapports
+    
+questions:
+  - question: "Dans quel type de fichier peuvent être stockés les ressources Planisware ?"
+    choices:
+      - Fichier projet
+      - Fichier commun
+      - Fichier commun ou projet
+      - Fichier RESS
+    correct: Fichier commun ou projet
+    explanation: Les ressources sont stockés dans des fichiers communs. Lorsque des ressources sont exclusivement dédiées à un projet, elles peuvent être stockées dans le fichier du projet.
+    
+questions:
+  - question: "Parmi les affirmations suivantes, laquelle est vraie ?"
+    choices:
+      - Le mode Processes est facultatif
+      - Processes n’est accessible que depuis Windows
+      - Les estimations paramétriques sont exclusivement réservées aux entreprises du secteur pharmaceutique
+      - Pro Web peut gérer plusieurs session en mode administrateur simultanément 
+    correct: Le mode Processes est facultatif
+    explanation: "Bien qu'il soit vivement recommandé, le mode Processes reste facultatif : il est possible d'utiliser Planisware Pro sans le paramétrage Processes Planisware."
