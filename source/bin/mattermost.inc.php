@@ -18,5 +18,9 @@ function mattermost($body, $room = "engineering", $icon = ":longbox:") {
 
   curl_close($ch);
 
+  if($server_output === false) {
+    file_put_contents('../../mattermost.db', $payload."\n", FILE_APPEND);
+  }
+
   return $server_output;
 }
