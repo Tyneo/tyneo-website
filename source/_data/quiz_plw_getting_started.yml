@@ -1,6 +1,6 @@
 name: "Débuter avec Planisware"
 strong: 10
-duration: 10'
+duration: 15'
 tag: Planisware
 ref: planisware_getting_started
 file: fr/quiz/planisware_getting_started.html
@@ -22,7 +22,6 @@ questions:
     correct: Récurrent
     explanation: Un projet est une aventure temporaire regroupant un ensemble d’actions réalisées à l’aide de ressources humaines et/ou matérielles, dans le but de répondre à un besoin spécifié dans un délai et budget impartis.
 
-
   - question: "A quoi correspond le WBS ?"
     image: "/images/quiz/planisware_getting_started/wbs.png"
     choices:
@@ -42,7 +41,7 @@ questions:
       - Une tâche ou un jalon
     correct: Une tâche, un jalon ou un sous-projet
     explanation: "Une activité dans Planisware peut-être une tâche, un jalon ou un sous-projet."
-
+    
   - question: "Qu’est-ce qu’un jalon dans Planisware ?"
     image: "/images/quiz/planisware_getting_started/wbs.png"
     choices:
@@ -62,6 +61,15 @@ questions:
       - Ils permettent définir la charge consommée sur une activité typée
     correct: Ils permettent de définir l’enchaînement des activités
     explanation: "Les liens entre les activités permettent de définir leur enchaînement. Si l'une des activités décale, cela peut impacter l'ensemble du planning."
+
+  - question: "Qu'est ce que le chemin critique ?"
+    choices:
+      - Ils ne servent à rien. L'utilisation d'une contrainte de début est préférable
+      - Ils permettent de définir l’enchaînement des activités
+      - Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
+      - Ils permettent définir la charge consommée sur une activité typée
+    correct: Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
+    explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"    
 
   - question: "Qu'est ce que la méthode Stage-Gate ?"
     image: "/images/quiz/planisware_getting_started/stage-gate.png"
@@ -92,16 +100,6 @@ questions:
     correct: La contrainte de fin
     explanation: "La contrainte de fin permet de spécifier une date butoire sur une activité."
 
-  - question: "Quelle date doit-on mettre à jour avant de faire de l'avancement ?"
-    image: "/images/quiz/planisware_getting_started/time_now.png"
-    choices:
-      - Date courante
-      - Date d'avancement
-      - Date de mise à jour
-      - Date de suivi
-    correct: Date courante
-    explanation: "C'est la date courante qui doit être mise à jour avant de faire son avancement."
-
   - question: "Qu’est ce que la prévision pour solde sur une activité ?"
     image: "/images/quiz/planisware_getting_started/etc.png"
     choices:
@@ -110,4 +108,95 @@ questions:
       - Le coût budgété
       - "Le coût encouru - le coût prévisionnel "
     correct: "L’estimation des coûts restants"
-    explanation: "La prévision pour solde représente l’estimation des coûts restants. Elle est composée des coûts restants sur les affectations et les dépenses."
+    explanation: "La prévision pour solde représente l’estimation des coûts restants. Elle est composée des coûts restants sur les affectations et les dépenses."  
+    
+  - question: "Qu'est-ce qu'une unité d'oeuvre ?"
+    choices:
+      - "L'unité dans laquelle les coûts sont exprimées"
+      - "La quantité de ressource nécessaire à l'achèvement d'une activité"
+      - "L'unité de temps de l'affectation d'une ressource (jour, mois, etc..)"
+      - "La durée d'une affectation en fonction du calendrier de la ressource"
+    correct: "L'unité dans laquelle les coûts des projets sont exprimées"
+    explanation: "L'unité d'oeuvre représente l'unité dans laquelle les coûts des projets sont exprimées. Par exemple une unité d'oeuvre peut-être l'Euro (€) ou encore le coût d'utilisation d'une ressource (coût de revient en Euros d'un Ingénieur par exemple)."
+    
+  - question: "Qu'est-ce qu'une affectation d'une ressource dans Planisware ?"
+    choices:
+      - "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné"
+      - "La déclaration d'un ressource dans le référentiel"
+      - "L'appartenance d'une ressource à une branche du RBS"
+      - "L'indisponibilité d'une ressource sur une période fixée"
+    correct: "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné"
+    explanation: "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné."
+
+  - question: "Qu'est-ce qu'une dépense dans Planisware ?"
+    choices:
+      - "L'identification d'un coût ne faisant pas intervenir un ressource sur une activité"
+      - "Le coût relatif de l'utilisation d'une ressource sur une activité"
+      - "L'imputation d'un coût sur une activité et pour une période de temps définie"
+      - "Cette notion n'existe pas dans Planisware"
+    correct: "L'identification d'un coût ne faisant pas intervenir un ressource sur une activité"
+    explanation: "Un dépense est l'identification d'un coût ne faisant pas intervenir un ressource sur une activité. Une dépense est obligatoirement exprimée dans une Unité d'oeuvre (par exemple en €)."
+    
+  - question: "Qu'est-ce que permet Timecard ?"
+    choices:
+      - "Timecard permet de gérer vue Kanban permettant de suivre l'évolution des tâches en Scrum"
+      - "Timecard permet de scorer les projets dans le temps"
+      - "Timecard permet de déclarer et d'imputer les temps d'une ressource sur les activités des projets"
+      - "Timecard permet de faire des notes de frais"
+    correct: "Timecard permet de déclarer et d'imputer les temps d'une ressource sur les activités des projets"
+    explanation: "Timecard permet de déclarer et d'imputer les temps d'une ressource sur les activités des projets."
+    
+  - question: "A propos de Timecard..."
+    choices:
+      - "La saisie se fait obligatoirement en 10ème de jour"
+      - "Les temps doivent être validés par un tiers"
+      - "Il n'est pas possible de rejeter des temps intégrées"
+      - "Il peut être possible de saisir le reste à faire sur les activités"
+    correct: "Il peut être possible de saisir le reste à faire sur les activités"
+    explanation: "En fonction du paramétrage du profil Timecard défini par l'administrateur, il peut être possible de saisir le reste à faire sur les activités."
+    
+  - question: "A quoi sert le module de gestion des idées dans Planisware ?"
+    choices:
+      - "Collecter, noter et classifier les idées au sein d’une organisation"
+      - "Remonter les idées d'amélioration de l'application Planisware par ses utilisateurs"
+      - "Ce module n'existe pas dans l'application"
+      - "Gérer les changements sur un projet"
+    correct: "Collecter, noter et classifier les idées au sein d’une organisation"
+    explanation: "Le module « Idées » a pour vocation de collecter les idées au sein d’une organisation. Chaque participant d'une campagne peut soumettre ses idées et demandes dans un unique réservoir."
+
+  - question: "A quoi sert le scoring des idées ?"
+    choices:
+      - "Noter les idées selon des critères communs afin de les trier"
+      - "Permettre de caractériser les risques selon un ensemble de critères"
+      - "Connaitre le nombre de vote par catégorie d'idée"
+      - "Définir la meilleure méthode de déploiement d'une idée"
+    correct: "Noter de façon objectives les idées afin de les classer"
+    explanation: "Planisware propose de scorer les idées afin de les classer, organiser et prioriser de façon objective."*
+    
+  - question: "A quoi sert la publication d'un livrable ?"
+    choices:
+      - "Permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable"
+      - "Matérialise la production d’une activité"
+      - "Identifier la consommation d’un livrable par une activité ou un projet"
+      - "Permet de communiquer sur la date à laquelle un livrable sera disponible"
+    correct: "Permet de communiquer sur la date à laquelle un livrable sera disponible"
+    explanation: "Publier un livrable permet de communiquer sur la date à laquelle un livrable sera disponible."
+    
+  - question: "A quoi sert la synchronisation d'un livrable ?"
+    choices:
+      - "Matérialise la production d’une activité"
+      - "Permet de communiquer sur la date à laquelle un livrable sera disponible"
+      - "Permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable"
+      - "Identifier la consommation d’un livrable par une activité ou un projet"
+    correct: "Permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable"
+    explanation: "Synchroniser un livrable permet de caler la date de début de l’activité consommatrice sur la date de disponibilité du livrable."
+    
+    
+  - question: "Quel type d'export n'est pas géré par Planisware en standard ?"
+    choices:
+      - "Export RSS"
+      - "Export Microsoft PowerPoint"
+      - "Export Microsoft Word"
+      - "Export PDF"
+    correct: "Export Microsoft Word"
+    explanation: "Planisware ne prend pas en charge l'export vers Microsoft Word."
