@@ -1062,3 +1062,8 @@ select.switch-lang {
     margin-left: 50px;
   }
 }
+
+.testimonials blockquote {
+  font-style: italic;
+  font-size: 90%;
+}
