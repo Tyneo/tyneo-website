@@ -1,1 +1,0 @@
-rm -f website.tgz && hexo clean && cp _config.yml.prod _config.yml && hexo generate && cd public && tar zcvf ../website.tgz * && cd .. && cp _config.yml.dev _config.yml

@@ -16,9 +16,8 @@ timezone: Europe/Paris
 
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://beta.tyneo.net/
 root: /
+url: //
 permalink: /blog/:year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,31 +77,27 @@ exclude_generators:
 
 #Hexo-all-minifier
 html_minifier:
-  enable: false
+  enable: true
   exclude:
     - 'fr/contact.ejs'
     - 'fr/about/contact.html'
     - 'fr/about/contact.ejs'
     - '*contact*'
     - 'fr/about/contact.*'
-    - 'en/about/contact.*'
-    - 'pl/about/contact.*'
 css_minifier:
-  enable: false
+  enable: true
   exclude:
     - '*.min.css'
 js_minifier:
-  enable: false
+  enable: true
   mangle: true
   output:
   compress:
   exclude:
     - '*.min.js'
     - fr/contact.ejs
-    - en/contact.ejs
-    - pl/contact.ejs
 image_minifier:
-  enable: false
+  enable: true
   interlaced: false
   multipass: false
   optimizationLevel: 2
