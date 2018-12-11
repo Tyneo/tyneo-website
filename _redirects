@@ -12,5 +12,6 @@ https://www.tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
 https://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 
 # Redirect users in israel to /israel
-/  /pl  302  Country=pl,ru
+/  /fr  302  Country=fr
 /  /en  302  Country=us,gb
+/  /pl  302  Country=pl,ru
