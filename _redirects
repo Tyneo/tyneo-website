@@ -10,6 +10,7 @@ https://www.tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
+http://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 
 # Redirect users in israel to /israel
 /  /fr  302  Country=fr
