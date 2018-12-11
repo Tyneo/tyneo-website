@@ -13,7 +13,7 @@ categories:
 date: 2013-04-29 15:57:14
 ---
 
-![javascript](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2012/10/javascript-150x150.jpg)
+![javascript](//blog/wp-content/uploads/2012/10/javascript-150x150.jpg)
 La documentation des fonctions [OJS](http://blog.tyneo.net/tag/script/ "Tous les articles à propos des Scripts") incluse et accessible depuis le menu "Aide" du client [Planisware Pro](http://fr.planisware.com/la-solution-planisware-vue-densemble "Vue d"), permet de se familiariser avec un grand nombre de fonctions introduites par le noyau Planisware. Pour autant, ces fonctions ne sont pas les seules puisque les équipes de développement de Planisware développent directement au sein de bibliothèques de scripts OJS d'autres fonctions permettant d'accélérer certaines tâches répétitives et donc de gagner du temps.
 
 Je vous propose dans cet article une sélection de 20 fonctions non documentés à utiliser et à réutiliser lors de vos développements Planisware.

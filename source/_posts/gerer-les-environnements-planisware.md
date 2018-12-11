@@ -15,12 +15,12 @@ date: 2014-01-09 10:50:40
 
 La gestion des environnements est un processus primordial dans les projets informatiques et notamment les projets [Planisware](http://www.planisware.com "Site officiel de l"). L’architecture des environnements mise en œuvre doit être formalisée et connue de chaque membre du projet. Elle doit supporter les contraintes techniques de l'outil Planisware tout en restant en adéquation avec le cycle de vie du projet.
 <!-- more -->
-![Environnements Planisware](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2014/01/Environments.png)
+![Environnements Planisware](//blog/wp-content/uploads/2014/01/Environments.png)
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
 <td valign="top"><span style="color: #333399;">**Développement **</span>
-Chaque développeur dispose d’un environnement indépendant lui permettant d’implémenter et de corriger les fonctionnalités attendues.<span style="line-height: 1.5em;">A chaque fin de cycle de développement, un[ ensemble de fichiers LSP contenants les objets Planisware impactés](http://www.tyneo-consulting.fr/blog/2013/01/22/les-7-extensions-planisware-a-connaitre/ "ensemble de fichiers LSP contenants les objets Planisware impactés") sera produit afin de les intégrer.</span></td>
+Chaque développeur dispose d’un environnement indépendant lui permettant d’implémenter et de corriger les fonctionnalités attendues.<span style="line-height: 1.5em;">A chaque fin de cycle de développement, un[ ensemble de fichiers LSP contenants les objets Planisware impactés](//blog/2013/01/22/les-7-extensions-planisware-a-connaitre/ "ensemble de fichiers LSP contenants les objets Planisware impactés") sera produit afin de les intégrer.</span></td>
 <td valign="top"><span style="color: #993366;">**Intégration **</span>
 Cet environnement est utilisé pour les procédures d'intégration techniques et applicatives.En suivant les indications formalisées de chaque développeur, l’intégrateur importe les fichiers LSP et déroule les opérations manuelles nécessaires pour constituer l’environnement final. Il est alors sauvegardé sous la forme d’un fichier DPE qui correspondra au livrable mis en production.</td>
 <td valign="top"><span style="color: #800080;">**Test**</span>
@@ -32,7 +32,7 @@ La pré-production est utilisé par les recetteurs ou testeur côté client pour
 <td valign="top"><span style="color: #800000;">**Production**</span>
 La production est utilisé par les utilisateurs finaux.Lors d’une mise en production, le DPE généré à partir de l’intégration y sera installé.</td>
 <td valign="top"><span style="color: #ff6600;">**Maintenance**</span>
-L’environnement de maintenance est [une copie (DPX) de la production](http://www.tyneo-consulting.fr/blog/2012/12/14/sauver-vos-donnees-planisware/ "une copie (DPX) de la production") à un moment T et permet de réaliser l’ensemble des investigations nécessaires dans les taches de support et de résolution d’anomalie.</td>
+L’environnement de maintenance est [une copie (DPX) de la production](//blog/2012/12/14/sauver-vos-donnees-planisware/ "une copie (DPX) de la production") à un moment T et permet de réaliser l’ensemble des investigations nécessaires dans les taches de support et de résolution d’anomalie.</td>
 </tr>
 </tbody>
 </table>

@@ -22,19 +22,19 @@ On profite de notre retour de la [conférence annuelle des utilisateurs Planiswa
 
 Avec Planisware Tour, l'apprentissage des nouveaux modules de l'outil n'aura jamais été aussi simple. Lorsque vous accéder à un module, Planisware Tour vous propose une visite guidée de ses fonctionnalités. Des popup explicatifs s'affiche directement dans l'application afin de vous expliquer les manipulations à réaliser.
 
-![Planisware Explorer (Plw v6.1 - Nouveaux graphiques)](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/11/image7-300x225.jpeg)
+![Planisware Explorer (Plw v6.1 - Nouveaux graphiques)](//blog/wp-content/uploads/2015/11/image7-300x225.jpeg)
 
 ### Comparer deux tableaux
 
 Plus besoin d'ouvrir deux onglets dans votre navigateur pour comparer deux tableaux issus de projets ou versions différents. l'outil vous propose lorsqu'un tableau est affiché de le comparer avec un autre projet ou version depuis le menu Planisware.
 
-![Planisware v6.1 (comparer 2 tableaux)](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/11/image6-300x225.jpeg)
+![Planisware v6.1 (comparer 2 tableaux)](//blog/wp-content/uploads/2015/11/image6-300x225.jpeg)
 
 ### Planisware Mobile
 
 Désormais Planisware offre une véritable interface adaptée aux smartphones. En plus de pouvoir saisir vos temps directement depuis la web app, vous avez un accès simplifié aux projets, mur et réunion.
 
-![Planisware Mobile](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/11/image1-300x225.jpeg)
+![Planisware Mobile](//blog/wp-content/uploads/2015/11/image1-300x225.jpeg)
 
 ### Réseau social
 
@@ -54,4 +54,4 @@ PEX a aussi le droit à quelques nouveautés puisque de nouveaux graphiques sont
 
 Vous retrouverez l'ensemble des nouveautés détaillées dans la [Release notes Planisware v6.1](https://myportal.planisware.com/system/files/documents/learning_center/release_notes/Release_notes_Planisware_en_6_1_1_1_A.pdf).
 
-Tyneo Consulting peut vous assister dans l'organisation d'une démonstration des nouveautés Planisware v6.1\. [Prenons contact !](http://www.tyneo-consulting.fr/fr/contact.html)
+Tyneo Consulting peut vous assister dans l'organisation d'une démonstration des nouveautés Planisware v6.1\. [Prenons contact !](//fr/contact.html)

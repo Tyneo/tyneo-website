@@ -13,7 +13,7 @@ categories:
 date: 2012-11-19 09:00:52
 ---
 
-![Programmation orientée objet (POO)](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2012/11/47oop1-150x150.jpg "Programmation orientée objet (POO)")
+![Programmation orientée objet (POO)](//blog/wp-content/uploads/2012/11/47oop1-150x150.jpg "Programmation orientée objet (POO)")
 Bien que peu pratiqué par les consultants Planisware, le langage interne de l'application (OJS) permet de développer en utilisant une logique objet. Malgré l'utilisation du Javascript comme base du langage OJS, les méthodes traditionnellement utilisées pour déclarer des classes et des méthodes n'ont pas été implémentée de la même façon.
 <!-- more -->
 Ainsi pour définir une nouvelle classe, il faudra commencer par déclarer cette classe sous forme de fonction.

@@ -10,7 +10,7 @@ categories:
 date: 2012-11-12 18:54:21
 ---
 
-[![](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2012/10/javascript-150x150.jpg "javascript")](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2012/10/javascript.jpg)La semaine dernière, j'ai rencontré une certaine difficulté à implémenter une solution que j'ai proposé pour répondre un besoin d'un client. Le besoin était relativement simple : Pouvoir comparer et afficher la valeur d'attributs archivés grâce aux références créées sur un projet.
+[![](//blog/wp-content/uploads/2012/10/javascript-150x150.jpg "javascript")](//blog/wp-content/uploads/2012/10/javascript.jpg)La semaine dernière, j'ai rencontré une certaine difficulté à implémenter une solution que j'ai proposé pour répondre un besoin d'un client. Le besoin était relativement simple : Pouvoir comparer et afficher la valeur d'attributs archivés grâce aux références créées sur un projet.
 
 La solution est nativement fournie par Planisware, un nouveau champ est automatiquement disponible pour chaque attribut archivé et chaque référence... Sauf que cela n'est malheureusement disponible qu'au niveau du WBS.
 

@@ -16,7 +16,7 @@ date: 2013-02-26 19:15:22
 
 ### Préambule
 
-[Planisware](http://www.planisware.com "Site Internet de Planisware") propose dans son livre Blanc “Best Practices” un ensemble de règles de nommage pour les objets créés par les [intégrateurs Planisware](http://www.tyneo-consulting.fr/fr/projects.html "Découvrez nos services Intrégrateur des solutions Planisware"). Les bonnes pratiques proposées par Planisware garantissent une certaine cohérence dans le travaille des différents consultants et permet d’homogénéiser nos pratiques. Ainsi, pour nos clients, il est bien plus facile de leur garantir une certaine pérennité et une maintenabilité de nos livrables.
+[Planisware](http://www.planisware.com "Site Internet de Planisware") propose dans son livre Blanc “Best Practices” un ensemble de règles de nommage pour les objets créés par les [intégrateurs Planisware](//fr/projects.html "Découvrez nos services Intrégrateur des solutions Planisware"). Les bonnes pratiques proposées par Planisware garantissent une certaine cohérence dans le travaille des différents consultants et permet d’homogénéiser nos pratiques. Ainsi, pour nos clients, il est bien plus facile de leur garantir une certaine pérennité et une maintenabilité de nos livrables.
 
 Ne nous cachons pas la réalité, nos clients aiment changer leurs intégrateurs, les mettre en concurrence et donc avoir une certaines indépendances vis-à-vis de notre travail.
 
@@ -24,7 +24,7 @@ De ce fait, et pour que nos différentes interventions soient satisfaisantes de 
 
 Dans cet article nous ne nous attacherons pas a retranscrire l’intégralité du livre blanc “Best Practices” de Planisware, et nous essayerons de nous focaliser seulement sur les règles de nommage.
 <!-- more -->
-![Nom](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2013/02/design-fetish-nom-nom-nom-pillow1-300x229.jpg)
+![Nom](//blog/wp-content/uploads/2013/02/design-fetish-nom-nom-nom-pillow1-300x229.jpg)
 
 ### Des règles connues de tous
 

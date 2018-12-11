@@ -31,12 +31,12 @@ Pour activer l’authentification des utilisateurs à travers l’annuaire LDAP 
 
 Dans la fenêtre « Caliber Data Server Settings » du panneau de configuration Windows, il faudra se positionner sur l'onglet "Directory Services" et sélectionner l'option "Enabled". Le reste des paramètres dépendent de la configuration de votre annuaire LDAP. Il sera donc nécessaire de vous rapprocher de votre administrateur LDAP pour renseigner ces champs.
 
-![caliber LDAP](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2013/03/caliber_ldap1-300x206.png)
+![caliber LDAP](//blog/wp-content/uploads/2013/03/caliber_ldap1-300x206.png)
 
 Puis au niveau de la configuration des utilisateurs depuis Caliber Administrator, il est nécessaire de sélectionner l’option d’authentification LDAP et de ressaisir le login de l’utilisateur dans la partie appropriée.
 
-![caliber LDAP 2](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2013/03/caliber_ldap2-300x204.png)
+![caliber LDAP 2](//blog/wp-content/uploads/2013/03/caliber_ldap2-300x204.png)
 
 Après redémarrage des services Caliber via les commandes _dbmgr -stop_ et _dbmgr -start_, L’ensemble des modules (Caliber Author, Caliber Review et Caliber Visualize) utiliseront l’annuaire LDAP dans le processus d’authentification des utilisateurs.
 
-_Vous souhaitez en savoir plus sur l'administration de Caliber ? _Découvrez notre formation ["Administration de l'outil Caliber"](http://www.tyneo-consulting.fr/fr/training/caliber_administrator "Programme de formation Administrateur").
+_Vous souhaitez en savoir plus sur l'administration de Caliber ? _Découvrez notre formation ["Administration de l'outil Caliber"](//fr/training/caliber_administrator "Programme de formation Administrateur").

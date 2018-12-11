@@ -19,17 +19,17 @@ Habituellement la création d'un lien par exemple de type FIN-DEBUT entre deux a
 
 Les liens relâchés permettent de matérialiser la dépendance entre deux activités tout en maitrisant les décalages planning induits. Au lieu d'être automatique, le décalage devient la responsabilité du chef de projet. Cette opération, dans Planisware, s'appelle la Synchronisation des liens.
 <!-- more -->
-![Planisware - Lien FIN-DEBUT](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/09/Planisware-Lien-FIN-DEBUT.gif)
+![Planisware - Lien FIN-DEBUT](//blog/wp-content/uploads/2015/09/Planisware-Lien-FIN-DEBUT.gif)
 
 ### Exemple d'un lien relâché
 
-![Planisware - Lien relaché](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/09/Planisware-Lien-relaché.gif)
+![Planisware - Lien relaché](//blog/wp-content/uploads/2015/09/Planisware-Lien-relaché.gif)
 
 Les liens non synchronisés apparaissent comme dans l'exemple ci-dessus en rouge.
 
 Techniquement, à chaque synchronisation d'un lien relâché, Planisware va positionner une contrainte de début sur l'activité liée pour matérialiser la dépendance.
 
-![Planisware - Date de début d](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/09/Planisware-Date-de-début-dune-activité.png)
+![Planisware - Date de début d](//blog/wp-content/uploads/2015/09/Planisware-Date-de-début-dune-activité.png)
 
 Planisware recommande dans le cadre de l'utilisation de lien inter-projets d'utiliser des liens relâchés. Ceci permet par ailleurs d'éviter les boucles infinies et réduit le risque de nuire au performance de l'application Planisware.
 

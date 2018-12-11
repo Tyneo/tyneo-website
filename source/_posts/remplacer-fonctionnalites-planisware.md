@@ -27,7 +27,7 @@ Depuis une table affichant l’objet concerné (par exemple la table Environneme
 
 Planisware affiche un message vous demandant si vous souhaitez en plus de la duplication de l’objet, remplacer l’objet sélectionné par le nouvel objet. Cliquez sur « Oui ».
 
-![Dupliquer](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2014/08/Dupliquer-300x266.jpg)
+![Dupliquer](//blog/wp-content/uploads/2014/08/Dupliquer-300x266.jpg)
 
 ### **Remplacer un objet**
 
@@ -35,6 +35,6 @@ Renseignez sur l’objet remplaçant le nom technique de l’objet remplacé dan
 
 La colonne « Remplacé par » de l’objet remplacé est automatiquement modifié lors de l’enregistrement.
 
-![Dupliquer_result](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2014/08/Dupliquer_result-300x213.jpg)
+![Dupliquer_result](//blog/wp-content/uploads/2014/08/Dupliquer_result-300x213.jpg)
 
-Vous souhaitez en découvrir plus sur Planisware ? Consultez nos [programmes de formation Planisware](http://www.tyneo-consulting.fr/fr/training "Consulter notre catalogue des formations Planisware").
+Vous souhaitez en découvrir plus sur Planisware ? Consultez nos [programmes de formation Planisware](//fr/training "Consulter notre catalogue des formations Planisware").

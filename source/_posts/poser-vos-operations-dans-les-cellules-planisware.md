@@ -57,7 +57,7 @@ Vous pouvez faire des opérations d’addition, de soustraction, de multiplicati
 	</table>
 </div>
 {% endraw %}
-![Planisware - Poser opérations](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif)
+![Planisware - Poser opérations](//blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif)
 
 &nbsp;
 

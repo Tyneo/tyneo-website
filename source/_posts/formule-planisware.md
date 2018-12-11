@@ -27,7 +27,7 @@ On retrouve ainsi l’utilisation des formules dans :
 *   Les actions multiples, les tables et champs coûts, etc…
 <!-- more -->
 
-_![Formule](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2014/08/formules-186x300.png)
+_![Formule](//blog/wp-content/uploads/2014/08/formules-186x300.png)
 Ce système est donc un concept indispensable à maîtriser lorsque l’on réalise des tâches de paramétrage de l’application ou d’administration avancées._
 
 Dans cet article, nous vous proposons de vous présenter la syntaxe des formules Planisware et leur utilisation.
@@ -134,7 +134,7 @@ Les dates s’utilisent entre guillemets simples ‘ ‘. Le format des dates es
 Par exemple, si le format de date est JJ/MM/AAAA, vous pourrez utiliser la date du 24 décembre 2010 de cette façon :
 <pre lang="JAVASCRIPT">‘24/12/2010’</pre>
 
-![Formule](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2014/08/formule1.jpg)
+![Formule](//blog/wp-content/uploads/2014/08/formule1.jpg)
 
 ## Les Durées
 
@@ -187,5 +187,5 @@ Pro
 
 Pour aller plus loin dans le concept des formules Planisware, n'hésitez pas à parcourir l'éditeur de formule Planisware qui présente l'ensemble des champs, variables ou fonctions disponibles dans le contexte où vous écrivez votre formule.
 
-Vous retrouverez tous ces concepts et bien plus encore dans notre formation ["Configurer et administrer Planisware"](http://www.tyneo-consulting.fr/fr/training/planisware_admin). Nos programmes de formation peuvent être dispensés sur votre lieu de travail ou dans nos centres de formation partenaires.
+Vous retrouverez tous ces concepts et bien plus encore dans notre formation ["Configurer et administrer Planisware"](//fr/training/planisware_admin). Nos programmes de formation peuvent être dispensés sur votre lieu de travail ou dans nos centres de formation partenaires.
 

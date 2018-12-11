@@ -43,7 +43,7 @@ Pour commencer, il est toujours recommandé de mettre à votre la liste de paque
 
     ### Configurer la base de données PostgreSQL
 
-    ![Logo PosgreSQL](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/10/postgresql-logo.png "Logo PosgreSQL")
+    ![Logo PosgreSQL](//blog/wp-content/uploads/2015/10/postgresql-logo.png "Logo PosgreSQL")
 
     Maintenant que nous avons installé l'ensemble des pré-requis nécessaires au bon fonctionnement de Planisware, nous allons initier notre base de données.
     <pre class="code highlight">`<span class="line">sudo -u postgres psql -c "CREATE USER [PLW_DB_USER]"
@@ -95,7 +95,7 @@ Pour commencer, il est toujours recommandé de mettre à votre la liste de paque
 
     ### Configurer Apache
 
-    ![Logo Apache](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/10/apache-logo.png "Logo Apache")La dernière étape de l'installation de Planisware nécessite de configurer [Apache](https://httpd.apache.org/). En effet, depuis quelques versions, Planisware ne livre plus d'installation pré-packagée avec le serveur HTTP. Cette tâche nous reviens :
+    ![Logo Apache](//blog/wp-content/uploads/2015/10/apache-logo.png "Logo Apache")La dernière étape de l'installation de Planisware nécessite de configurer [Apache](https://httpd.apache.org/). En effet, depuis quelques versions, Planisware ne livre plus d'installation pré-packagée avec le serveur HTTP. Cette tâche nous reviens :
     <pre class="code highlight">`<span class="line">sudo ln -s /usr/local/planisware/plan/httpserver/conf/mod_opx2.load /etc/apache2/mods-available/000mod_opx2.load
     sudo ln -s /usr/local/planisware/plan/httpserver/conf/plw.conf /etc/apache2/sites-available/plan.conf
     sudo a2enmod 000mod_opx2
@@ -146,8 +146,8 @@ Pour commencer, il est toujours recommandé de mettre à votre la liste de paque
     Exécutez la commande ci-dessous puis affichez depuis votre navigateur la page http://[IP-de-la-VM]/plan/
     <pre class="code highlight">`<span class="line">sudo /usr/local/planisware/plan/bin/start_plw</span>
 
-![Page d](http://www.tyneo-consulting.fr/blog/wp-content/uploads/2015/10/planisware-v6.png "Page d")
+![Page d](//blog/wp-content/uploads/2015/10/planisware-v6.png "Page d")
 
 Il ne vous reste plus qu'à installer depuis la console console système le dernier DPE ou restaurez un DPX.
 
-Vous avez des questions, des remarques ? [contactez-nous](http://www.tyneo-consulting.fr/fr/contact.html) !
+Vous avez des questions, des remarques ? [contactez-nous](//fr/contact.html) !
