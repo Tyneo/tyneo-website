@@ -17,7 +17,7 @@ timezone: Europe/Paris
 
 # URL
 root: /
-url: //
+url: https://www.tyneo.net/
 permalink: /blog/:year/:month/:day/:title/
 permalink_defaults:
 
