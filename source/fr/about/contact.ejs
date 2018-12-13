@@ -12,7 +12,7 @@ og_type: website
 </div>
 <!-- /.row -->
 <div id='crmWebToEntityForm' class="contact_form" style='width:600px;margin:auto;'>
-   <form id="contact-widget-form-8262" action='https://www.tyneo.net/fr/about/contact_send.html' method="post" data-netlify="true" >
+   <form class="validate" id="contact-widget-form-8262" action="https://www.tyneo.net/fr/about/contact_send.html" method="post" data-netlify="true">
    <input type='hidden' name='lang' value='fr'/>
 
 	 <!-- Do not remove this code. -->
@@ -43,60 +43,6 @@ og_type: website
 	    </td>
 	</tr>
    </table>
-	<script>
-  function validateEmail(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-  }
-	  function chk() {
-      if (!validateEmail(document.forms['WebToLeads3104000000058203']['Email'].value)) {
-        alert("Vous devez renseigner un email valide pour pouvoir continuer...");
-        return false;
-      }
-		document.charset='UTF-8';
-		return checkMandatory();
-	  }
- 	  var mndFileds=new Array('Company','Last Name','Email','LEADCF1');
- 	  var fldLangVal=new Array('Société','Nom','Adresse e-mail','Message');
-		var name='';
-		var email='';
 
- 	  function checkMandatory() {
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads3104000000058203'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{
-				 alert('Veuillez sélectionner un fichier à charger.');
-				 fieldObj.focus();
-				 return false;
-				}
-			alert(fldLangVal[i] +' ne peut pas être vide.');
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' ne peut être aucun.');
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   }
-			 }
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-	     }
-
-</script>
 	</form>
 </div>
