@@ -1,9 +1,20 @@
 # Redirect domain aliases to primary domain
+#http to https
+http://tyneo.net/* https://www.tyneo.net/:splat 301!
+http://www.tyneo.net/* https://www.tyneo.net/:splat 301!
+http://tyneo.pl/* https://www.tyneo.net/:splat 301!
+http://www.tyneo.pl/* https://www.tyneo.net/:splat 301!
+http://www.tyneo-consulting.com/* https://www.tyneo.net/:splat 301!
+http://tyneo-consulting.com/* https://www.tyneo.net/:splat 301!
+http://tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
+http://www.tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
+
+#all tyneo domain to https://www.tyneo.net/
 https://tyneo.net/* https://www.tyneo.net/:splat 301!
 https://tyneo.pl/* https://www.tyneo.net/:splat 301!
 https://www.tyneo.pl/* https://www.tyneo.net/:splat 301!
-https://www.tyneo-consulting.com/* https://www.tyneo.net/:splat 301!
 https://tyneo-consulting.com/* https://www.tyneo.net/:splat 301!
+https://www.tyneo-consulting.com/* https://www.tyneo.net/:splat 301!
 https://tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
 https://www.tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
 
@@ -12,7 +23,7 @@ https://www.tyneo-consulting.fr/* https://www.tyneo.net/:splat 301!
 https://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 http://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 
-# Redirect users in israel to /israel
+# Redirect users depending of their country
 /  /fr  302  Country=fr
 /  /en  302  Country=us,gb
 /  /pl  302  Country=pl,ru
