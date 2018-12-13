@@ -32,12 +32,12 @@
 
 			<div class="col-md-4">
 				<h4 class="letter-spacing-1"><%= __('layout.footer.newsletter.title') %></h4>
-				<p><%= __('layout.footer.newsletter.subtitle') %></p>
+				<p><label for="email-field-7341"><%= __('layout.footer.newsletter.subtitle') %></label></p>
 
-				<form class="validate" id="mailjet-widget-form-7341" action="https://fr.mailjet.com/account/tools/widget/subscribe/1Up" method="post" data-toastr-position="bottom-right">
+				<form class="validate" id="mailjet-widget-form-7341" action="<%- i18n_url('fr/about/newsletter_send.html') %>" method="post" data-netlify="true" data-toastr-position="bottom-right">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-						<input type="email" id="mailjet-widget-email-field-7341" name="email" class="form-control required" placeholder="<%= __('layout.footer.newsletter.mailfield') %>">
+						<input type="email" id="email-field-7341" name="email" class="form-control required" placeholder="<%= __('layout.footer.newsletter.mailfield') %>">
 						<span class="input-group-btn">
 							<button class="btn btn-success" type="submit"><%= __('layout.footer.newsletter.submit') %></button>
 						</span>
