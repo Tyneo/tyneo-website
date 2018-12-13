@@ -71,6 +71,8 @@ theme: hexo-tyneo-theme
 
 include:
   - .htaccess
+  - _redirects
+  - _headers
 exclude_generators:
   - index
   - fr/projects.ejs
