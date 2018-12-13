@@ -16,22 +16,11 @@ og_type: website
     </div>
 </div>
 <!-- /.row -->
-<!-- Note :
-   - You can modify the font style and form style to suit your website.
-   - Code lines with comments “Do not remove this code”  are required for the form to work properly, make sure that you do not remove these lines of code.
-   - The Mandatory check script can modified as to suit your business needs.
-   - It is important that you test the modified form before going live.-->
+
 <div id='crmWebToEntityForm' class="contact_form" style=''>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <form action='https://tyneo.net/bin/training.php' name=WebToLeads310400000005326234 method='POST' onSubmit="return chk();" accept-charset='UTF-8'>
-
-	 <!-- Do not remove this code. -->
-	<input type='text' style='display:none;' name='xnQsjsdp' value='464643262436273456412732424623623631246'/>
-	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-	<input type='text' style='display:none;' name='xmIwtLD' value='SDqgqsztu3262346gfezgzfg6234634'/>
-	<input type='text' style='display:none;'  name='actionType' value='GVrb='/>
-
-	<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;tyneo.net&#x2f;fr&#x2f;contact_send.html' />
+   <form class="validate" id="contact-widget-form-8262" action="/en/about/contact_send.html" method="post" data-netlify="true">
+<input type='hidden' name='lang' value='en'/>
+<input type='hidden' name='form' value='training'/>
 	 <!-- Do not remove this code. -->
 	<style>
 		tr , td {
@@ -71,65 +60,14 @@ og_type: website
 
 	<tr><td>Message<span style='color:red;'>*</span> </td><td> <textarea name='LEADCF1' maxlength='2000'>&nbsp;</textarea></td></tr>
 
+  <tr><td colspan='2'>
+    <div data-netlify-recaptcha="true"></div>
+  </td></tr>
+  
 	<tr><td colspan='2' style='text-align:center; padding-top:15px;'>
 		<input class="btn btn-rosy2" type='submit' value='Envoyer mon message !' />
 	    </td>
 	</tr>
    </table>
-	<script>
-  function validateEmail(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-  }
-	  function chk() {
-      if (!validateEmail(document.forms['WebToLeads310400000005326234']['Email'].value)) {
-        alert("Vous devez renseigner un email valide pour pouvoir continuer...");
-        return false;
-      }
-		document.charset='UTF-8';
-		return checkMandatory();
-	  }
- 	  var mndFileds=new Array('Company','Last Name','Email','LEADCF1');
- 	  var fldLangVal=new Array('Société','Nom','Adresse e-mail','Message');
-		var name='';
-		var email='';
-
- 	  function checkMandatory() {
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads310400000005326234'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{
-				 alert('Veuillez sélectionner un fichier à charger.');
-				 fieldObj.focus();
-				 return false;
-				}
-			alert(fldLangVal[i] +' ne peut pas être vide.');
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' ne peut être aucun.');
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   }
-			 }
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-	     }
-
-</script>
 	</form>
 </div>
