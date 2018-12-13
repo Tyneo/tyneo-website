@@ -1,6 +1,6 @@
 $(function() {
   //Only display newsletter captcha when start editing email adress field
-  $('#email-field-7341').blur(function() {
+  $('#email-field-7341').change(function() {
     $('#newsletter-captcha-7341').show();
   });
   $('a[href*=#]:not([href=#])').click(function() {
