@@ -35,6 +35,7 @@
 				<p><label for="email-field-7341"><%= __('layout.footer.newsletter.subtitle') %></label></p>
 
 				<form class="validate" id="newsletter-widget-form-7341" action="<%- i18n_url('[lang]/about/newsletter_send.html') %>" method="post" data-netlify="true" data-toastr-position="bottom-right">
+				  <input type='hidden' name='lang' value='<%- __('locale') %>'/>
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
 						<input type="email" id="email-field-7341" name="email" class="form-control required" placeholder="<%= __('layout.footer.newsletter.mailfield') %>">
