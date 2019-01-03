@@ -3,6 +3,7 @@ $(function() {
   $('#email-field-7341').click(function() {
     $('#newsletter-captcha-7341').show();
   });
+/*
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -16,6 +17,7 @@ $(function() {
       }
     }
   });
+*/
 });
 
 
