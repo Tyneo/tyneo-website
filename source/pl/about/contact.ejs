@@ -1,42 +1,54 @@
 layout: about
-title: Contactez-nous
-description: Vous désirez entrer en contact avec nous pour discuter de nos expériences, de nos compétences ou de nos équipes ? Vous souhaitez en savoir plus sur l'une de nos offres commerciales ?
-keywords: contact, tyneo, adresse, téléphone, mail
+title: Skontaktuj się z nami!
+description: Czy chciałbyś się z nami skontaktować, aby omówić nasze doświadczenia, umiejętności lub zespoły? Chcesz dowiedzieć się więcej o jednej z naszych komercyjnych ofert?
+keywords: kontakt, tyneo, adres, telefon, e-mail
 og_type: website
 ---
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="text-rosy wow fadeIn">Contact Us</h2>
+        <h2 class="text-rosy wow fadeIn">Skontaktuj się z nami!</h2>
         <p class="lead wow fadeIn">Would you like to get in touch with us to discuss our experience, skills or teams? Would you like to know more about one of our commercial offers?</p>
     </div>
 </div>
 <!-- /.row -->
-<div id='crmWebToEntityForm' class="contact_form" >
-
-   <form class="validate" id="contact-widget-form-8262" action="/pl/about/contact_send.html" method="post" data-netlify="true">
+<div id='crmWebToEntityForm' class="contact_form" style='width:600px;margin:auto;'>
+   <form class="validate" id="contact-widget-pl" action="/pl/about/contact_send.html" method="post" netlify-honeypot="honeyAddress" data-netlify="true">
      <input type="hidden" name="lang" value="pl" />
+    <p class="tiphimoon">
+      <label>Ne rien renseigner ici<input name="honeyAddress" id="honeyAddress" /></label>
+    </p>
     <div class="form-group">
     	<label for="name">Name</label>
-    	<input type="text" class="form-control" name="name" id="name" placeholder="Name" maxlength="100">
+    	<input type="text" class="form-control" name="name" id="name" placeholder="Name" maxlength="100" data-validation="required" 
+		 data-validation-error-msg="Please enter your name so that we can contact you later ...">
   	</div>
     <div class="form-group">
     	<label for="company">Company</label>
-    	<input type="text" class="form-control" name="company" id="company" placeholder="Company" maxlength="100">
+    	<input type="text" class="form-control" name="company" id="company" placeholder="Company" maxlength="100" data-validation="required" 
+		 data-validation-error-msg="You are not a collaborator of a company? Please specify ...">
   	</div>
   	<div class="form-group">
-    	<label for="email">Email address</label>
-    	<input type="email" class="form-control" name="email" id="email" placeholder="Email" maxlength="100">
+    	<label for="email">Email</label>
+    	<input type="email" class="form-control" name="email" id="email" placeholder="Email" maxlength="100" data-validation="email"
+		 data-validation-error-msg="We need your email address so we can get back to you. We will not communicate it to any third party.">
   	</div>
   	<div class="form-group">
-    	<label for="phone">Phone</label>
-    	<input type="text" class="form-control" name="phone" id="phone" placeholder="" maxlength="30">
+    	<label for="phone">Phone number</label>
+    	<input type="text" class="form-control" name="phone" id="phone" placeholder="" maxlength="30"  data-validation="required" 
+		 data-validation-error-msg="Thank you for sending us your phone number so that we can contact you later ...">
   	</div>
   	<div class="form-group">
     	<label for="message">Message</label>
-    	<textarea name="message" id="message" class="form-control" rows="5"></textarea>
+    	<textarea name="message" id="message" class="form-control" rows="5" data-validation="required" 
+		 data-validation-error-msg="You want to contact us? Thank you for leaving us a message, we will answer you as soon as possible ..."></textarea>
   	</div>
     <div data-netlify-recaptcha="true"></div>
-    <input class="btn btn-rosy2" type="submit" value="Submit my contact request !" />
-	
+    <input class="btn btn-rosy2 bottom-buffer" type="submit" value="Submit my contact request !" />
 	</form>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+	<script>
+  $.validate({
+    lang: 'en'
+  });
+  </script>
 </div>
