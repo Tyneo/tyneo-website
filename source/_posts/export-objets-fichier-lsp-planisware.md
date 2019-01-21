@@ -14,7 +14,7 @@ tags:
 
 L’export d’un objet Planisware permet de sauvegarder dans un fichier texte ([fichier .lsp](http://fr.wikipedia.org/wiki/Lisp "Pour en savoir plus sur les fichiers Lisp")) la structure de l’objet. Ainsi, il peut être aisément réimporté dans un autre environnement. La principale utilité de cet export d’objet est lié au processus de développement Planisware et à la livraison ses développements.
 <!-- more -->
-![LISP](//blog/wp-content/uploads/2014/08/lisp-glossy-150x150.jpg)
+![LISP](/blog/wp-content/uploads/2014/08/lisp-glossy-150x150.jpg)
 
 ### **Rechercher un objet**
 
@@ -28,7 +28,7 @@ Le filtre suivant permet de rechercher l’ensemble des formules nommées stock�
 
 Depuis Planisware Pro et en réalisant un clic droit sur une table listant l’objet que vous souhaitez exporter (par exemple la table Environnement vue précédemment), vous pouvez sélectionner dans le menu contextuel « Export des objets d’environnement ». Vous pouvez sélectionner plusieurs objets à la fois pour les exporter dans un seul et même LSP. Il est toutefois conseillé d’exporter dans un même fichier des objets appartenant au même fichier.
 
-![Exporter](//blog/wp-content/uploads/2014/08/Exporter-300x204.jpg)
+![Exporter](/blog/wp-content/uploads/2014/08/Exporter-300x204.jpg)
 
 ### **Importer un objet d’environnement**
 
@@ -36,7 +36,7 @@ Depuis Planisware Pro, allez dans le menu « Fichier / Administration / Import d
 
 Il sera possible de déplacer l’objet d’un fichier à un autre par la suite en modifiant la colonne « Fichier » de l’objet.
 
-![Importer](//blog/wp-content/uploads/2014/08/Importer-300x106.jpg)
+![Importer](/blog/wp-content/uploads/2014/08/Importer-300x106.jpg)
 
 L’import et l’export d’objets Planisware sous la forme de fichiers Lisp (ou lsp) est une pièce maitresse dans la gestion des livraisons et la gestion des environnements Planisware. 
 Pour en savoir plus sur la gestion des environnements Planisware, nous vous invitons à consulter ou redécouvrir [notre article consacré à ce sujet](//blog/2014/01/09/gerer-les-environnements-planisware/ "Planisware et la gestion des environnements").

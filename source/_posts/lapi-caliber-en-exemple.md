@@ -21,7 +21,7 @@ Dans cet article, nous allons détailler quelques fonctionnalités de base de ce
 <!-- more -->
 La structure et les objets de l'API Caliber étant relativement similaires depuis les différents langages de programmations, seuls les exemples en JAVA seront détaillés dans cet article.
 
-![API / SDK](//blog/wp-content/uploads/2013/02/images.jpg)
+![API / SDK](/blog/wp-content/uploads/2013/02/images.jpg)
 
 ### Se connecter au référentiel Caliber via les API
 

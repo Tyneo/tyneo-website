@@ -24,11 +24,11 @@ Planisware offre la possibilité au travers des annotations d'intégrer des com
 Comme dans Microsoft Excel, un triangle rouge apparaît pour signaler la présence d'une annotation.
 3. Positionnez le curseur sur le triangle rouge pour visualiser l’annotation
 
-![Planisware - Annotation Cellule](//blog/wp-content/uploads/2015/09/Annotation-Cellule.gif)
+![Planisware - Annotation Cellule](/blog/wp-content/uploads/2015/09/Annotation-Cellule.gif)
 
 Lors de l'insertion de l'annotation, vous aurez noté la présence dans le popup du formulaire d'une case à cocher « Mettre en exergue les annotations ». En cochant cette case, Planisware va changer le font de la cellule en jaune (en standard) en plus du petit triangle dans la cellule afin de rendre plus visuel la présence de l'annotation.
 
-![Planisware - annotation en exergue](//blog/wp-content/uploads/2015/09/Planisware-annotation-en-exergue.png)
+![Planisware - annotation en exergue](/blog/wp-content/uploads/2015/09/Planisware-annotation-en-exergue.png)
 
 ### Ajouter une annotation au niveau du planning (Gantt)
 
@@ -37,7 +37,7 @@ De la même façon, il est possible d’ajouter une annotation directement dans 
 2\. dans le popup, renseignez le commentaire souhaité puis cliquez sur le bouton « Enregistrer »
 3\. une bulle présentant l’annotation apparaît au niveau du Gantt
 
-![Planisware - Annotation Gantt](//blog/wp-content/uploads/2015/09/Annotation-Gantt.gif)
+![Planisware - Annotation Gantt](/blog/wp-content/uploads/2015/09/Annotation-Gantt.gif)
 
 Pour éditer une annotation, il vous suffit de suivre la même procédure (insérer une annotation). Le formulaire sera pré-renseigné avec le commentaire que vous pourrez éditer.
 

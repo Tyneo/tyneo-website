@@ -15,7 +15,7 @@ date: 2014-01-09 10:50:40
 
 La gestion des environnements est un processus primordial dans les projets informatiques et notamment les projets [Planisware](http://www.planisware.com "Site officiel de l"). L’architecture des environnements mise en œuvre doit être formalisée et connue de chaque membre du projet. Elle doit supporter les contraintes techniques de l'outil Planisware tout en restant en adéquation avec le cycle de vie du projet.
 <!-- more -->
-![Environnements Planisware](//blog/wp-content/uploads/2014/01/Environments.png)
+![Environnements Planisware](/blog/wp-content/uploads/2014/01/Environments.png)
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -32,7 +32,7 @@ La pré-production est utilisé par les recetteurs ou testeur côté client pour
 <td valign="top"><span style="color: #800000;">**Production**</span>
 La production est utilisé par les utilisateurs finaux.Lors d’une mise en production, le DPE généré à partir de l’intégration y sera installé.</td>
 <td valign="top"><span style="color: #ff6600;">**Maintenance**</span>
-L’environnement de maintenance est [une copie (DPX) de la production](//blog/2012/12/14/sauver-vos-donnees-planisware/ "une copie (DPX) de la production") à un moment T et permet de réaliser l’ensemble des investigations nécessaires dans les taches de support et de résolution d’anomalie.</td>
+L’environnement de maintenance est [une copie (DPX) de la production](/blog/2012/12/14/sauver-vos-donnees-planisware/ "une copie (DPX) de la production") à un moment T et permet de réaliser l’ensemble des investigations nécessaires dans les taches de support et de résolution d’anomalie.</td>
 </tr>
 </tbody>
 </table>

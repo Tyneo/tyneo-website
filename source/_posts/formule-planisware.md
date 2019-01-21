@@ -27,7 +27,7 @@ On retrouve ainsi l’utilisation des formules dans :
 *   Les actions multiples, les tables et champs coûts, etc…
 <!-- more -->
 
-_![Formule](//blog/wp-content/uploads/2014/08/formules-186x300.png)
+_![Formule](/blog/wp-content/uploads/2014/08/formules-186x300.png)
 Ce système est donc un concept indispensable à maîtriser lorsque l’on réalise des tâches de paramétrage de l’application ou d’administration avancées._
 
 Dans cet article, nous vous proposons de vous présenter la syntaxe des formules Planisware et leur utilisation.
@@ -134,7 +134,7 @@ Les dates s’utilisent entre guillemets simples ‘ ‘. Le format des dates es
 Par exemple, si le format de date est JJ/MM/AAAA, vous pourrez utiliser la date du 24 décembre 2010 de cette façon :
 <pre lang="JAVASCRIPT">‘24/12/2010’</pre>
 
-![Formule](//blog/wp-content/uploads/2014/08/formule1.jpg)
+![Formule](/blog/wp-content/uploads/2014/08/formule1.jpg)
 
 ## Les Durées
 

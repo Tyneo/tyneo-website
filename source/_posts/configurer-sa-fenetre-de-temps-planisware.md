@@ -29,7 +29,7 @@ Il existe 4 façons de définir la période que l'on souhaite afficher à l'éc
 
 ### La plus simple : le "doigt" pour ajuster la fenêtre
 
-![Ajuster la fenêtre de temps Planisware avec le doigt](//blog/wp-content/uploads/2016/01/planisware-dates-doitg.png)
+![Ajuster la fenêtre de temps Planisware avec le doigt](/blog/wp-content/uploads/2016/01/planisware-dates-doitg.png)
 
 La façon la plus simple pour ajuster la fenêtre de temps dans une vue Gantt est sans doute d'utiliser le "doigt" présent dans la barre d'outils de planification. Automatiquement, la période affichée à l'écran va se caler aux dates de l'activité sélectionnée.
 
@@ -48,7 +48,7 @@ Vous pouvez sélectionner plusieurs période en maintenant vos curseur appuyé a
 
 Sans que vous le remarquiez, les deux précédentes fonctionnalités manipulaient les 4 paramètres du menu "Dates/Unités" / "Dates".
 
-![Planisware Menu Dates/Unités Dates](//blog/wp-content/uploads/2016/01/planisware-dates-unités-dates.png)
+![Planisware Menu Dates/Unités Dates](/blog/wp-content/uploads/2016/01/planisware-dates-unités-dates.png)
 
 {% raw %}
 <div class="table-responsive">

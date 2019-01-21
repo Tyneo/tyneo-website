@@ -146,7 +146,7 @@ Pour commencer, il est toujours recommandé de mettre à votre la liste de paque
     Exécutez la commande ci-dessous puis affichez depuis votre navigateur la page http://[IP-de-la-VM]/plan/
     <pre class="code highlight">`<span class="line">sudo /usr/local/planisware/plan/bin/start_plw</span>
 
-![Page d](//blog/wp-content/uploads/2015/10/planisware-v6.png "Page d")
+![Page d](/blog/wp-content/uploads/2015/10/planisware-v6.png "Page d")
 
 Il ne vous reste plus qu'à installer depuis la console console système le dernier DPE ou restaurez un DPX.
 
