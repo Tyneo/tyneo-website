@@ -222,12 +222,12 @@ var categoryColor = site.data.training.categories[quiz.tag];
         var current_ts = Math.round(new Date().getTime() / 1000);
         window.console.log('ts: '+ current_ts);
         var ts = getUrlParameter('ts');
-        if((current_ts-ts) < 60) {
+        //if((current_ts-ts) < 60) {
           init();
           $('#frame').show();
-        } else {
-          $('#mailing').show();
-        }
+        //} else {
+          $('#mailing').hide();
+        //}
 
     });
     function validateEmail(email) {
