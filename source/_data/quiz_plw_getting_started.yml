@@ -11,7 +11,7 @@ description: >
   Ce quiz reprend quelques uns des sujets qui seront traités durant le stage.
 
 questions:
-  - question: "Parmi les qualificatifs suivants, lesquels ne peuvent pas s’appliquer à la définition d’un projet ?"
+  - question: "Parmi les qualificatifs suivants, lequel ne peut pas s’appliquer à la définition d’un projet ?"
     image: "/images/quiz/planisware_getting_started/project.png"
     choices:
       - Récurrent
@@ -64,7 +64,7 @@ questions:
 
   - question: "Qu'est ce que le chemin critique ?"
     choices:
-      - Identifier l'ensemble des risques du projet
+      - L'ensemble des risques du projet
       - La liste des activités du projet
       - "La liste des activités interdépendantes d'un projet et qui déterminent la durée totale minimum du projet"
       - La charge consommée sur une activité typée
@@ -170,7 +170,7 @@ questions:
       - "Permettre de caractériser les risques selon un ensemble de critères"
       - "Connaitre le nombre de vote par catégorie d'idée"
       - "Définir la meilleure méthode de déploiement d'une idée"
-    correct: "Noter de façon objectives les idées afin de les classer"
+    correct: "Noter les idées selon des critères communs afin de les trier"
     explanation: "Planisware propose de scorer les idées afin de les classer, organiser et prioriser de façon objective."
 
   - question: "A quoi sert la publication d'un livrable ?"
