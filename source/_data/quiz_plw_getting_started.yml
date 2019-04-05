@@ -64,12 +64,12 @@ questions:
 
   - question: "Qu'est ce que le chemin critique ?"
     choices:
-      - Ils ne servent à rien. L'utilisation d'une contrainte de début est préférable
-      - Ils permettent de définir l’enchaînement des activités
-      - "Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
-      - Ils permettent définir la charge consommée sur une activité typée
-    correct: "Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
-    explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
+      - Identifier l'ensemble des risques du projet
+      - La liste des activités du projet
+      - "La liste des activités interdépendantes d'un projet et qui déterminent la durée totale minimum du projet"
+      - La charge consommée sur une activité typée
+    correct: "La liste des activités interdépendantes d'un projet et qui déterminent la durée totale minimum du projet"
+    explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet. Si une de ces activités devait être prolongée, la fin du projet serait impactée."
 
   - question: "Qu'est ce que la méthode Stage-Gate ?"
     image: "/images/quiz/planisware_getting_started/stage-gate.png"
@@ -86,8 +86,8 @@ questions:
       - Gérer les travaux de maintenance
       - Définir les lots d’un planning à l’aide d’une matrice
       - Plannifier les programmes et définir les projets embarqués
-      - Déléguer une partie d’un projet
-    correct: Déléguer une partie d’un projet
+      - "Déléguer une partie d’un projet"
+    correct: "Déléguer une partie d’un projet"
     explanation: "Le module des lots de travaux permet de déléguer une partie d'un projet."
 
   - question: "Lors de la planification initiale, quel champ peut-on remplir pour spécifier une date butoire sur une tâche ?"
