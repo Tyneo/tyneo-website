@@ -66,9 +66,9 @@ questions:
     choices:
       - Ils ne servent à rien. L'utilisation d'une contrainte de début est préférable
       - Ils permettent de définir l’enchaînement des activités
-      - Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
+      - "Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
       - Ils permettent définir la charge consommée sur une activité typée
-    correct: Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet
+    correct: "Liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
     explanation: "Le chemin critique représente la liste des activités interdépendantes d'un projet et déterminant la durée totale minimum du projet"
 
   - question: "Qu'est ce que la méthode Stage-Gate ?"
@@ -96,8 +96,8 @@ questions:
       - La contrainte de début
       - La date de fin effectuée
       - La date de début effectuée
-      - La contrainte de fin
-    correct: La contrainte de fin
+      - "La contrainte de fin"
+    correct: "La contrainte de fin"
     explanation: "La contrainte de fin permet de spécifier une date butoire sur une activité."
 
   - question: "Qu’est ce que la prévision pour solde sur une activité ?"
@@ -116,25 +116,25 @@ questions:
       - "La quantité de ressource nécessaire à l'achèvement d'une activité"
       - "L'unité de temps de l'affectation d'une ressource (jour, mois, etc..)"
       - "La durée d'une affectation en fonction du calendrier de la ressource"
-    correct: "L'unité dans laquelle les coûts des projets sont exprimées"
+    correct: "L'unité dans laquelle les coûts sont exprimées"
     explanation: "L'unité d'oeuvre représente l'unité dans laquelle les coûts des projets sont exprimées. Par exemple une unité d'oeuvre peut-être l'Euro (€) ou encore le coût d'utilisation d'une ressource (coût de revient en Euros d'un Ingénieur par exemple)."
 
   - question: "Qu'est-ce qu'une affectation d'une ressource dans Planisware ?"
     choices:
-      - "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné"
+      - "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donnée"
       - "La déclaration d'un ressource dans le référentiel"
       - "L'appartenance d'une ressource à une branche du RBS"
       - "L'indisponibilité d'une ressource sur une période fixée"
-    correct: "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné"
+    correct: "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donnée"
     explanation: "La représentation de la quantité de ressource nécessaire à la réalisation d'une activité sur un intervalle de temps donné."
 
   - question: "Qu'est-ce qu'une dépense dans Planisware ?"
     choices:
-      - "L'identification d'un coût ne faisant pas intervenir un ressource sur une activité"
+      - "L'identification d'un coût externe et ne faisant pas intervenir une ressource sur une activité"
       - "Le coût relatif de l'utilisation d'une ressource sur une activité"
       - "L'imputation d'un coût sur une activité et pour une période de temps définie"
       - "Cette notion n'existe pas dans Planisware"
-    correct: "L'identification d'un coût ne faisant pas intervenir un ressource sur une activité"
+    correct: "L'identification d'un coût externe et ne faisant pas intervenir une ressource sur une activité"
     explanation: "Un dépense est l'identification d'un coût ne faisant pas intervenir un ressource sur une activité. Une dépense est obligatoirement exprimée dans une Unité d'oeuvre (par exemple en €)."
 
   - question: "Qu'est-ce que permet Timecard ?"
