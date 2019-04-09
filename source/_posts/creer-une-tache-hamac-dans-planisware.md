@@ -36,7 +36,7 @@ Ce type de tâche peut, par exemple, être utilisée pour matérialiser une marg
 
 La procédure suivante va vous conduire à créer une tâche hamac afin de représenter un aléa planning entre la fin du développement et le début de la recette.
 
-![Planning initial - procédure de création d](http://www.tyneo-consulting.fr/images/blog/create-hamac-task.gif)
+![Planning initial - procédure de création d](/images/blog/create-hamac-task.gif)
 
 1.  Créer les tâches Dev-Développement et RE7-Recette
 2.  Créer la tâche qui représentera l'aléa Aléa-Aléa planning - tâche hamac
