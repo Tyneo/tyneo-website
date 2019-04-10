@@ -87,7 +87,7 @@ modules:
           - Les différents modules fonctionnels
           - La méthode stage and gate
           - Architecture de l’outil
-          - Premiers pas avec l’outil présentations
+          - Premiers pas avec l’outil
       - name: Gérer un projet avec Planisware
         detail:
           - Initier un projet et définir ses propriétés
