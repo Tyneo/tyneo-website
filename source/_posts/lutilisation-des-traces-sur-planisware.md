@@ -13,7 +13,7 @@ date: 2012-11-05 06:43:41
 tags:
 ---
 
-[![](//blog/wp-content/uploads/2012/11/archives_splash_text2-100x150.jpg "Archives")](//blog/wp-content/uploads/2012/11/archives_splash_text2.jpg)
+[![](/blog/wp-content/uploads/2012/11/archives_splash_text2-100x150.jpg "Archives")](/blog/wp-content/uploads/2012/11/archives_splash_text2.jpg)
 Les traces permettent d'historiser les modifications apportées à un objet d'une classe Planisware.
 En d'autres termes ce mécanisme vous permet de visualiser l'auteur, la date et les différentes modifications réalisées sur une classe donnée.
 

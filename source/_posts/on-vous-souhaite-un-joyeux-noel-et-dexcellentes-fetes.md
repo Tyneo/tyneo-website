@@ -13,7 +13,7 @@ categories:
 date: 2012-12-23 10:56:29
 ---
 
-![Happy new Year 2013](//blog/wp-content/uploads/2012/12/happy-new-year-2013-300x164.jpg)
+![Happy new Year 2013](/blog/wp-content/uploads/2012/12/happy-new-year-2013-300x164.jpg)
 Et voilà, une année de plus s'est écoulée. Finalement, la fin du monde annoncée n'a pas eu lieu et nous sommes tous ravis de pouvoir vous souhaiter un joyeux Noël et d'excellentes fêtes de fin d'année.
 <!-- more -->
 ### Retour sur les premiers mois du blog Tyneo

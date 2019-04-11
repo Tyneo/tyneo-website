@@ -39,4 +39,4 @@ Il sera possible de déplacer l’objet d’un fichier à un autre par la suite 
 ![Importer](/blog/wp-content/uploads/2014/08/Importer-300x106.jpg)
 
 L’import et l’export d’objets Planisware sous la forme de fichiers Lisp (ou lsp) est une pièce maitresse dans la gestion des livraisons et la gestion des environnements Planisware. 
-Pour en savoir plus sur la gestion des environnements Planisware, nous vous invitons à consulter ou redécouvrir [notre article consacré à ce sujet](//blog/2014/01/09/gerer-les-environnements-planisware/ "Planisware et la gestion des environnements").
+Pour en savoir plus sur la gestion des environnements Planisware, nous vous invitons à consulter ou redécouvrir [notre article consacré à ce sujet](/blog/2014/01/09/gerer-les-environnements-planisware/ "Planisware et la gestion des environnements").

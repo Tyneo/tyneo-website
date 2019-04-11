@@ -21,13 +21,13 @@ Deux méthodes sont utilisables pour effectuer ce genre de manipulation. La prem
 
 Pour ce faire, vous devez lancer l’application Planisware Pro avec un compte administrateur, puis vous positionner dans ce mode Administrateur.
 Depuis le menu « File &gt; administration &gt; Dump Database », vous aller pouvoir solliciter l’outil de sauvegarde inclus dans l’application Planisware.
-![](//blog/wp-content/uploads/2012/12/popup_database_dump-263x300.jpg "popup_database_dump")
+![](/blog/wp-content/uploads/2012/12/popup_database_dump-263x300.jpg "popup_database_dump")
 Cet écran présente différentes sections permettant de réduire le périmètre des données qui seront archivées. Par défaut, toutes les données sont archivées à l’exception des objets supprimés et des documents (voir les deux cases décochées)
 
 #### Section « Datas »
 
 Cette section vous permet de sélectionner le ou les projets que vous souhaiter inclure dans votre sauvegarde. Un champ de filtre permet de ne sauvegarde que les éléments répondant à ce critère. Vous pouvez par exemple sauvegarde tous les projets actifs en utilisant ce filtre :
-![](//blog/wp-content/uploads/2012/12/section_filter-300x15.jpg "section_filter")
+![](/blog/wp-content/uploads/2012/12/section_filter-300x15.jpg "section_filter")
 N’oubliez pas de cliquer sur le bouton « Apply » afin que Planisware évalue ce filtre.
 
 #### Section « Status » et Section « Audits »

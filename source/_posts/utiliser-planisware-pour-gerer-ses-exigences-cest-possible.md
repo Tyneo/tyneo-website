@@ -20,7 +20,8 @@ date: 2017-04-17 07:00:00
 Lorsque l’on parle d’ingénierie des exigences et plus spécifiquement des outils de gestion des exigences on ne penserait pas, à priori, à employer un outil PPM.
 
 &nbsp;
-> _« Requirements management can be simplified if initial requirements definitions are captured in a database-based tool to enable collaborative review... traceability and versioning/change control. »_> 
+> _« Requirements management can be simplified if initial requirements definitions are captured in a database-based tool to enable collaborative review... traceability and versioning/change control. »_
+> 
 > 
 > _— Matt Light, Research Director, Gartner_
 &nbsp;
@@ -34,9 +35,11 @@ Si vous connaissez Planisware, vous n’êtes pas sans savoir que l’outil disp
 ## Mais tout d’abord, c’est quoi une exigence ?
 
 La définition que l’ensemble des acteurs de normalisation et standardisation tend à reprendre est la suivante :
-> <span style="color: #bc006e;">**(A) **Une condition ou capacité requise par un utilisateur pour résoudre un problème ou réaliser un objectif.</span>> 
+> <span style="color: #bc006e;">**(A) **Une condition ou capacité requise par un utilisateur pour résoudre un problème ou réaliser un objectif.</span>
 > 
-> <span style="color: #bc006e;">**(B) **Une condition ou capacité qui doit être remplie ou possédée par un système ou un de ses composants pour satisfaire à un contrat, une norme, une spécification ou tout document imposé de façon formelle.</span>> 
+> 
+> <span style="color: #bc006e;">**(B) **Une condition ou capacité qui doit être remplie ou possédée par un système ou un de ses composants pour satisfaire à un contrat, une norme, une spécification ou tout document imposé de façon formelle.</span>
+> 
 > 
 > <span style="color: #bc006e;">**(C) **Une représentation documentée d'une condition ou d'une capacité, telle que celle définie en (A) ou en (B).</span>
 

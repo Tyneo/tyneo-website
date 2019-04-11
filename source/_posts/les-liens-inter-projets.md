@@ -38,7 +38,7 @@ L'identifiant (généralement composé du nom du projet et de l'activité) se re
 
 4- Cliquez sur le bouton "Ok" pour valider les changements.
 
-![Planisware - Lien inter-projets 1](//blog/wp-content/uploads/2015/09/Planisware-Lien-inter-projets-1.gif)
+![Planisware - Lien inter-projets 1](/blog/wp-content/uploads/2015/09/Planisware-Lien-inter-projets-1.gif)
 
 De cette manière, Planisware va automatiquement créer le lien inter-projets comme "Relâché". Consultez notre [astuce précédente pour en savoir plus sur les liens relâchés](//blog/2015/11/04/les-liens-relaches-dans-planisware/).
 
@@ -46,7 +46,7 @@ De cette manière, Planisware va automatiquement créer le lien inter-projets co
 
 La deuxième façon de créer des liens inter-projets consiste à ouvrir les deux projets dans la même vue gantt puis de lier les activités en adhérence de manière traditionnelle comme nous pourrions le faire pour les activités d'un même projet.
 
-![Planisware - Lien inter-projets 2](//blog/wp-content/uploads/2015/09/Planisware-Lien-inter-projets-2.gif)
+![Planisware - Lien inter-projets 2](/blog/wp-content/uploads/2015/09/Planisware-Lien-inter-projets-2.gif)
 
 Dans ce cas les liens ne sont pas relâchés. Chaque changement impactera directement le planning des deux projets liés.
 > Chaque mois, l'équipe Tyneo publie une astuce utilisateur Planisware. Retrouvez [l'ensemble des astuces déjà publiée ](https://tyneo.net/blog/categories/Astuce/)sur notre blog.

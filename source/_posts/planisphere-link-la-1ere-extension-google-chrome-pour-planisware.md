@@ -13,7 +13,7 @@ categories:
 date: 2014-01-07 11:33:16
 ---
 
-![Screenshot PlaniSphère Links](//blog/wp-content/uploads/2013/08/screenshot2-300x149.png)
+![Screenshot PlaniSphère Links](/blog/wp-content/uploads/2013/08/screenshot2-300x149.png)
 
 Tyneo Consulting est fier de vous présenter sa première extension pour le célèbre navigateur Internet Google Chrome : PlaniSphère Links.
 
@@ -34,8 +34,8 @@ En cliquant sur la nouvelle icône en forme de vague présent dans la barre d'ou
 ### Comment obtenir PlaniSphère Links ?
 
 PlaniSphère Links est disponible gratuitement sur le [Google Chrome Web Store](https://chrome.google.com/webstore/detail/planisphere-links/knapakcfakdfceanckmppkngaojbpkng "Télécharger PlaniSphère Links").
-[![Ajouter à Chrome](//blog/wp-content/uploads/2013/08/Add-to-Chrome.png)](https://chrome.google.com/webstore/detail/planisphere-links/knapakcfakdfceanckmppkngaojbpkng)
+[![Ajouter à Chrome](/blog/wp-content/uploads/2013/08/Add-to-Chrome.png)](https://chrome.google.com/webstore/detail/planisphere-links/knapakcfakdfceanckmppkngaojbpkng)
 
 ### Nous contacter
 
-Si vous rencontrez des problèmes, si vous souhaitez nous faire part de vos remarques ou nous proposer vos idées pour améliorer PlaniSphère Links, n'hésitez pas à [nous contacter](//fr/contact.html "Nous contacer").
+Si vous rencontrez des problèmes, si vous souhaitez nous faire part de vos remarques ou nous proposer vos idées pour améliorer PlaniSphère Links, n'hésitez pas à [nous contacter](/fr/contact.html "Nous contacer").

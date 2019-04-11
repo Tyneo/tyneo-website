@@ -24,7 +24,7 @@ De ce fait, et pour que nos différentes interventions soient satisfaisantes de 
 
 Dans cet article nous ne nous attacherons pas a retranscrire l’intégralité du livre blanc “Best Practices” de Planisware, et nous essayerons de nous focaliser seulement sur les règles de nommage.
 <!-- more -->
-![Nom](//blog/wp-content/uploads/2013/02/design-fetish-nom-nom-nom-pillow1-300x229.jpg)
+![Nom](/blog/wp-content/uploads/2013/02/design-fetish-nom-nom-nom-pillow1-300x229.jpg)
 
 ### Des règles connues de tous
 

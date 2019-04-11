@@ -41,4 +41,4 @@ De la même façon, il est possible d’ajouter une annotation directement dans 
 
 Pour éditer une annotation, il vous suffit de suivre la même procédure (insérer une annotation). Le formulaire sera pré-renseigné avec le commentaire que vous pourrez éditer.
 
-> Chaque mois, l'équipe Tyneo publie une astuce utilisateur Planisware. Retrouvez [l'ensemble des astuces déjà publiée ](https://tyneo.net/blog/categories/Astuce/)sur notre blog.
+> Chaque mois, l'équipe Tyneo publie une astuce utilisateur Planisware. Retrouvez [l'ensemble des astuces déjà publiée ](/blog/categories/Astuce/)sur notre blog.

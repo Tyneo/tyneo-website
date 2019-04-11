@@ -13,7 +13,7 @@ categories:
 date: 2012-12-17 08:45:52
 ---
 
-![Blackout](//blog/wp-content/uploads/2012/12/Internet-Blackout-300x191.png)
+![Blackout](/blog/wp-content/uploads/2012/12/Internet-Blackout-300x191.png)
 La semaine dernière, chez un client nous nous sommes confrontés à un problème quelque peu ennuyeux. En effet, suite à la modification d’un script lancé au chargement de l’application sur l’environnement de développement, une erreur s’est glissée provoquant un crash systématique de Planisware (Pro et IS).
 
 Malheureusement, ce script était chargé et exécuté avec tous les comptes utilisateurs de l’application.

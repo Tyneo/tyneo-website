@@ -14,7 +14,7 @@ categories:
 date: 2012-10-24 17:53:31
 ---
 
-[![](//blog/wp-content/uploads/2012/10/javascript-150x150.jpg "javascript")](//blog/wp-content/uploads/2012/10/javascript.jpg)
+[![](/blog/wp-content/uploads/2012/10/javascript-150x150.jpg "javascript")](/blog/wp-content/uploads/2012/10/javascript.jpg)
 Les attributs dynamiques sont des champs supplémentaires « évoluées ». 
 N'ayant pas de définition exacte de la part de Planisware, il faudra simplement retenir qu'un champ dynamique ou DA (dynamic attribute) est un attribut supplémentaire dont la valeur n'est pas sauvegardé en base et est créé depuis un script OJS dans lequel on a remplace son accesseur et mutateur. 
 En d'autres termes, la valeur retournée par ce champ dépendra d'un script OJS, et la valeur saisie dans ce champ sera traité là aussi par un script.

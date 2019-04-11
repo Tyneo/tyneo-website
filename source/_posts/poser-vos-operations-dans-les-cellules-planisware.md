@@ -57,9 +57,9 @@ Vous pouvez faire des opérations d’addition, de soustraction, de multiplicati
 	</table>
 </div>
 {% endraw %}
-![Planisware - Poser opérations](//blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif)
+![Planisware - Poser opérations](/blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif)
 
 &nbsp;
 
 Poser ses opérations dans les cellules des tableaux Planisware est particulièrement astucieux et utile pour tous les champs de type coût et vous permet de ne pas avoir à sortir votre calculatrice...
-> Chaque mois, l'équipe Tyneo publie une astuce utilisateur Planisware. Retrouvez [l'ensemble des astuces déjà publiée ](https://tyneo.net/blog/categories/Astuce/)sur notre blog.
+> Chaque mois, l'équipe Tyneo publie une astuce utilisateur Planisware. Retrouvez [l'ensemble des astuces déjà publiée ](/blog/categories/Astuce/)sur notre blog.
