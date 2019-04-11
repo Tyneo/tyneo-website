@@ -187,5 +187,5 @@ Pro
 
 Pour aller plus loin dans le concept des formules Planisware, n'hésitez pas à parcourir l'éditeur de formule Planisware qui présente l'ensemble des champs, variables ou fonctions disponibles dans le contexte où vous écrivez votre formule.
 
-Vous retrouverez tous ces concepts et bien plus encore dans notre formation ["Configurer et administrer Planisware"](//fr/training/planisware_admin). Nos programmes de formation peuvent être dispensés sur votre lieu de travail ou dans nos centres de formation partenaires.
+Vous retrouverez tous ces concepts et bien plus encore dans notre formation ["Configurer et administrer Planisware"](/fr/training/planisware_admin). Nos programmes de formation peuvent être dispensés sur votre lieu de travail ou dans nos centres de formation partenaires.
 
