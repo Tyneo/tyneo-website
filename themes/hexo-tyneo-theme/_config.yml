@@ -44,6 +44,7 @@ submenu:
     infos: fr/training/infos-pratiques.html
     #intra: fr/training/formations-intra.html
     contact: fr/training/contact.html
+    quiz: fr/quiz/planisware_getting_started.html
     #Tyneo_catalogue_des_formations.pdf
 
 # ---------------------------------------------------------------
