@@ -19,10 +19,9 @@ categories:
 modules:
   - name: Débuter avec Planisware
     ref: "#FRMPLW-001"
-    duration: 1 jour
+    duration: 2 jours
     practice: 45
     strong: 10
-    price: "970€"
     tag: Planisware
     file: fr/training/planisware_getting_started.html
     learn: "Ce programme de formation a été spécialement élaboré afin de fournir une vue d'ensemble de Planisware. Si vous ne connaissez pas encore Planisware, ce module est idéal. Vous découvrirez le fonctionnement global de l'application, le b.a.-ba pour bien débuter avec Planisware et plus particulièrement les modules « Projets » et « Portefeuille » de Planisware, ainsi qu'une vue d'ensemble des différents modules."
@@ -33,38 +32,59 @@ modules:
       - name: Introduction à Planisware
         detail:
           - Définitions et terminologie
-          - Introduction à l'outil Planisware
-          - Présentation de la méthode Stage-Gate
+          - Les acteurs
+          - Le cycle de vie d'un projet
+          - "Planisware : solution de gestion de projets (EPM) et de portefeuille de projets (PPM)"
+          - Positionnement de Planisware sur le marché
+          - Les différents modules fonctionnels de Planisware
+          - La méthode Stage-Gate
+          - Architecture de l’outil
       - name: Prise en main de Planisware
         detail:
           - Premiers pas avec Planisware
           - Concept des styles
       - name: Gérer un projet avec Planisware
         detail:
-          - Démarrer un projet
+          - Initier un projet et définir ses propriétés
           - Saisir les activités du projet (WBS)
-          - Allouer des ressources et déclarer des dépenses
+          - Définir les dépendances (liens) et positionner des contraintes
+          - Allouer des ressources (RBS) et déclarer des dépenses
           - Créer une référence budgétaire
-          - Mettre à jour son projet
-          - Communiquer sur son projet (rapports et présentations)
-          - Clôturer son projet
+          - Suivre et mettre à jour un projet
+          - Communiquer sur un projet (rapports et présentations)
+          - Clôturer un projet
+      - name: Gérer une projet Agile dans Planisware
+        detail:
+          - Organiser le Sprint planning avec le module Réunions
+          - Créer un sprint avec le Tableau Kanban
+          - Définir l'équipe projet
+          - Rédiger et estimer les User Story
+          - Affecter les User Story au sprint
+          - Animer le Daily Meeting avec Planisware
+          - Visualiser l’avancement d’un sprint
       - name: Suivre un portefeuille de projets
         detail:
-          - Constituer son portefeuille projets
+          - Constituer un portefeuille projets
           - Utiliser les feuilles de route
-          - Réaliser des tableaux de bord avec Planisware Explorer
+          - Réaliser des tableaux de bord avec Planisware Explorer (PEX)
+      - name: Gérer les ressources
+        detail:
+          - Définir l'arborescense des ressources (RBS)
+          - Indiquer la capacité / disponibilité d'une ressource
+          - Renseigner le taux et l'unité d'oeuvre
+          - Visualiser la charge / surcharge des ressources
+          - Gérer les départs ou mobilité d'une ressource
       - name: Autres modules de l'application
         detail:
-          - Gérer un projet Agile avec Planisware
-          - Gestion des idées
-          - Echange de livrables
+          - Gérer une campagne d'idée
+          - Echanger des livrables
       - name: Plus loin avec Planisware
         detail:
-          - Les interfaces Planisware
+          - Les interfaces avec les outils tiers
           - Les possibilités de paramétrage
+
   - name: Gérer son projet avec Planisware
     ref: "#FRMPLW-002"
-    price: "970€"
     duration: 1 jour
     practice: 50
     strong: 30
@@ -75,36 +95,46 @@ modules:
     for_who: "Tout utilisateur ou futur utilisateur de Planisware."
     about_trainers: "Votre formateur est également consultant sur des projets d'intégration Planisware. En mêlant ses compétences métier et produit, il pourra vous faire bénéficier de son expertise et ses conseils avec des cas concrets."
     program:
-      - name: Introduction à la gestion de projet
+      - name: Introduction à Planisware
         detail:
           - Définitions et terminologie
-          - Les acteurs
-          - Le cycle de vie d’un projet
-      - name: Découverte de Planisware
-        detail:
+          - Revue du cycle de vie classique d'un projet
           - "Planisware : solution de gestion de projets (EPM) et de portefeuille de projets (PPM)"
           - Positionnement de Planisware sur le marché
-          - Les différents modules fonctionnels
-          - La méthode stage and gate
+          - Les différents modules fonctionnels de Planisware
+          - La méthode Stage-Gate
           - Architecture de l’outil
-          - Premiers pas avec l’outil
+      - name: Prise en main de Planisware
+        detail:
+          - Premiers pas avec Planisware
+          - Concept des styles
       - name: Gérer un projet avec Planisware
         detail:
-          - Initier un projet et définir ses propriétés
+          - Créer un projet et renseigner ses caractéristiques
           - Saisir les activités du projet (WBS)
-          - Définir des dépendances (liens) et contraintes
+          - Définir les dépendances (liens) et positionner des contraintes
           - Allouer des ressources (RBS) et déclarer des dépenses
           - Créer une référence budgétaire
-          - Mettre à jour son projet
-          - Suivre et communiquer sur son projet
-          - Clôturer son projet
+          - Suivre et mettre à jour un projet
+          - Communiquer sur un projet (rapports et présentations)
+          - Clôturer un projet
+      - name: Gérer une projet Agile dans Planisware
+        detail:
+          - Organiser le Sprint planning avec le module Réunions
+          - Créer un sprint avec le Tableau Kanban
+          - Définir l'équipe projet
+          - Rédiger et estimer les User Story
+          - Affecter les User Story au sprint
+          - Animer le Daily Meeting avec Planisware
+          - Visualiser l’avancement d’un sprint
       - name: Suivre un portefeuille de projets
         detail:
-          - Constituer son portefeuille projets
-          - Suivre son portefeuille de projets
+          - Constituer un portefeuille projets
+          - Utiliser les feuilles de route
+          - Réaliser des tableaux de bord avec Planisware Explorer (PEX)
+          
   - name: Configurer et administrer Planisware
     ref: "#FRMPLW-003"
-    price: "1 500€"
     practice: 65
     duration: 2 jours
     strong: 50
@@ -157,7 +187,6 @@ modules:
           - Opérations manuelles
   - name: Paramétrer Planisware
     ref: "#FRMPLW-004"
-    price: "1 700€"
     practice: 65
     duration: 2 jours
     strong: 80
@@ -208,7 +237,6 @@ modules:
           - Les interfaces avec les outils tiers
   - name: Maîtriser le langage script Planisware
     ref: "#FRMPLW-005"
-    price: "1 140€"
     practice: 75
     duration: 1 jour
     strong: 90
