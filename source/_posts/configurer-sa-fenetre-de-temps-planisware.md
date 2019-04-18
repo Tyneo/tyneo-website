@@ -2,7 +2,7 @@ title: Configurer sa fenêtre de temps Planisware
 description: Découvrez et maîtriser la configuration de la fenêtre de temps Planisware avec cet article illustré.
 og_type: article
 keywords: temps, fenêtre, planisware
-og_image: blog/wp-content/uploads/2016/01/planisware-dates-unités-dates.png
+og_image: blog/wp-content/uploads/2016/01/planisware-dates-unites-dates.png
 id: 831
 comment: false
 main_tag: Planisware tutorial
@@ -48,7 +48,7 @@ Vous pouvez sélectionner plusieurs période en maintenant vos curseur appuyé a
 
 Sans que vous le remarquiez, les deux précédentes fonctionnalités manipulaient les 4 paramètres du menu "Dates/Unités" / "Dates".
 
-![Planisware Menu Dates/Unités Dates](/blog/wp-content/uploads/2016/01/planisware-dates-unités-dates.png)
+![Planisware Menu Dates/Unités Dates](/blog/wp-content/uploads/2016/01/planisware-dates-unites-dates.png)
 
 {% raw %}
 <div class="table-responsive">

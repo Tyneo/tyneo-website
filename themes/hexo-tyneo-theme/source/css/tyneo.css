@@ -1324,3 +1324,8 @@ select.switch-lang {
     font-style: italic;
     font-size: 90%;
 }
+
+.page-break {
+    page-break-before: always;
+    page-break-after: always
+}

@@ -1,11 +1,18 @@
 <%
+if( i18n_url === undefined) i18n_url = function() {}
 var categoryColor = site.data.training.categories[training.tag];
+var training_url = '';
+if(typeof helper !== 'undefined' && helper) {
+  training_url = helper["url_for"].call(globalContext, "fr/training");
+} else {
+  training_url = url_for("fr/training");
+}
 %>
 <div class="container">
   <div class="row">
     <h2 class="text-<%- categoryColor %>">Formation : <%- training.name %> <span class="label label-<%- categoryColor %> label-small label-vcenter"><%- training.tag %></span></h2>
 <ol class="breadcrumb">
-  <li><a href="<%- helper["url_for"].call(globalContext, "fr/training") %>">Formations</a></li>
+  <li><a href="<%- training_url %>">Formations</a></li>
   <li class="active"><%- training.ref %></li>
 </ol>
 

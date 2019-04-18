@@ -104,8 +104,30 @@ image_minifier:
   multipass: false
   optimizationLevel: 2
   pngquant: false
-  progressive: false
+  progressive: true
 
+#responsive_images:
+#  pattern: '**/*.+(png|jpg|jpeg)'
+#  sizes:
+#    small:
+#      width: 200
+#    medium:
+#      width: 800
+#    large:
+#      width: 2000
+
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/sample-logo.png
+    width:  600
+    height: 60
+  substituteTitleImage:
+    path:   sample/sample-substituteTitleImage.png
+    width:  1024
+    height: 800
+  warningLog: false   # To display warning, please set true. 
 
 sitemap:
     path: fr/sitemap.xml

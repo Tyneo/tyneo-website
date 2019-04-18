@@ -25,7 +25,7 @@ Les dossiers permettent de réaliser deux choses. La première, étant de réal
 
 ### Comment utiliser les Dossiers dans un rapport Planisware ?
 
-Très simplement, en mode « Rapport » et au sein de la palette d’outils (ou depuis le menu « Insert »), vous avez la possibilité d’ajouter le composant « Folder » ![Planisware (Icone du dossier Folder)](//blog/wp-content/uploads/2013/01/ico-folder.png). Une fois inséré dans votre rapport vous devez le configurer afin d’y afficher le sous rapport désiré ainsi que le ou les rapports secondaires qui seront affichés sous la forme d’onglets supplémentaires.
+Très simplement, en mode « Rapport » et au sein de la palette d’outils (ou depuis le menu « Insert »), vous avez la possibilité d’ajouter le composant « Folder » ![Planisware (Icone du dossier Folder)](/blog/wp-content/uploads/2013/01/ico-folder.png). Une fois inséré dans votre rapport vous devez le configurer afin d’y afficher le sous rapport désiré ainsi que le ou les rapports secondaires qui seront affichés sous la forme d’onglets supplémentaires.
 
 ![Planisware (Rapport du formulaire d](/blog/wp-content/uploads/2013/01/plw-task_report_with_folder.png)
 

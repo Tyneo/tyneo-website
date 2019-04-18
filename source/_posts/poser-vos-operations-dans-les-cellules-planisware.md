@@ -2,7 +2,7 @@ title: Poser vos opérations dans les cellules Planisware
 description: Saviez-vous que Planisware calcule automatiquement les opérations saisies dans les cellules des tableaux ?
 keywords: opération, cellule, tableau, planisware
 og_type: article
-og_image: blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif
+og_image: blog/wp-content/uploads/2015/09/Planisware-Poser-operations.gif
 main_tag: Planisware tutorial
 tags:
   - Astuce
@@ -18,7 +18,7 @@ date: 2015-12-07 09:18:21
 
 Saviez-vous que Planisware calcule automatiquement les opérations saisies dans les cellules des tableaux ?
 
-Il suffit de renseigner l'opération mathématique directement dans la cellule, et Planisware se chargera de calculer le résultat après l’enregistrement des modifications (CTR+S ou en appuyant sur la disquette pour enregistrer).
+Il suffit de renseigner l'opération mathématique directement dans la cellule, et Planisware se chargera de calculer le résultat après l’enregistrement des modifications (CTR+S ou en appuyant sur la disquette pour enregistrer).
 <!-- more -->
 Vous pouvez faire des opérations d’addition, de soustraction, de multiplication et de division en utilisant les signes + - / * et positionner des priorités de calcul avec les parenthèses ().
 
@@ -57,7 +57,7 @@ Vous pouvez faire des opérations d’addition, de soustraction, de multiplicati
 	</table>
 </div>
 {% endraw %}
-![Planisware - Poser opérations](/blog/wp-content/uploads/2015/09/Planisware-Poser-opérations.gif)
+![Planisware - Poser opérations](/blog/wp-content/uploads/2015/09/Planisware-Poser-operations.gif)
 
 &nbsp;
 

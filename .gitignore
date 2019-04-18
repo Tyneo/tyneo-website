@@ -7,4 +7,3 @@ public/
 .deploy*/
 *.so.*
 package-lock.json
-

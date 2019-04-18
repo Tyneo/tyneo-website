@@ -1,0 +1,12 @@
+
+<div class="container">
+  <div class="col-sm-8 col-md-9">
+    <%- page.content %>
+  </div>
+</div>
+<%
+var modules = site.data.training.modules;
+for(var i=0; i<modules.length; i++) {
+%>
+    <%- partial('training', {training:  modules[i]}) %>
+<% } %>
