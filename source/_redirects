@@ -24,6 +24,6 @@ https://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 http://tyneo-website.netlify.com/* https://www.tyneo.net/:splat 301!
 
 # Redirect users depending of their country
-/  https://www.tyneo.net/fr  302  Country=fr
-/  https://www.tyneo.net/en  302  Country=us,gb
-/  https://www.tyneo.net/pl  302  Country=pl,ru
+/  https://www.tyneo.net/fr  302!  Country=fr
+/  https://www.tyneo.net/en  302!  Country=us,gb
+/  https://www.tyneo.net/pl  302!  Country=pl,ru
